@@ -1,125 +1,90 @@
-import uvicorn
 import os
-import asyncio
-from fastapi import FastAPI, Request
-from playwright.async_api import async_playwright
+import json
+import traceback
+import uvicorn
+from fastapi import FastAPI, Request, BackgroundTasks
+from playwright.sync_api import sync_playwright
 from dotenv import load_dotenv
 
-# Importamos la lógica del Socio B (Asegúrate de que el archivo se llame cerebro.py)
+# Importar cerebro
 try:
-    from cerebro import analizar_contrato_con_mistral
+    from cerebro import analizar_consulta_loviluz
 except ImportError:
-    print("❌ Error: No se encuentra cerebro.py o la función analizar_contrato_con_mistral")
+    print("❌ ERROR: No se encuentra cerebro.py")
 
-# Cargamos las variables del archivo .env (WOLF_USER, WOLF_PASS, MISTRAL_API_KEY)
 load_dotenv()
-
 app = FastAPI()
 
-@app.post("/webhook-local")
-async def recibir_contrato(request: Request):
+def ejecutar_robot_sincrono(datos):
+    """Esta función ahora se ejecuta como una tarea de fondo pura"""
+    print("🤖 Robot: Iniciando proceso...")
     try:
-        # 1. Recibir datos del contrato (desde WolfCRM o simulación)
-        datos_raw = await request.json()
-        print("📩 Datos recibidos. Procesando con Mistral AI...")
+        with sync_playwright() as p:
+            # Usamos chromium
+            browser = p.chromium.launch(headless=False, slow_mo=1000)
+            page = browser.new_page()
+            
+            print(f"🌐 Robot: Entrando a WolfCRM...")
+            page.goto("https://loviluz.v3.wolfcrm.es/index.php", timeout=60000)
+            
+            # --- LOGIN ---
+            print("🔐 Robot: Intentando login...")
+            try:
+                page.wait_for_selector('input[name="user_name"]', timeout=10000)
+                page.fill('input[name="user_name"]', os.getenv("WOLF_USER") or "") 
+                page.fill('input[name="user_password"]', os.getenv("WOLF_PASS") or "") 
+                page.click('#submitButton')
+            except:
+                page.fill("#usuario", os.getenv("WOLF_USER") or "")
+                page.fill("#password", os.getenv("WOLF_PASS") or "")
+                page.click("text=Entrar")
 
-        # 2. El Socio B procesa el texto y devuelve el JSON mapeado
-        datos_ia = analizar_contrato_con_mistral(datos_raw)
-        print(f"🧠 IA ha generado el mapeo: {datos_ia}")
+            page.wait_for_load_state("networkidle")
+            print("🔓 Robot: Login completado.")
 
-        # 3. Lanzar el robot Playwright
-        await ejecutar_robot_local(datos_ia)
-        
-        return {"status": "success", "message": "Robot ejecutado correctamente"}
+            # --- FORMULARIO ---
+            url_form = "https://loviluz.v3.wolfcrm.es/custom/energymodule/energy-contracts/#wolfWindowInFramePopupContainer"
+            page.goto(url_form)
+            
+            # --- RELLENAR (Ejemplos básicos) ---
+            if "Customer__NAME" in datos and datos["Customer__NAME"] != "PENDIENTE":
+                page.fill("#Customer__NAME", str(datos["Customer__NAME"]))
+            
+            if "EnergyContract__NAME" in datos:
+                page.fill("#EnergyContract__NAME", str(datos["EnergyContract__NAME"]))
+
+            print("✅ Robot: Tarea finalizada. Cerrando en 60 segundos...")
+            page.wait_for_timeout(60000) 
+            browser.close()
+            
     except Exception as e:
-        print(f" Error en el servidor: {e}")
+        print(f"❌ ERROR DENTRO DEL ROBOT: {e}")
+        traceback.print_exc()
+
+@app.post("/webhook-local")
+async def recibir_contrato(request: Request, background_tasks: BackgroundTasks):
+    try:
+        datos_raw = await request.json()
+        texto_para_ia = datos_raw.get("mensaje", str(datos_raw))
+        print(f"📩 Datos recibidos. Consultando a Mistral...")
+
+        # 1. IA analiza el texto (esto es rápido)
+        resultado_ia_string = analizar_consulta_loviluz(texto_para_ia)
+        limpio = resultado_ia_string.replace("```json", "").replace("```", "").strip()
+        datos_ia = json.loads(limpio)
+        
+        print(f"🧠 IA generó mapeo: {datos_ia}")
+
+        # 2. ENVIAR AL ROBOT COMO TAREA DE FONDO
+        # Esto libera a FastAPI y permite que Playwright Sync funcione
+        background_tasks.add_task(ejecutar_robot_sincrono, datos_ia)
+        
+        return {"status": "success", "message": "Robot en marcha"}
+
+    except Exception as e:
+        print("--- 🚨 ERROR EN WEBHOOK 🚨 ---")
+        traceback.print_exc()
         return {"status": "error", "message": str(e)}
 
-async def ejecutar_robot_local(datos):
-    async with async_playwright() as p:
-        # Lanzamos navegador visible (headless=False) para supervisar
-        # slow_mo añade una pequeña pausa entre acciones para que sea humano y no falle
-        browser = await p.chromium.launch(headless=False, slow_mo=600)
-        context = await browser.new_context()
-        page = await context.new_page()
-        
-        print(f"Accediendo a WolfCRM...")
-        
-        # --- PASO 1: LOGIN ---
-        await page.goto("https://loviluz.v3.wolfcrm.es/index.php")
-        
-        # Intentamos los selectores estándar de WolfCRM para Login
-        try:
-            await page.wait_for_selector('input[name="user_name"]', timeout=5000)
-            await page.fill('input[name="user_name"]', os.getenv("WOLF_USER")) 
-            await page.fill('input[name="user_password"]', os.getenv("WOLF_PASS")) 
-            await page.click('#submitButton') # O el selector del botón de entrar
-        except:
-            print("⚠️ Selector de login estándar no encontrado. Intentando alternativos...")
-            await page.fill("#usuario", os.getenv("WOLF_USER"))
-            await page.fill("#password", os.getenv("WOLF_PASS"))
-            await page.click("text=Entrar")
-
-        await page.wait_for_load_state("networkidle")
-        print("🔓 Login completado.")
-
-        # --- PASO 2: NAVEGACIÓN AL FORMULARIO ---
-        # Usamos la ruta que me pasaste
-        url_formulario = "https://loviluz.v3.wolfcrm.es/custom/energymodule/energy-contracts/#wolfWindowInFramePopupContainer"
-        await page.goto(url_formulario)
-        
-        # Esperamos a que el contenedor del formulario sea visible
-        await page.wait_for_selector("#wolfWindowInFramePopupContainer", timeout=10000)
-        print("📝 Formulario de contrato detectado.")
-
-        # --- PASO 3: RELLENADO DE CAMPOS ---
-        
-        # A. Campos de Texto
-        campos_texto = {
-            "#Customer__NAME": "Customer__NAME",
-            "#EnergyContract__NAME": "EnergyContract__NAME",
-            "#EnergyContract__CUPS_CITY": "EnergyContract__CUPS_CITY",
-            "#EnergyContract__CUPS_COUNTY": "EnergyContract__CUPS_COUNTY",
-            "#EnergyContract__DESCRIPTION": "EnergyContract__DESCRIPTION"
-        }
-        
-        for selector, llave in campos_texto.items():
-            if llave in datos and datos[llave]:
-                try:
-                    await page.fill(selector, str(datos[llave]))
-                except:
-                    print(f"⚠️ No se pudo rellenar el campo: {selector}")
-
-        # B. Desplegables (Selects por etiqueta/label)
-        desplegables = {
-            "#EnergyContract__TIPO_ALTA": "EnergyContract__TIPO_ALTA",
-            "#EnergyContract__STATUS": "EnergyContract__STATUS",
-            "#EnergyContract__CF_1724317367388": "EnergyContract__CF_1724317367388",
-            "#EnergyContract__CF_1724317580239": "EnergyContract__CF_1724317580239",
-            "#EnergyContract__SUMINISTRO": "EnergyContract__SUMINISTRO"
-        }
-
-        for selector, llave in desplegables.items():
-            if llave in datos and datos[llave]:
-                try:
-                    # select_option con label elige el texto que ve el humano ("Nueva", "Sí", etc.)
-                    await page.select_option(selector, label=str(datos[llave]))
-                except Exception as e:
-                    print(f" Error al seleccionar {llave}: {e}")
-
-        # C. Campo Fijo (Comercial)
-        try:
-            await page.select_option("#EnergyContract__USER_ID", value="00411")
-        except:
-            pass
-
-        print("✅ Robot: Tarea de rellenado finalizada.")
-        
-        # Mantenemos el navegador abierto 2 minutos para que revises antes de cerrar
-        print("👀 Esperando 120 segundos para revisión manual...")
-        await asyncio.sleep(120) 
-        await browser.close()
-
 if __name__ == "__main__":
-    # Ejecutamos el servidor en el puerto 8000
     uvicorn.run(app, host="127.0.0.1", port=8000)
