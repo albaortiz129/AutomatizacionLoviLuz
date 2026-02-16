@@ -5,7 +5,7 @@ from mistralai import Mistral
 # 1. Cargamos la API Key desde el archivo .env
 load_dotenv()
 api_key = os.getenv("MISTRAL_API_KEY")
-model = "mistral-small-latest"
+model = "mistral-large-latest"
 
 # 2. Usamos la variable api_key (que ya tiene tu clave guardada de forma segura)
 client = Mistral(api_key=api_key)
