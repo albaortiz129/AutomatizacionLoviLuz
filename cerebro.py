@@ -8,7 +8,7 @@ api_key = os.getenv("MISTRAL_API_KEY")
 client = Mistral(api_key=api_key)
 
 def analizar_consulta_loviluz(texto_unificado):
-    model = "mistral-large-latest"
+    model = "mistral-large -latest"
     fecha_hoy = datetime.now().strftime("%d/%m/%Y")
     
     prompt = f"""
