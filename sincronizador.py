@@ -1,23 +1,21 @@
 import os
 import re
+import unicodedata
 import traceback
 from playwright.sync_api import sync_playwright
 from dotenv import load_dotenv
 
 load_dotenv()
 
-# MAPEO DE ESTADOS (Ignis -> ID Wolf)
 MAPEO_ESTADOS = {
     "PENDIENTE FIRMA": "159",
     "PENDIENTE FIRMA PAPEL": "189",
-    "PENDIENTE VALIDACION": "202",
+    "PENDIENTE DE VALIDACION": "202",
     "VALIDADO": "202",
-    "EN TRAMITE": "202",
+    "TRAMITE": "202",
     "CONTRATO": "161"
 }
 
-# MAPEO INVERSO (ID Wolf -> Texto visible en la tabla de Wolf)
-# Esto sirve para comparar sin tener que abrir la ficha
 TEXTO_WOLF_POR_ID = {
     "159": "PENDIENTE FIRMA",
     "189": "PENDIENTE FIRMA MANUAL",
@@ -25,65 +23,62 @@ TEXTO_WOLF_POR_ID = {
     "161": "EN TRAMITE"
 }
 
+def normalizar(texto):
+    if not texto: return ""
+    texto = texto.upper().strip()
+    return ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn')
+
 def sincronizar():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=500)
+        browser = p.chromium.launch(headless=False, slow_mo=400)
         context = browser.new_context(viewport={'width': 1366, 'height': 768})
-
         page_wolf = context.new_page()
         page_ignis = context.new_page()
 
         try:
-            # --- 1. LOGIN IGNIS ---
-            print("🌐 Iniciando Ignis...")
+            # --- LOGIN IGNIS ---
+            print("🔑 Accediendo a Ignis...")
             page_ignis.goto("https://agentes.ignisluz.es/#/login")
             page_ignis.click("md-select[name='empresaLogin']")
             page_ignis.click("md-option:has-text('LOOP ELECTRICIDAD Y GAS')")
             page_ignis.fill("input[name='usuario']", os.getenv("IGNIS_USER") or "")
             page_ignis.fill("input[name='password']", os.getenv("IGNIS_PASS") or "")
             page_ignis.click("button:has-text('Entrar')")
-            page_ignis.wait_for_timeout(4000)
+            page_ignis.wait_for_timeout(3000)
             page_ignis.goto("https://agentes.ignisluz.es/#/contratos")
-            page_ignis.wait_for_selector("#inputBusquedaPaginacion")
+            page_ignis.wait_for_selector('input[placeholder="Cups..."]')
 
-            # --- 2. LOGIN WOLF Y FILTROS ---
-            print("🐺 Iniciando Wolf...")
+            # --- LOGIN WOLF ---
+            print("🔑 Accediendo a Wolf CRM...")
             page_wolf.goto("https://loviluz.v3.wolfcrm.es/index.php")
             page_wolf.fill("#userLogin", os.getenv("WOLF_USER") or "")
             page_wolf.fill("#userPassword", os.getenv("WOLF_PASS") or "")
             page_wolf.click('input[type="submit"]')
             
-            url_filtros = (
-                "https://loviluz.v3.wolfcrm.es/custom/energymodule/energy-contracts/index.php?"
-                "Q_COMERCIALIZADORA[]=IGNIS_ENERGIA&"
-                "Q_STATUS[]=159&Q_STATUS[]=189&Q_STATUS[]=202&Q_STATUS[]=161"
-            )
+            url_filtros = "https://loviluz.v3.wolfcrm.es/custom/energymodule/energy-contracts/index.php?Q_COMERCIALIZADORA[]=IGNIS_ENERGIA&Q_STATUS[]=159&Q_STATUS[]=189&Q_STATUS[]=202&Q_STATUS[]=161"
             page_wolf.goto(url_filtros)
-            page_wolf.wait_for_selector(".main-template-data-container-preloader", state="hidden")
-            
-            # Poner 500 registros
-            try:
-                page_wolf.select_option("select#dt-length-0", value="500")
-                page_wolf.wait_for_timeout(4000)
-            except: pass
+            page_wolf.wait_for_selector("select#dt-length-0")
+            page_wolf.select_option("select#dt-length-0", value="500")
+            page_wolf.wait_for_timeout(4000)
 
-            # --- 3. PROCESO CELDA A CELDA ---
+            # --- PROCESO ---
             filas = page_wolf.locator("table.data-table tbody tr").all()
             print(f"📊 Analizando {len(filas)} filas...")
 
             for fila in filas:
                 try:
-                    texto_fila = fila.inner_text().upper()
-                    match_cups = re.search(r'ES00[A-Z0-9]{16,18}', texto_fila)
+                    texto_fila = fila.inner_text()
+                    match_cups = re.search(r'ES00[A-Z0-9]{16,18}', texto_fila.upper())
                     if not match_cups: continue
-                    
                     cups = match_cups.group(0)
                     
-                    # --- COMPARACIÓN PREVIA ---
-                    # Miramos qué estado pone en la fila de Wolf actualmente
-                    estado_wolf_actual = next((v for v in TEXTO_WOLF_POR_ID.values() if v in texto_fila), "DESCONOCIDO")
+                    estado_wolf_txt = "DESCONOCIDO"
+                    for id_w, txt_w in TEXTO_WOLF_POR_ID.items():
+                        if normalizar(txt_w) in normalizar(texto_fila):
+                            estado_wolf_txt = txt_w
+                            break
 
-                    # BUSCAR EN IGNIS
+                    # --- BUSCAR EN IGNIS CON ESPERA DE CARGA ---
                     page_ignis.bring_to_front()
                     bus = page_ignis.locator('input[placeholder="Cups..."]:visible')
                     bus.click(click_count=3)
@@ -91,53 +86,63 @@ def sincronizar():
                     page_ignis.keyboard.press("Backspace")
                     bus.fill(cups)
                     page_ignis.keyboard.press("Enter")
-                    page_ignis.click("button.aplicarFiltros")
-                    page_ignis.wait_for_timeout(3500)
+                    
+                    # Clic en Aplicar Filtros
+                    btn_aplicar = page_ignis.locator("button.aplicarFiltros")
+                    if btn_aplicar.is_visible(): 
+                        btn_aplicar.click()
+                    
+                    # 🔹 NUEVA ESPERA: Esperar a que el indicador de carga aparezca y desaparezca
+                    # O simplemente esperar a que la fila contenga el CUPS actual
+                    print(f"⏳ Esperando resultados para {cups}...")
+                    
+                    # Esperamos máximo 6 segundos a que la fila de la tabla contenga el CUPS que acabamos de escribir
+                    try:
+                        page_ignis.locator(".ui-grid-row").filter(has_text=cups).wait_for(state="visible", timeout=6000)
+                    except:
+                        pass # Si no aparece, el if de abajo lo gestionará como "No hallado"
 
                     fila_ignis = page_ignis.locator(".ui-grid-row").filter(has_text=cups).first
+                    
                     if fila_ignis.is_visible():
-                        texto_ignis = fila_ignis.inner_text().upper()
-                        nombre_estado_ignis = next((k for k in MAPEO_ESTADOS if k in texto_ignis), None)
+                        texto_ignis = fila_ignis.inner_text()
+                        nombre_estado_ignis = next((k for k in MAPEO_ESTADOS if normalizar(k) in normalizar(texto_ignis)), None)
                         
                         if nombre_estado_ignis:
                             id_objetivo = MAPEO_ESTADOS[nombre_estado_ignis]
                             texto_objetivo_wolf = TEXTO_WOLF_POR_ID[id_objetivo]
 
-                            print(f"🧐 CUPS: {cups} | Wolf: {estado_wolf_actual} | Ignis: {nombre_estado_ignis}")
+                            print(f"🔍 {cups}: Wolf({estado_wolf_txt}) | Ignis({nombre_estado_ignis})")
 
-                            # SOLO EDITAR SI SON DIFERENTES
-                            if estado_wolf_actual != texto_objetivo_wolf:
-                                print(f"📢 DISCORDANCIA DETECTADA. Entrando a editar...")
-                                
+                            if normalizar(estado_wolf_txt) != normalizar(texto_objetivo_wolf):
+                                print(f"📢 DISCORDANCIA en {cups}. Editando...")
                                 page_wolf.bring_to_front()
-                                # Selector de la lupa corregido: busca el icono de edición o el primer enlace de la fila
-                                btn_editar = fila.locator("a[title='Editar'], a i.fa-search, td:first-child a").first
                                 
-                                with context.expect_page() as nueva_pestaña:
-                                    btn_editar.click()
+                                # Clic en lupa
+                                lupa = fila.locator("span.edit-icon, i.fa-search-plus").first
+                                lupa.scroll_into_view_if_needed()
+                                lupa.evaluate("el => el.click()")
+
+                                # Iframe
+                                frame = page_wolf.frame_locator("#wolfWindowInFrameFrame")
+                                selector_status = frame.locator("select#EnergyContract__STATUS")
+                                selector_status.wait_for(state="visible", timeout=10000)
                                 
-                                p_edit = nueva_pestaña.value
-                                p_edit.on("dialog", lambda d: d.accept())
+                                # Cambio y Guardado
+                                selector_status.select_option(value=id_objetivo)
+                                selector_status.evaluate("el => el.dispatchEvent(new Event('change', { bubbles: true }))")
+                                frame.locator("button#btn_save, button:has-text('Guardar')").first.click()
                                 
-                                # Frame check
-                                target = p_edit
-                                for f in p_edit.frames:
-                                    if "object.php" in f.url: target = f; break
-                                
-                                target.wait_for_selector("#EnergyContract__STATUS", timeout=8000)
-                                target.select_option("#EnergyContract__STATUS", value=id_objetivo)
-                                
-                                # GUARDADO REAL
-                                # target.locator("#btn-save").click()
-                                print(f"✅ Estado actualizado a {texto_objetivo_wolf}")
-                                p_edit.close()
+                                page_wolf.wait_for_timeout(2000)
+                                print(f"   ✅ Sincronizado.")
                             else:
-                                print(f"👌 No requiere cambios.")
+                                print(f"👌 Ok.")
                     else:
-                        print(f"❌ {cups} no hallado en Ignis.")
+                        print(f"❌ {cups} no hallado en Ignis (tras esperar carga).")
 
                 except Exception as e:
-                    print(f"⚠️ Error procesando fila: {e}")
+                    print(f"⚠️ Error en {cups}: {e}")
+                    page_wolf.keyboard.press("Escape")
 
         except Exception as e:
             traceback.print_exc()
