@@ -2,6 +2,7 @@ import os
 import re
 import unicodedata
 import traceback
+from datetime import datetime
 from playwright.sync_api import sync_playwright
 from dotenv import load_dotenv
 
@@ -29,9 +30,19 @@ def normalizar(texto):
     texto = texto.upper().strip()
     return ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn')
 
+def calcular_vencimiento(fecha_str):
+    try:
+        fecha_dt = datetime.strptime(fecha_str, "%d/%m/%Y")
+        fecha_vencimiento = fecha_dt.replace(year=fecha_dt.year + 1)
+        return fecha_vencimiento.strftime("%d/%m/%Y")
+    except Exception as e:
+        print(f"❌ Error al calcular fecha: {e}")
+        return None
+
 def sincronizar():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=300)
+        # He quitado un poco de slow_mo para que no sea eterno, ya que tú validarás al final
+        browser = p.chromium.launch(headless=False, slow_mo=200)
         context = browser.new_context(viewport={'width': 1366, 'height': 768})
         
         page_wolf = context.new_page()
@@ -82,20 +93,14 @@ def sincronizar():
 
                     # --- BUSQUEDA EN IGNIS ---
                     page_ignis.bring_to_front()
-                    
-                    # 💡 PASO CLAVE: Resetear scroll a la izquierda antes de empezar a buscar
-                    print(f"🔄 Reseteando vista para buscar {cups}...")
                     page_ignis.evaluate("document.querySelector('.ui-grid-render-container-body .ui-grid-viewport').scrollLeft = 0")
                     page_ignis.wait_for_timeout(500)
 
                     encontrado_input = False
-                    # Barrido lateral progresivo
                     for desplazamiento in range(0, 4500, 600):
                         page_ignis.evaluate(f"document.querySelector('.ui-grid-render-container-body .ui-grid-viewport').scrollLeft = {desplazamiento}")
-                        
                         input_cups = page_ignis.locator('input[placeholder="Cups..."]')
                         if input_cups.count() > 0 and input_cups.is_visible():
-                            print(f"🎯 Columna CUPS hallada en {desplazamiento}px")
                             input_cups.click(click_count=3)
                             page_ignis.keyboard.press("Control+A")
                             page_ignis.keyboard.press("Backspace")
@@ -103,35 +108,30 @@ def sincronizar():
                             page_ignis.keyboard.press("Enter")
                             encontrado_input = True
                             break
-                        page_ignis.wait_for_timeout(200) # Pausa mínima para que cargue la columna
+                        page_ignis.wait_for_timeout(100)
                     
-                    if not encontrado_input:
-                        print(f"❌ No encontré el input de CUPS para {cups}")
-                        continue
+                    if not encontrado_input: continue
 
-                    # Filtrar y esperar carga
-                    print(f"⏳ Filtrando...")
                     page_ignis.locator("button.aplicarFiltros").first.click()
-                    
-                    # Espera a que la tabla se actualice con el CUPS específico
                     page_ignis.wait_for_timeout(2500)
                     fila_target = page_ignis.locator(f".ui-grid-row:has-text('{cups}')").first
                     
                     try:
                         fila_target.wait_for(state="visible", timeout=10000)
-                        
-                        # --- COMPARACIÓN ---
                         texto_ignis = fila_target.inner_text()
+                        
+                        match_fecha = re.search(r'(\d{2}/\d{2}/\d{4})', texto_ignis)
+                        fecha_alta_ignis = match_fecha.group(1) if match_fecha else None
+                        
                         nombre_estado_ignis = next((k for k in MAPEO_ESTADOS if normalizar(k) in normalizar(texto_ignis)), None)
                         
                         if nombre_estado_ignis:
                             id_objetivo = MAPEO_ESTADOS[nombre_estado_ignis]
-                            texto_objetivo_wolf = TEXTO_WOLF_POR_ID[id_objetivo]
+                            texto_objetivo_wolf = TEXTO_WOLF_POR_ID.get(id_objetivo, "CONTRATO")
 
-                            print(f"🔍 {cups}: Wolf({estado_wolf_txt}) | Ignis({nombre_estado_ignis})")
-
-                            if normalizar(estado_wolf_txt) != normalizar(texto_objetivo_wolf):
-                                print(f"📢 Cambiando Wolf a: {texto_objetivo_wolf}")
+                            # Cambiamos si el estado es distinto O si es CONTRATO (para validar fechas)
+                            if normalizar(estado_wolf_txt) != normalizar(texto_objetivo_wolf) or normalizar(nombre_estado_ignis) == "CONTRATO":
+                                print(f"👀 Preparando {cups} para revisión...")
                                 page_wolf.bring_to_front()
                                 
                                 lupa = fila.locator("span.edit-icon, i.fa-search-plus").first
@@ -139,27 +139,46 @@ def sincronizar():
 
                                 frame = page_wolf.frame_locator("#wolfWindowInFrameFrame")
                                 selector_status = frame.locator("select#EnergyContract__STATUS")
-                                selector_status.wait_for(state="visible", timeout=10000)
+                                selector_status.wait_for(state="visible", timeout=12000)
                                 
+                                # 1. Cambiar Estado
                                 selector_status.select_option(value=id_objetivo)
                                 selector_status.evaluate("el => el.dispatchEvent(new Event('change', { bubbles: true }))")
+
+                                # 2. Lógica de Fechas
+                                if nombre_estado_ignis == "CONTRATO" and fecha_alta_ignis:
+                                    fecha_venc = calcular_vencimiento(fecha_alta_ignis)
+                                    
+                                    input_alta = frame.locator("#EnergyContract__START_DATE")
+                                    input_alta.fill(fecha_alta_ignis)
+                                    
+                                    if fecha_venc:
+                                        input_venc = frame.locator("#EnergyContract__DUE_DATE")
+                                        input_venc.fill(fecha_venc)
                                 
-                                frame.locator("input.save-object-btn").first.click()
-                                page_wolf.wait_for_timeout(3000)
+                                # --- MODIFICACIÓN AQUÍ: NO GUARDA ---
+                                print(f"⚠️ DATOS RELLENADOS PARA {cups}. Por favor, revisa Wolf y dale a Guardar si es correcto.")
+                                print("Siguiente contrato en 10 segundos o cuando cierres el modal...")
+                                
+                                # Esperamos a que tú hagas algo o pasen unos segundos para que te dé tiempo
+                                page_wolf.bring_to_front()
+                                # Esta espera es para que no salte al siguiente Cups inmediatamente
+                                page_wolf.wait_for_timeout(8000) 
+                                
                         else:
-                            print(f"👌 Estado correcto o no mapeado.")
+                            print(f"👌 {cups} parece estar correcto.")
                             
-                    except:
-                        print(f"⚠️ {cups} no apareció en los resultados.")
+                    except Exception as e:
+                        print(f"⚠️ Error al procesar fila de {cups}: {e}")
 
                 except Exception as e:
-                    print(f"⚠️ Error: {e}")
+                    print(f"⚠️ Error general: {e}")
                     page_wolf.keyboard.press("Escape")
 
         except Exception as e:
             traceback.print_exc()
         finally:
-            print("\n🏁 Fin del proceso.")
+            print("\n🏁 Proceso detenido para revisión manual.")
 
 if __name__ == "__main__":
     sincronizar()
