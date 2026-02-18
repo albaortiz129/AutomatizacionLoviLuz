@@ -135,3 +135,25 @@ Call log:
 playwright._impl._errors.TargetClosedError: Keyboard.press: Target page, context or browser has been closed
 
 [2026-02-18 15:10:28] --- FIN DEL PROCESO ---
+[2026-02-18 15:15:18] --- INICIO DE PROCESO ---
+[2026-02-18 15:15:45] ❌ ES0021000000065447HD: No hallado en Ignis
+[2026-02-18 15:15:48] ❌ ES0021000001681451ZX: No hallado en Ignis
+[2026-02-18 15:15:51] ❌ ES0021000002703444NK: No hallado en Ignis
+[2026-02-18 15:15:54] ❌ ES0021000004084606XX: No hallado en Ignis
+[2026-02-18 15:15:58] ❌ ES0021000004207667RK: No hallado en Ignis
+[2026-02-18 15:16:01] ❌ ES0021000005470670ZW: No hallado en Ignis
+[2026-02-18 15:16:04] ❌ ES0021000005623298AW: No hallado en Ignis
+[2026-02-18 15:16:07] ❌ ES0021000007954280NA: No hallado en Ignis
+[2026-02-18 15:16:08] ⚠️ Error ES0021000008173867ZD: Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-02-18 15:16:08] --- FIN ---
+[2026-02-18 15:20:01] --- INICIO DE SINCRONIZACIÓN ---
+[2026-02-18 15:20:29] ❌ ES0021000000065447HD: No hallado en Ignis.
+[2026-02-18 15:20:39] 👌 ES0021000001563367DP: Ya sincronizado.
+[2026-02-18 15:20:44] ❌ ES0021000001681451ZX: No hallado en Ignis.
+[2026-02-18 15:20:49] ❌ ES0021000002703444NK: No hallado en Ignis.
+[2026-02-18 15:20:54] ❌ ES0021000004084606XX: No hallado en Ignis.
+[2026-02-18 15:21:03] ⚠️ Error en ES0021000004207667RK: Locator.inner_text: Target page, context or browser has been closed
+Call log:
+  - waiting for locator(".ui-grid-row:has-text('ES0021000004207667RK')").first
+
+[2026-02-18 15:21:03] --- FIN DEL PROCESO ---
