@@ -1,0 +1,159 @@
+[2026-02-18 14:58:06] --- INICIO DE SESIÓN DE SINCRONIZACIÓN ---
+[2026-02-18 14:58:06] 🔑 Accediendo a Ignis...
+[2026-02-18 14:58:12] 🔑 Accediendo a Wolf CRM...
+[2026-02-18 14:58:21] 📊 101 filas detectadas en Wolf.
+[2026-02-18 14:58:38] ❌ ES0021000000065447HD: No encontrado en Ignis.
+[2026-02-18 14:58:52] ❌ ES0021000001681451ZX: No encontrado en Ignis.
+[2026-02-18 14:58:58] ⚠️ Error en ES0021000002703444NK: Locator.wait_for: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[placeholder=\"Cups...\"]") to be visible
+
+[2026-02-18 14:58:58] 🔴 ERROR CRÍTICO: Traceback (most recent call last):
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\sincronizador.py", line 172, in sincronizar
+    print(f"⚠️ Error al procesar fila de {cups}: {e}")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 1458, in press
+    self._sync(self._impl_obj.press(key=key, delay=delay))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_input.py", line 38, in press
+    await self._channel.send("keyboardPress", None, locals_to_params(locals()))
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Keyboard.press: Target page, context or browser has been closed
+
+[2026-02-18 14:58:58] --- FIN DE LA SINCRONIZACIÓN ---
+[2026-02-18 15:00:50] --- INICIO DE SESIÓN DE SINCRONIZACIÓN ---
+[2026-02-18 15:00:50] 🔑 Accediendo a Ignis...
+[2026-02-18 15:00:56] 🔑 Accediendo a Wolf CRM...
+[2026-02-18 15:01:05] 📊 Analizando 101 filas...
+[2026-02-18 15:01:31] 🔎 ES0021000004084606XX: Iniciando actualización (Ignis: CONTRATO)
+[2026-02-18 15:01:35] ✅ ES0021000004084606XX: Sincronizado a CONTRATO | Fechas: 09/02/2026 -> 09/02/2027
+[2026-02-18 15:01:53] ⚠️ Error procesando ES0021000005623298AW: Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-02-18 15:01:53] 🔴 ERROR CRÍTICO: Traceback (most recent call last):
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\sincronizador.py", line 190, in sincronizar
+    page_wolf.keyboard.press("Escape")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 1458, in press
+    self._sync(self._impl_obj.press(key=key, delay=delay))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_input.py", line 38, in press
+    await self._channel.send("keyboardPress", None, locals_to_params(locals()))
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Keyboard.press: Target page, context or browser has been closed
+
+[2026-02-18 15:01:53] --- FIN DEL PROCESO ---
+[2026-02-18 15:03:53] --- INICIO DE SESIÓN DE SINCRONIZACIÓN ---
+[2026-02-18 15:03:53] 🔑 Accediendo a Ignis...
+[2026-02-18 15:03:59] 🔑 Accediendo a Wolf CRM...
+[2026-02-18 15:04:08] 📊 Analizando 101 filas...
+[2026-02-18 15:04:33]  ES0021000004084606XX: Iniciando actualización (Ignis: CONTRATO)
+[2026-02-18 15:04:36] ✅ ES0021000004084606XX: Sincronizado a CONTRATO | Fechas: 09/02/2026 -> 09/02/2027
+[2026-02-18 15:04:39] ⚠️ Error procesando ES0021000004207667RK: Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-02-18 15:04:39] 🔴 ERROR CRÍTICO: Traceback (most recent call last):
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\sincronizador.py", line 190, in sincronizar
+    page_wolf.keyboard.press("Escape")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 1458, in press
+    self._sync(self._impl_obj.press(key=key, delay=delay))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_input.py", line 38, in press
+    await self._channel.send("keyboardPress", None, locals_to_params(locals()))
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Keyboard.press: Target page, context or browser has been closed
+
+[2026-02-18 15:04:39] --- FIN DEL PROCESO ---
+[2026-02-18 15:09:02] --- INICIO DE SESIÓN ---
+[2026-02-18 15:09:32] ❌ ES0021000000065447HD: No hallado en Ignis.
+[2026-02-18 15:09:36] ❌ ES0021000001681451ZX: No hallado en Ignis.
+[2026-02-18 15:09:41] ❌ ES0021000002703444NK: No hallado en Ignis.
+[2026-02-18 15:09:53] ✅ ES0021000004084606XX: Sincronizado a CONTRATO
+[2026-02-18 15:09:57] ⚠️ Error en ES0021000004207667RK: Locator.scroll_into_view_if_needed: Element is not attached to the DOM
+Call log:
+  - attempting scroll into view action
+    - waiting for element to be stable
+    - element is not stable
+  - retrying scroll into view action
+    - waiting for element to be stable
+
+[2026-02-18 15:10:27] ⚠️ Error en ES0021000005470670ZW: Locator.scroll_into_view_if_needed: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[placeholder=\"Cups...\"]")
+
+[2026-02-18 15:10:28] ⚠️ Error en ES0021000005623298AW: Locator.scroll_into_view_if_needed: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("input[placeholder=\"Cups...\"]")
+
+[2026-02-18 15:10:28] 🔴 ERROR CRÍTICO: Traceback (most recent call last):
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\sincronizador.py", line 173, in sincronizar
+    page_wolf.keyboard.press("Escape")
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 1458, in press
+    self._sync(self._impl_obj.press(key=key, delay=delay))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_input.py", line 38, in press
+    await self._channel.send("keyboardPress", None, locals_to_params(locals()))
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Keyboard.press: Target page, context or browser has been closed
+
+[2026-02-18 15:10:28] --- FIN DEL PROCESO ---
+[2026-02-18 15:15:18] --- INICIO DE PROCESO ---
+[2026-02-18 15:15:45] ❌ ES0021000000065447HD: No hallado en Ignis
+[2026-02-18 15:15:48] ❌ ES0021000001681451ZX: No hallado en Ignis
+[2026-02-18 15:15:51] ❌ ES0021000002703444NK: No hallado en Ignis
+[2026-02-18 15:15:54] ❌ ES0021000004084606XX: No hallado en Ignis
+[2026-02-18 15:15:58] ❌ ES0021000004207667RK: No hallado en Ignis
+[2026-02-18 15:16:01] ❌ ES0021000005470670ZW: No hallado en Ignis
+[2026-02-18 15:16:04] ❌ ES0021000005623298AW: No hallado en Ignis
+[2026-02-18 15:16:07] ❌ ES0021000007954280NA: No hallado en Ignis
+[2026-02-18 15:16:08] ⚠️ Error ES0021000008173867ZD: Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-02-18 15:16:08] --- FIN ---
+[2026-02-18 15:20:01] --- INICIO DE SINCRONIZACIÓN ---
+[2026-02-18 15:20:29] ❌ ES0021000000065447HD: No hallado en Ignis.
+[2026-02-18 15:20:39] 👌 ES0021000001563367DP: Ya sincronizado.
+[2026-02-18 15:20:44] ❌ ES0021000001681451ZX: No hallado en Ignis.
+[2026-02-18 15:20:49] ❌ ES0021000002703444NK: No hallado en Ignis.
+[2026-02-18 15:20:54] ❌ ES0021000004084606XX: No hallado en Ignis.
+[2026-02-18 15:21:03] ⚠️ Error en ES0021000004207667RK: Locator.inner_text: Target page, context or browser has been closed
+Call log:
+  - waiting for locator(".ui-grid-row:has-text('ES0021000004207667RK')").first
+
+[2026-02-18 15:21:03] --- FIN DEL PROCESO ---
