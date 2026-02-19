@@ -1,0 +1,123 @@
+[16:37:43] ⚙️ ============================================================
+[16:37:43] ⚙️ INICIO DE SESIÓN - MÓDULO DE SINCRONIZACIÓN
+[16:37:43] ⚙️ ============================================================
+[16:37:43] 🔹 Accediendo al portal de Ignis Energía...
+[16:37:48] 🔹 Accediendo al CRM Wolf CRM (Loviluz)...
+[16:37:51] 🔹 Aplicando filtros en Wolf...
+[16:37:57] ⚙️ Análisis listo: 113 contratos para revisar.
+[16:38:04] ✅ CUPS ES0021000000065447HD | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[16:38:11] ✅ CUPS ES0021000001563367DP | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[16:38:19] ⚠️ CUPS ES0021000001681451ZX: No aparece en Ignis. Se salta.
+[16:38:26] ✅ CUPS ES0021000002162269NJ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[16:38:31] ✅ CUPS ES0021000002703444NK | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[16:38:41] ✅ CUPS ES0021000004084606XX | Wolf: VALIDADO ➔ Ignis: CONTRATO | Fechas: 18/02/2026 a 18/02/2027
+[16:38:51] ✅ CUPS ES0021000004207667RK | Wolf: VALIDADO ➔ Ignis: TRAMITE
+[16:38:57] ✅ CUPS ES0021000005470670ZW | Wolf: PENDIENTE FIRMA | Ignis: 
+PENDIENTE FIRMA | Resultado: Sin cambios necesarios.[16:39:06] ❌ Error en ES0021000005623298AW: 'OTRO'
+[16:39:17] ❌ Error en ES0021000007954280NA: 'OTRO'
+[16:39:26] ❌ Error en ES0021000008173867ZD: 'OTRO'
+[16:39:32] ✅ CUPS ES0021000009358240BC | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[16:39:38] ⚠️ CUPS ES0021000010204594DC: No aparece en Ignis. Se salta.
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ❌ Error en S/N: Locator.inner_text: Target page, context or browser has been
+[16:39:38] ⚙️ ============================================================
+[16:39:38] ⚙️ FIN DE LA SESIÓN - PROCESO COMPLETADO
+[16:39:38] ⚙️ ============================================================

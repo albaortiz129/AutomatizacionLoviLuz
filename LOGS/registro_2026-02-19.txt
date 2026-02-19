@@ -1,0 +1,1658 @@
+[2026-02-19 10:25:53] ⚙️ ============================================================
+[2026-02-19 10:25:53] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 10:25:53] ⚙️ ============================================================
+[2026-02-19 10:25:53] 🔹 Entrando en Ignis Energía...
+[2026-02-19 10:25:58] 🔹 Entrando en Wolf CRM...
+[2026-02-19 10:26:01] 🔹 Buscando contratos en Wolf...
+[2026-02-19 10:26:07] ⚙️ Tengo 119 contratos para mirar hoy.
+[2026-02-19 10:26:18] 🔹 CUPS ES0021000000065447HD | Wolf: PENDIENTE FIRMA | Ignis: TERRA SOLID | Resultado: Otro tipo de estado.
+[2026-02-19 10:26:29] 🔹 CUPS ES0021000001563367DP | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:26:36] ⚠️ CUPS ES0021000001681451ZX: No aparece en la lista de Ignis.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:36] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:26:37] ⚙️ ============================================================
+[2026-02-19 10:26:37] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 10:26:37] ⚙️ ============================================================
+[2026-02-19 10:26:49] ⚙️ ============================================================
+[2026-02-19 10:26:49] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 10:26:49] ⚙️ ============================================================
+[2026-02-19 10:26:49] 🔹 Entrando en Ignis Energía...
+[2026-02-19 10:26:55] 🔹 Entrando en Wolf CRM...
+[2026-02-19 10:26:57] 🔹 Buscando contratos en Wolf...
+[2026-02-19 10:27:03] ⚙️ Tengo 119 contratos para mirar hoy.
+[2026-02-19 10:27:16] 🔹 CUPS ES0021000000065447HD | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:27:25] 🔹 CUPS ES0021000001563367DP | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:27:35] 🔹 CUPS ES0021000001681451ZX | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:27:51] ⚠️ CUPS ES0021000002162269NJ: No aparece en la lista de Ignis.
+[2026-02-19 10:28:02] 🔹 CUPS ES0021000002703444NK | Wolf: PENDIENTE DE VALIDACION | Ignis: PENDIENTE DE VALIDACION | Resultado: Sin cambios necesarios.
+[2026-02-19 10:28:14] ✅ CUPS ES0021000004084606XX | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha: 18/02/2026 y vence: 18/02/2027
+[2026-02-19 10:28:33] ✅ CUPS ES0021000004207667RK | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha: 19/02/2026 y vence: 19/02/2027
+[2026-02-19 10:28:45] 🔹 CUPS ES0021000005470670ZW | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:28:53] 🔹 CUPS ES0021000005623298AW | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:29:01] 🔹 CUPS ES0021000007954280NA | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:29:09] ⚠️ CUPS ES0021000008173867ZD: No aparece en la lista de Ignis.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:29:09] ⚙️ ============================================================
+[2026-02-19 10:29:09] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 10:29:09] ⚙️ ============================================================
+[2026-02-19 10:32:49] ⚙️ ============================================================
+[2026-02-19 10:32:49] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 10:32:49] ⚙️ ============================================================
+[2026-02-19 10:32:49] 🔹 Entrando en Ignis Energía...
+[2026-02-19 10:32:54] 🔹 Entrando en Wolf CRM...
+[2026-02-19 10:32:57] 🔹 Buscando contratos en Wolf...
+[2026-02-19 10:33:04] ⚙️ Tengo 119 contratos para mirar hoy.
+[2026-02-19 10:33:19] 🔹 CUPS ES0021000000065447HD | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:33:29] 🔹 CUPS ES0021000001563367DP | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:33:39] 🔹 CUPS ES0021000001681451ZX | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:33:47] 🔹 CUPS ES0021000002162269NJ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:33:58] 🔹 CUPS ES0021000002703444NK | Wolf: PENDIENTE DE VALIDACION | Ignis: PENDIENTE DE VALIDACION | Resultado: Sin cambios necesarios.
+[2026-02-19 10:34:11] ✅ CUPS ES0021000004084606XX | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados Wolf = En CONTRATO fecha de alta : 18/02/2026 Fecha de Vencimiento : 18/02/2027  fecha_alta_ignis = 18/02/2026
+[2026-02-19 10:34:23] ❌ Error con el CUPS ES0021000004207667RK: Locator.wait_for: Target page, context or browser 
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:23] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:24] ❌ Error con el CUPS S/N: Locator.inner_text: Target page, context or browse
+[2026-02-19 10:34:24] ⚙️ ============================================================
+[2026-02-19 10:34:24] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 10:34:24] ⚙️ ============================================================
+[2026-02-19 10:36:21] ⚙️ ============================================================
+[2026-02-19 10:36:21] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 10:36:21] ⚙️ ============================================================
+[2026-02-19 10:36:21] 🔹 Entrando en Ignis Energía...
+[2026-02-19 10:36:27] 🔹 Entrando en Wolf CRM...
+[2026-02-19 10:36:29] 🔹 Buscando contratos en Wolf...
+[2026-02-19 10:36:35] ⚙️ Tengo 118 contratos para mirar hoy.
+[2026-02-19 10:36:47] ❌ Error con el CUPS ES0021000000065447HD: algo ha fallado.
+[2026-02-19 10:36:51] ⚠️ CUPS ES0021000001563367DP: No aparece en la lista de Ignis.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:51] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 10:36:52] ⚙️ ============================================================
+[2026-02-19 10:36:52] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 10:36:52] ⚙️ ============================================================
+[2026-02-19 10:36:59] ⚙️ ============================================================
+[2026-02-19 10:36:59] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 10:36:59] ⚙️ ============================================================
+[2026-02-19 10:36:59] 🔹 Entrando en Ignis Energía...
+[2026-02-19 10:37:05] 🔹 Entrando en Wolf CRM...
+[2026-02-19 10:37:08] 🔹 Buscando contratos en Wolf...
+[2026-02-19 10:37:13] ⚙️ Tengo 118 contratos para mirar hoy.
+[2026-02-19 10:37:32] 🔹 CUPS ES0021000000065447HD | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:37:41] 🔹 CUPS ES0021000001563367DP | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:37:51] 🔹 CUPS ES0021000001681451ZX | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:38:02] 🔹 CUPS ES0021000002162269NJ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:38:18] ⚠️ CUPS ES0021000002703444NK: No aparece en la lista de Ignis.
+[2026-02-19 10:38:32] ✅ CUPS ES0021000004084606XX | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:38:46] ✅ CUPS ES0021000004207667RK | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 19/02/2026 y Vencimiento: 19/02/2027
+[2026-02-19 10:38:57] 🔹 CUPS ES0021000005470670ZW | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:39:04] 🔹 CUPS ES0021000005623298AW | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:39:12] 🔹 CUPS ES0021000007954280NA | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:39:20] 🔹 CUPS ES0021000008173867ZD | Wolf: VALIDADO | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:39:29] 🔹 CUPS ES0021000009358240BC | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:39:39] 🔹 CUPS ES0021000010204594DC | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:39:49] 🔹 CUPS ES0021000012937143KP | Wolf: VALIDADO | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:39:58] 🔹 CUPS ES0021000038404647SA | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:40:10] ✅ CUPS ES0022000001610938JM | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:40:20] 🔹 CUPS ES0022000001659482FL | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:40:29] 🔹 CUPS ES0022000008189658QN | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:40:39] 🔹 CUPS ES0022000008478158WT | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:40:52] ✅ CUPS ES0022000008900331AP | Wolf: PENDIENTE DE VALIDACION | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:41:05] ✅ CUPS ES0022000009063556QW | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:41:16] 🔹 CUPS ES0026000000398185TW | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:41:29] ✅ CUPS ES0031101301855004LE | Wolf: PENDIENTE DE VALIDACION | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:41:42] ✅ CUPS ES0031101362158003GB | Wolf: PENDIENTE FIRMA | Ignis: TRAMITE | Resultado: Cambios realizados.
+[2026-02-19 10:41:55] ✅ CUPS ES0031101362158005GJ | Wolf: PENDIENTE FIRMA | Ignis: TRAMITE | Resultado: Cambios realizados.
+[2026-02-19 10:42:06] 🔹 CUPS ES0031101395277009TY | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:42:19] ✅ CUPS ES0031101396629002VJ | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:42:33] ✅ CUPS ES0031101398199001ZD | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:42:46] ✅ CUPS ES0031101436124001BX | Wolf: PENDIENTE FIRMA | Ignis: TRAMITE | Resultado: Cambios realizados.
+[2026-02-19 10:42:59] 🔹 CUPS ES0031101447440006HS | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:43:07] 🔹 CUPS ES0031101448501001XC | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:43:20] ✅ CUPS ES0031101449271001RA | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:43:34] ✅ CUPS ES0031101459045001DS | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:43:44] 🔹 CUPS ES0031101491672006GW | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:43:52] 🔹 CUPS ES0031101550767001KQ | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:44:06] ✅ CUPS ES0031101730651001FG | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:44:20] ✅ CUPS ES0031101796602001PE | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:44:34] ✅ CUPS ES0031101798206001NW | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 03/02/2026 y Vencimiento: 03/02/2027
+[2026-02-19 10:44:46] 🔹 CUPS ES0031101800364001KG | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:44:54] 🔹 CUPS ES0031102075827028EN | Wolf: PENDIENTE DE VALIDACION | Ignis: PENDIENTE DE VALIDACION | Resultado: Sin cambios necesarios.
+[2026-02-19 10:45:03] 🔹 CUPS ES0031102119365003PE | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:45:15] ✅ CUPS ES0031102186078012KJ | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:45:25] 🔹 CUPS ES0031102256419002SB | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:45:36] ✅ CUPS ES0031102275481003QA | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE DE VALIDACION | Resultado: Cambios realizados.
+[2026-02-19 10:45:46] 🔹 CUPS ES0031102469063001GV | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:46:01] ✅ CUPS ES0031102589492001YM | Wolf: PENDIENTE DE VALIDACION | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:46:11] 🔹 CUPS ES0031102623299001ZH | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:46:23] ✅ CUPS ES0031102716015019MT | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:46:33] 🔹 CUPS ES0031102719141002XF | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:46:51] ✅ CUPS ES0031102728974026DW | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:47:06] ✅ CUPS ES0031102834890003ZJ | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 30/01/2026 y Vencimiento: 30/01/2027
+[2026-02-19 10:47:22] ✅ CUPS ES0031102855603002ZV | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:47:37] 🔹 CUPS ES0031102866140032DB | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:47:51] ✅ CUPS ES0031102908075001JT | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 30/01/2026 y Vencimiento: 30/01/2027
+[2026-02-19 10:48:09] ✅ CUPS ES0031102910499007HJ | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 30/01/2026 y Vencimiento: 30/01/2027
+[2026-02-19 10:48:28] ✅ CUPS ES0031102910502002XH | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 30/01/2026 y Vencimiento: 30/01/2027
+[2026-02-19 10:48:43] ✅ CUPS ES0031102970688001ZP | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 13/12/2025 y Vencimiento: 13/12/2026
+[2026-02-19 10:48:58] ✅ CUPS ES0031102988536043LG | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:49:09] 🔹 CUPS ES0031102996184058FJ | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:49:18] 🔹 CUPS ES0031103028779008BF | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:49:35] ✅ CUPS ES0031103029808015SV | Wolf: PENDIENTE DE VALIDACION | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:49:51] ✅ CUPS ES0031103102991001HQ | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 13/12/2025 y Vencimiento: 13/12/2026
+[2026-02-19 10:50:01] 🔹 CUPS ES0031103121933002EE | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:50:13] ✅ CUPS ES0031103448587001PV | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:50:25] ✅ CUPS ES0031103448772001WM | Wolf: PENDIENTE FIRMA | Ignis: TRAMITE | Resultado: Cambios realizados.
+[2026-02-19 10:50:40] ✅ CUPS ES0031103452285001KP | Wolf: PENDIENTE FIRMA | Ignis: TRAMITE | Resultado: Cambios realizados.
+[2026-02-19 10:50:54] ✅ CUPS ES0031103507007003AL | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:51:04] 🔹 CUPS ES0031103508643001HG | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:51:12] 🔹 CUPS ES0031103547114001HP | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:51:27] ✅ CUPS ES0031103559897016YZ | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:51:38] 🔹 CUPS ES0031103583275001RV | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:51:50] ✅ CUPS ES0031103613985001TA | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:52:03] 🔹 CUPS ES0031103618557002QH | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:52:17] ✅ CUPS ES0031103646948001KR | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:52:27] 🔹 CUPS ES0031103654380003RJ | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:52:38] 🔹 CUPS ES0031104002525001AZ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:52:54] ⚠️ CUPS ES0031104052772008RW: No aparece en la lista de Ignis.
+[2026-02-19 10:53:02] 🔹 CUPS ES0031104053602001TV | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:53:18] ⚠️ CUPS ES0031104201975004YC: No aparece en la lista de Ignis.
+[2026-02-19 10:53:29] 🔹 CUPS ES0031104272741001XP | Wolf: VALIDADO | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:53:36] 🔹 CUPS ES0031104389747007LT | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:53:46] 🔹 CUPS ES0031104456827012WE | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:53:55] 🔹 CUPS ES0031104551919005AX | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:54:07] ✅ CUPS ES0031104591903001YR | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:54:24] ✅ CUPS ES0031104593790001PN | Wolf: PENDIENTE FIRMA | Ignis: TRAMITE | Resultado: Cambios realizados.
+[2026-02-19 10:54:42] 🔹 CUPS ES0031104598471012AV | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:54:53] 🔹 CUPS ES0031104639702019JM | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:55:08] ✅ CUPS ES0031104732388004PS | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 16/02/2026 y Vencimiento: 16/02/2027
+[2026-02-19 10:55:19] 🔹 CUPS ES0031104735451006NS | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:55:30] ✅ CUPS ES0031104759719001VC | Wolf: PENDIENTE FIRMA | Ignis: TRAMITE | Resultado: Cambios realizados.
+[2026-02-19 10:55:44] ✅ CUPS ES0031104789937001ZE | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:56:04] ✅ CUPS ES0031104847041003QS | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE DE VALIDACION | Resultado: Cambios realizados.
+[2026-02-19 10:56:26] ✅ CUPS ES0031104957284001JB | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 02/12/2024 y Vencimiento: 02/12/2025
+[2026-02-19 10:56:42] ✅ CUPS ES0031104989562002JL | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:56:54] 🔹 CUPS ES0031104996156026SN | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:57:02] 🔹 CUPS ES0031105038464001KQ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:57:11] 🔹 CUPS ES0031105089204001VS | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:57:19] 🔹 CUPS ES0031105113762001GH | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:57:31] ✅ CUPS ES0031105135209001VR | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:57:43] ✅ CUPS ES0031105199579001AQ | Wolf: PENDIENTE FIRMA | Ignis: TRAMITE | Resultado: Cambios realizados.
+[2026-02-19 10:57:56] ✅ CUPS ES0031105207086001WT | Wolf: PENDIENTE FIRMA | Ignis: TRAMITE | Resultado: Cambios realizados.
+[2026-02-19 10:58:10] ✅ CUPS ES0031105219572001WJ | Wolf: VALIDADO | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:58:20] 🔹 CUPS ES0031105224594001BD | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:58:35] 🔹 CUPS ES0031105270710001YC | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 10:58:43] 🔹 CUPS ES0031105282188004LB | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:58:58] ✅ CUPS ES0031105312542006HQ | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 10:59:14] ✅ CUPS ES0031105336404001NV | Wolf: PENDIENTE DE VALIDACION | Ignis: CONTRATO | Resultado: Cambios realizados. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 10:59:27] ✅ CUPS ES0031105336542005DK | Wolf: PENDIENTE FIRMA | Ignis: TRAMITE | Resultado: Cambios realizados.
+[2026-02-19 10:59:38] 🔹 CUPS ES0031105350198012GP | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 10:59:46] 🔹 CUPS ES0031105350729001KL | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 10:59:55] 🔹 CUPS ES0031105674722001WT | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:00:03] 🔹 CUPS ES0031105703094001PM | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:00:19] ⚠️ CUPS ES0031405418292010VL: No aparece en la lista de Ignis.
+[2026-02-19 11:00:26] 🔹 CUPS ES0034111307516001JS | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:00:58] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:00:58] ⚙️ ============================================================
+[2026-02-19 11:00:58] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:00:58] ⚙️ ============================================================
+[2026-02-19 11:03:56] ⚙️ ============================================================
+[2026-02-19 11:03:56] ⚙️ EMPEZAMOS A TRABAJAR - VOY A REVISAR LOS CONTRATOS
+[2026-02-19 11:03:56] ⚙️ ============================================================
+[2026-02-19 11:03:56] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:04:01] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:04:05] 🔹 Buscando contratos en Wolf...
+[2026-02-19 11:04:10] ⚙️ Tengo 117 contratos para mirar hoy.
+[2026-02-19 11:04:24] ✅ CUPS ES0021000000065447HD | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:04:32] ✅ CUPS ES0021000001563367DP | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:04:40] ✅ CUPS ES0021000001681451ZX | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:04:49] ✅ CUPS ES0021000002162269NJ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:04:58] ✅ CUPS ES0021000002703444NK | Wolf: PENDIENTE DE VALIDACION | Ignis: PENDIENTE DE VALIDACION | Resultado: Sin cambios necesarios.
+[2026-02-19 11:05:10] ✅ CUPS ES0021000004084606XX | Wolf: TRAMITE ➔ Ignis: CONTRATO | Fecha: 18/02/2026 y vence: 18/02/2027
+[2026-02-19 11:05:27] ✅ CUPS ES0021000004207667RK | Wolf: TRAMITE ➔ Ignis: CONTRATO | Fecha: 19/02/2026 y vence: 19/02/2027
+[2026-02-19 11:05:39] ✅ CUPS ES0021000005470670ZW | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:05:48] ✅ CUPS ES0021000005623298AW | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:05:56] ✅ CUPS ES0021000007954280NA | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:06:05] ✅ CUPS ES0021000008173867ZD | Wolf: VALIDADO | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:06:14] ✅ CUPS ES0021000009358240BC | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:06:22] ✅ CUPS ES0021000010204594DC | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:06:32] ✅ CUPS ES0021000012937143KP | Wolf: VALIDADO | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:06:42] ✅ CUPS ES0021000038404647SA | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:06:54] ✅ CUPS ES0022000001610938JM | Wolf: TRAMITE ➔ Ignis: CONTRATO | Fecha: 18/02/2026 y vence: 18/02/2027
+[2026-02-19 11:07:05] ✅ CUPS ES0022000001659482FL | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:07:05] ❌ Error con el CUPS ES0022000001659482FL: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:05] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:06] ⚙️ ============================================================
+[2026-02-19 11:07:06] ⚙️ HE TERMINADO POR HOY - ADIÓS
+[2026-02-19 11:07:06] ⚙️ ============================================================
+[2026-02-19 11:07:10] ⚙️ ============================================================
+[2026-02-19 11:07:10] ⚙️ EMPEZAMOS A TRABAJAR - VOY A REVISAR LOS CONTRATOS
+[2026-02-19 11:07:10] ⚙️ ============================================================
+[2026-02-19 11:07:10] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:07:16] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:07:19] 🔹 Buscando contratos en Wolf...
+[2026-02-19 11:07:24] ⚙️ Tengo 117 contratos para mirar hoy.
+[2026-02-19 11:07:44] ⚠️ CUPS ES0021000000065447HD: No aparece en la lista de Ignis.
+[2026-02-19 11:07:56] ⚠️ CUPS ES0021000001563367DP: No aparece en la lista de Ignis.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:56] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:07:57] ⚙️ ============================================================
+[2026-02-19 11:07:57] ⚙️ HE TERMINADO POR HOY - ADIÓS
+[2026-02-19 11:07:57] ⚙️ ============================================================
+[2026-02-19 11:08:01] ⚙️ ============================================================
+[2026-02-19 11:08:01] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:08:01] ⚙️ ============================================================
+[2026-02-19 11:08:01] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:08:08] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:08:10] 🔹 Buscando contratos en Wolf...
+[2026-02-19 11:08:16] ⚙️ Tengo 116 contratos para mirar hoy.
+[2026-02-19 11:08:32] 🔹 CUPS ES0021000000065447HD | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:08:43] 🔹 CUPS ES0021000001563367DP | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:08:52] 🔹 CUPS ES0021000001681451ZX | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:09:01] 🔹 CUPS ES0021000002162269NJ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:09:12] 🔹 CUPS ES0021000002703444NK | Wolf: PENDIENTE DE VALIDACION | Ignis: PENDIENTE DE VALIDACION | Resultado: Sin cambios necesarios.
+[2026-02-19 11:09:29] ✅ CUPS ES0021000004084606XX | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:09:43] ✅ CUPS ES0021000004207667RK | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 19/02/2026 y Vencimiento: 19/02/2027
+[2026-02-19 11:09:59] 🔹 CUPS ES0021000005623298AW | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:10:07] 🔹 CUPS ES0021000007954280NA | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:10:15] 🔹 CUPS ES0021000008173867ZD | Wolf: VALIDADO | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:10:24] 🔹 CUPS ES0021000009358240BC | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:10:33] 🔹 CUPS ES0021000010204594DC | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:10:44] 🔹 CUPS ES0021000012937143KP | Wolf: VALIDADO | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:10:53] 🔹 CUPS ES0021000038404647SA | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:11:05] ✅ CUPS ES0022000001610938JM | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:11:16] 🔹 CUPS ES0022000001659482FL | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:11:25] 🔹 CUPS ES0022000008189658QN | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:11:34] 🔹 CUPS ES0022000008478158WT | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:11:50] ✅ CUPS ES0022000008900331AP | Wolf: PENDIENTE DE VALIDACION | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: PENDIENTE DE VALIDACION. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 11:12:05] ✅ CUPS ES0022000009063556QW | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:12:15] 🔹 CUPS ES0026000000398185TW | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:12:31] ✅ CUPS ES0031101301855004LE | Wolf: PENDIENTE DE VALIDACION | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: PENDIENTE DE VALIDACION. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 11:12:43] 🔹 CUPS ES0031101362158003GB | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:12:54] 🔹 CUPS ES0031101362158005GJ | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:13:01] 🔹 CUPS ES0031101395277009TY | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:13:14] ✅ CUPS ES0031101396629002VJ | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 11:13:28] ✅ CUPS ES0031101398199001ZD | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:13:42] 🔹 CUPS ES0031101436124001BX | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:13:50] 🔹 CUPS ES0031101447440006HS | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:14:03] 🔹 CUPS ES0031101448501001XC | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:14:19] ✅ CUPS ES0031101449271001RA | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:14:38] ⚠️ CUPS ES0031101459045001DS: No aparece en la lista de Ignis.
+[2026-02-19 11:14:51] 🔹 CUPS ES0031101491672006GW | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:15:04] 🔹 CUPS ES0031101550767001KQ | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:15:18] ✅ CUPS ES0031101730651001FG | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 11:15:37] ✅ CUPS ES0031101796602001PE | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:15:52] ✅ CUPS ES0031101798206001NW | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 03/02/2026 y Vencimiento: 03/02/2027
+[2026-02-19 11:16:06] 🔹 CUPS ES0031101800364001KG | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:16:19] 🔹 CUPS ES0031102075827028EN | Wolf: PENDIENTE DE VALIDACION | Ignis: PENDIENTE DE VALIDACION | Resultado: Sin cambios necesarios.
+[2026-02-19 11:16:31] 🔹 CUPS ES0031102119365003PE | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:16:46] ✅ CUPS ES0031102186078012KJ | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:17:03] 🔹 CUPS ES0031102256419002SB | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:17:16] 🔹 CUPS ES0031102275481003QA | Wolf: PENDIENTE DE VALIDACION | Ignis: PENDIENTE DE VALIDACION | Resultado: Sin cambios necesarios.
+[2026-02-19 11:17:26] 🔹 CUPS ES0031102469063001GV | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:17:39] ✅ CUPS ES0031102589492001YM | Wolf: PENDIENTE DE VALIDACION | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: PENDIENTE DE VALIDACION. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:17:52] 🔹 CUPS ES0031102623299001ZH | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:18:09] ✅ CUPS ES0031102716015019MT | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 11:18:28] ⚠️ CUPS ES0031102719141002XF: No aparece en la lista de Ignis.
+[2026-02-19 11:18:45] ✅ CUPS ES0031102728974026DW | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:19:01] ✅ CUPS ES0031102834890003ZJ | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 30/01/2026 y Vencimiento: 30/01/2027
+[2026-02-19 11:19:16] ✅ CUPS ES0031102855603002ZV | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 11:19:34] ⚠️ CUPS ES0031102866140032DB: No aparece en la lista de Ignis.
+[2026-02-19 11:19:48] ✅ CUPS ES0031102908075001JT | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 30/01/2026 y Vencimiento: 30/01/2027
+[2026-02-19 11:20:06] ⚠️ CUPS ES0031102910499007HJ: No aparece en la lista de Ignis.
+[2026-02-19 11:20:20] ⚠️ CUPS ES0031102910502002XH: No aparece en la lista de Ignis.
+[2026-02-19 11:20:34] ⚠️ CUPS ES0031102970688001ZP: No aparece en la lista de Ignis.
+[2026-02-19 11:20:53] ✅ CUPS ES0031102988536043LG | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:21:11] ⚠️ CUPS ES0031102996184058FJ: No aparece en la lista de Ignis.
+[2026-02-19 11:21:25] ⚠️ CUPS ES0031103028779008BF: No aparece en la lista de Ignis.
+[2026-02-19 11:21:40] ⚠️ CUPS ES0031103029808015SV: No aparece en la lista de Ignis.
+[2026-02-19 11:21:54] ⚠️ CUPS ES0031103102991001HQ: No aparece en la lista de Ignis.
+[2026-02-19 11:22:08] ⚠️ CUPS ES0031103121933002EE: No aparece en la lista de Ignis.
+[2026-02-19 11:22:20] ✅ CUPS ES0031103448587001PV | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:22:33] 🔹 CUPS ES0031103448772001WM | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:22:45] 🔹 CUPS ES0031103452285001KP | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:22:59] ✅ CUPS ES0031103507007003AL | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 11:23:12] 🔹 CUPS ES0031103508643001HG | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:23:28] ⚠️ CUPS ES0031103547114001HP: No aparece en la lista de Ignis.
+[2026-02-19 11:23:43] ⚠️ CUPS ES0031103559897016YZ: No aparece en la lista de Ignis.
+[2026-02-19 11:23:57] ⚠️ CUPS ES0031103583275001RV: No aparece en la lista de Ignis.
+[2026-02-19 11:24:11] ⚠️ CUPS ES0031103613985001TA: No aparece en la lista de Ignis.
+[2026-02-19 11:24:25] ⚠️ CUPS ES0031103618557002QH: No aparece en la lista de Ignis.
+[2026-02-19 11:24:41] ✅ CUPS ES0031103646948001KR | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:24:51] 🔹 CUPS ES0031103654380003RJ | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:25:01] 🔹 CUPS ES0031104002525001AZ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:25:15] ✅ CUPS ES0031104052772008RW | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 11:25:28] 🔹 CUPS ES0031104053602001TV | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:25:44] ⚠️ CUPS ES0031104201975004YC: No aparece en la lista de Ignis.
+[2026-02-19 11:25:57] 🔹 CUPS ES0031104272741001XP | Wolf: VALIDADO | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:26:13] ⚠️ CUPS ES0031104389747007LT: No aparece en la lista de Ignis.
+[2026-02-19 11:26:28] ⚠️ CUPS ES0031104456827012WE: No aparece en la lista de Ignis.
+[2026-02-19 11:26:42] ⚠️ CUPS ES0031104551919005AX: No aparece en la lista de Ignis.
+[2026-02-19 11:26:56] ⚠️ CUPS ES0031104591903001YR: No aparece en la lista de Ignis.
+[2026-02-19 11:27:10] ⚠️ CUPS ES0031104593790001PN: No aparece en la lista de Ignis.
+[2026-02-19 11:27:25] ⚠️ CUPS ES0031104598471012AV: No aparece en la lista de Ignis.
+[2026-02-19 11:27:39] ⚠️ CUPS ES0031104639702019JM: No aparece en la lista de Ignis.
+[2026-02-19 11:27:53] ⚠️ CUPS ES0031104732388004PS: No aparece en la lista de Ignis.
+[2026-02-19 11:28:07] ⚠️ CUPS ES0031104735451006NS: No aparece en la lista de Ignis.
+[2026-02-19 11:28:22] ⚠️ CUPS ES0031104759719001VC: No aparece en la lista de Ignis.
+[2026-02-19 11:28:36] ⚠️ CUPS ES0031104789937001ZE: No aparece en la lista de Ignis.
+[2026-02-19 11:28:50] ⚠️ CUPS ES0031104847041003QS: No aparece en la lista de Ignis.
+[2026-02-19 11:29:04] ⚠️ CUPS ES0031104957284001JB: No aparece en la lista de Ignis.
+[2026-02-19 11:29:47] ❌ Error con el CUPS ES0031104989562002JL: algo ha fallado.
+[2026-02-19 11:29:57] 🔹 CUPS ES0031104996156026SN | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:30:09] 🔹 CUPS ES0031105038464001KQ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:30:19] 🔹 CUPS ES0031105089204001VS | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:30:35] ⚠️ CUPS ES0031105113762001GH: No aparece en la lista de Ignis.
+[2026-02-19 11:30:53] ✅ CUPS ES0031105135209001VR | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:31:11] ⚠️ CUPS ES0031105207086001WT: No aparece en la lista de Ignis.
+[2026-02-19 11:31:24] ✅ CUPS ES0031105219572001WJ | Wolf: TRAMITE | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: TRAMITE. | Fecha de Alta: 17/02/2026 y Vencimiento: 17/02/2027
+[2026-02-19 11:31:38] 🔹 CUPS ES0031105224594001BD | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:31:50] 🔹 CUPS ES0031105270710001YC | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:31:58] 🔹 CUPS ES0031105282188004LB | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:32:14] ⚠️ CUPS ES0031105312542006HQ: No aparece en la lista de Ignis.
+[2026-02-19 11:32:24] ✅ CUPS ES0031105336404001NV | Wolf: PENDIENTE DE VALIDACION | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: PENDIENTE DE VALIDACION. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:32:42] ⚠️ CUPS ES0031105336542005DK: No aparece en la lista de Ignis.
+[2026-02-19 11:32:55] 🔹 CUPS ES0031105350198012GP | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:33:03] 🔹 CUPS ES0031105350729001KL | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:33:12] 🔹 CUPS ES0031105674722001WT | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios necesarios.
+[2026-02-19 11:33:21] 🔹 CUPS ES0031105703094001PM | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:33:40] ✅ CUPS ES0031405418292010VL | Wolf: PENDIENTE DE VALIDACION | Ignis: CONTRATO | Resultado: Cambios realizados. Nuevo estado en Wolf: PENDIENTE DE VALIDACION. | Fecha de Alta: 18/02/2026 y Vencimiento: 18/02/2027
+[2026-02-19 11:33:51] 🔹 CUPS ES0034111307516001JS | Wolf: PENDIENTE DE VALIDACION | Ignis: TRAMITE | Resultado: Sin cambios necesarios.
+[2026-02-19 11:34:23] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:34:23] ⚙️ ============================================================
+[2026-02-19 11:34:23] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:34:23] ⚙️ ============================================================
+[2026-02-19 11:45:26] ⚙️ ============================================================
+[2026-02-19 11:45:26] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:45:26] ⚙️ ============================================================
+[2026-02-19 11:45:26] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:45:35] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:45:37] 🔹 Buscando contratos en Wolf...
+[2026-02-19 11:45:43] ⚙️ Tengo 115 contratos para mirar hoy.
+[2026-02-19 11:45:43] ❌ Error con el CUPS ES0021000000065447HD: fallo puntual.
+[2026-02-19 11:45:43] ❌ Error con el CUPS ES0021000001563367DP: fallo puntual.
+[2026-02-19 11:45:43] ❌ Error con el CUPS ES0021000001681451ZX: fallo puntual.
+[2026-02-19 11:45:43] ❌ Error con el CUPS ES0021000002162269NJ: fallo puntual.
+[2026-02-19 11:45:44] ❌ Error con el CUPS ES0021000002703444NK: fallo puntual.
+[2026-02-19 11:45:44] ❌ Error con el CUPS ES0021000004084606XX: fallo puntual.
+[2026-02-19 11:45:44] ❌ Error con el CUPS ES0021000004207667RK: fallo puntual.
+[2026-02-19 11:45:44] ❌ Error con el CUPS ES0021000005623298AW: fallo puntual.
+[2026-02-19 11:45:44] ❌ Error con el CUPS ES0021000008173867ZD: fallo puntual.
+[2026-02-19 11:45:44] ❌ Error con el CUPS ES0021000009358240BC: fallo puntual.
+[2026-02-19 11:45:45] ❌ Error con el CUPS ES0021000010204594DC: fallo puntual.
+[2026-02-19 11:45:45] ❌ Error con el CUPS ES0021000012937143KP: fallo puntual.
+[2026-02-19 11:45:45] ❌ Error con el CUPS ES0021000038404647SA: fallo puntual.
+[2026-02-19 11:45:45] ❌ Error con el CUPS ES0022000001610938JM: fallo puntual.
+[2026-02-19 11:45:45] ❌ Error con el CUPS ES0022000001659482FL: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS ES0022000008189658QN: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS ES0022000008478158WT: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS ES0022000008900331AP: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:45:46] ⚙️ Limpiando memoria de Ignis (Contrato 50)...
+[2026-02-19 11:45:46] ❌ ¡ERROR GORDO! Sistema parado.
+[2026-02-19 11:45:46] ⚙️ ============================================================
+[2026-02-19 11:45:46] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:45:46] ⚙️ ============================================================
+[2026-02-19 11:47:33] ⚙️ ============================================================
+[2026-02-19 11:47:33] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:47:33] ⚙️ ============================================================
+[2026-02-19 11:47:33] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:47:36] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:47:38] 🔹 Buscando contratos en Wolf...
+[2026-02-19 11:47:44] ⚙️ Tengo 70 contratos para mirar hoy.
+[2026-02-19 11:47:53] 🔹 CUPS ES0021000000065447HD | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Estado no mapeado.
+[2026-02-19 11:48:00] 🔹 CUPS ES0021000001563367DP | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios.
+[2026-02-19 11:48:07] 🔹 CUPS ES0021000002162269NJ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios.
+[2026-02-19 11:48:11] ⚠️ CUPS ES0021000004084606XX: No aparece en la lista de Ignis.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:48:11] ⚙️ Limpiando memoria de Ignis (Contrato 50)...
+[2026-02-19 11:48:11] ❌ ¡ERROR GORDO! Sistema parado.
+[2026-02-19 11:48:11] ⚙️ ============================================================
+[2026-02-19 11:48:11] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:48:11] ⚙️ ============================================================
+[2026-02-19 11:49:17] ⚙️ ============================================================
+[2026-02-19 11:49:17] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:49:17] ⚙️ ============================================================
+[2026-02-19 11:49:17] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:49:21] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:49:23] 🔹 Buscando contratos en Wolf (Filtro: Firmas y Contratos)...
+[2026-02-19 11:49:29] ⚙️ Tengo 70 contratos para mirar hoy.
+[2026-02-19 11:49:45] 🔹 CUPS ES0021000000065447HD | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Otro tipo de estado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS ES0021000001563367DP: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 11:49:47] ⚙️ Llevo 50 contratos. Refrescando Ignis para limpiar memoria...
+[2026-02-19 11:49:47] ❌ ¡ERROR GORDO! El programa se ha parado.
+[2026-02-19 11:49:47] ⚙️ ============================================================
+[2026-02-19 11:49:47] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:49:47] ⚙️ ============================================================
+[2026-02-19 11:51:07] ⚙️ ============================================================
+[2026-02-19 11:51:07] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:51:07] ⚙️ ============================================================
+[2026-02-19 11:51:07] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:51:11] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:51:13] 🔹 Buscando contratos en Wolf...
+[2026-02-19 11:51:19] ⚙️ Tengo 115 contratos para mirar hoy.
+[2026-02-19 11:51:19] ❌ Error con el CUPS ES0021000000065447HD: fallo puntual.
+[2026-02-19 11:51:19] ❌ Error con el CUPS ES0021000001563367DP: fallo puntual.
+[2026-02-19 11:51:19] ❌ Error con el CUPS ES0021000001681451ZX: fallo puntual.
+[2026-02-19 11:51:20] ❌ Error con el CUPS ES0021000002162269NJ: fallo puntual.
+[2026-02-19 11:51:20] ❌ Error con el CUPS ES0021000002703444NK: fallo puntual.
+[2026-02-19 11:51:20] ❌ Error con el CUPS ES0021000004084606XX: fallo puntual.
+[2026-02-19 11:51:20] ❌ Error con el CUPS ES0021000004207667RK: fallo puntual.
+[2026-02-19 11:51:20] ❌ Error con el CUPS ES0021000005623298AW: fallo puntual.
+[2026-02-19 11:51:20] ❌ Error con el CUPS ES0021000008173867ZD: fallo puntual.
+[2026-02-19 11:51:21] ❌ Error con el CUPS ES0021000009358240BC: fallo puntual.
+[2026-02-19 11:51:21] ❌ Error con el CUPS ES0021000010204594DC: fallo puntual.
+[2026-02-19 11:51:21] ❌ Error con el CUPS ES0021000012937143KP: fallo puntual.
+[2026-02-19 11:51:21] ❌ Error con el CUPS ES0021000038404647SA: fallo puntual.
+[2026-02-19 11:51:21] ❌ Error con el CUPS ES0022000001610938JM: fallo puntual.
+[2026-02-19 11:51:21] ❌ Error con el CUPS ES0022000001659482FL: fallo puntual.
+[2026-02-19 11:51:22] ❌ Error con el CUPS ES0022000008189658QN: fallo puntual.
+[2026-02-19 11:51:22] ❌ Error con el CUPS ES0022000008478158WT: fallo puntual.
+[2026-02-19 11:51:22] ❌ Error con el CUPS ES0022000008900331AP: fallo puntual.
+[2026-02-19 11:51:22] ❌ Error con el CUPS ES0022000009063556QW: fallo puntual.
+[2026-02-19 11:51:22] ❌ Error con el CUPS ES0026000000398185TW: fallo puntual.
+[2026-02-19 11:51:23] ❌ Error con el CUPS ES0031101301855004LE: fallo puntual.
+[2026-02-19 11:51:23] ❌ Error con el CUPS ES0031101362158003GB: fallo puntual.
+[2026-02-19 11:51:23] ❌ Error con el CUPS ES0031101362158005GJ: fallo puntual.
+[2026-02-19 11:51:23] ❌ Error con el CUPS ES0031101395277009TY: fallo puntual.
+[2026-02-19 11:51:23] ❌ Error con el CUPS ES0031101396629002VJ: fallo puntual.
+[2026-02-19 11:51:23] ❌ Error con el CUPS ES0031101398199001ZD: fallo puntual.
+[2026-02-19 11:51:24] ❌ Error con el CUPS ES0031101436124001BX: fallo puntual.
+[2026-02-19 11:51:24] ❌ Error con el CUPS ES0031101447440006HS: fallo puntual.
+[2026-02-19 11:51:24] ❌ Error con el CUPS ES0031101448501001XC: fallo puntual.
+[2026-02-19 11:51:24] ❌ Error con el CUPS ES0031101449271001RA: fallo puntual.
+[2026-02-19 11:51:24] ❌ Error con el CUPS ES0031101459045001DS: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS ES0031101491672006GW: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:51:25] ⚙️ Limpiando memoria de Ignis (Contrato 50)...
+[2026-02-19 11:51:25] ❌ ¡ERROR GORDO! Sistema parado.
+[2026-02-19 11:51:25] ⚙️ ============================================================
+[2026-02-19 11:51:25] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:51:25] ⚙️ ============================================================
+[2026-02-19 11:51:31] ⚙️ ============================================================
+[2026-02-19 11:51:31] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:51:31] ⚙️ ============================================================
+[2026-02-19 11:51:31] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:51:35] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:51:38] 🔹 Buscando contratos en Wolf (Filtro: Firmas y Contratos)...
+[2026-02-19 11:51:44] ⚙️ Tengo 70 contratos para mirar hoy.
+[2026-02-19 11:51:55] ❌ ¡ERROR GORDO! El programa se ha parado.
+[2026-02-19 11:51:55] ⚙️ ============================================================
+[2026-02-19 11:51:55] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:51:55] ⚙️ ============================================================
+[2026-02-19 11:52:02] ⚙️ ============================================================
+[2026-02-19 11:52:02] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:52:02] ⚙️ ============================================================
+[2026-02-19 11:52:02] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:52:05] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:52:08] 🔹 Buscando contratos en Wolf...
+[2026-02-19 11:52:14] ⚙️ Tengo 115 contratos para mirar hoy.
+[2026-02-19 11:52:24] 🔹 CUPS ES0021000000065447HD | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Estado no mapeado.
+[2026-02-19 11:52:28] ⚠️ CUPS ES0021000001563367DP: No aparece en la lista de Ignis.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:52:28] ⚙️ Limpiando memoria de Ignis (Contrato 50)...
+[2026-02-19 11:52:28] ❌ ¡ERROR GORDO! Sistema parado.
+[2026-02-19 11:52:28] ⚙️ ============================================================
+[2026-02-19 11:52:28] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:52:28] ⚙️ ============================================================
+[2026-02-19 11:53:04] ⚙️ ============================================================
+[2026-02-19 11:53:04] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:53:04] ⚙️ ============================================================
+[2026-02-19 11:53:04] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:53:08] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:53:10] 🔹 Buscando contratos en Wolf...
+[2026-02-19 11:53:16] ⚙️ Tengo 115 contratos para mirar hoy.
+[2026-02-19 11:53:33] ⚠️ CUPS ES0021000000065447HD: No aparece en la lista de Ignis.
+[2026-02-19 11:53:51] ⚠️ CUPS ES0021000001563367DP: No aparece en la lista de Ignis.
+[2026-02-19 11:54:05] 🔹 CUPS ES0021000001681451ZX | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios.
+[2026-02-19 11:54:12] 🔹 CUPS ES0021000002162269NJ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios.
+[2026-02-19 11:54:14] ❌ Error con el CUPS ES0021000002703444NK: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:54:14] ⚙️ Limpiando memoria de Ignis (Contrato 50)...
+[2026-02-19 11:54:14] ❌ ¡ERROR GORDO! Sistema parado.
+[2026-02-19 11:54:14] ⚙️ ============================================================
+[2026-02-19 11:54:14] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:54:14] ⚙️ ============================================================
+[2026-02-19 11:57:26] ⚙️ ============================================================
+[2026-02-19 11:57:26] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:57:26] ⚙️ ============================================================
+[2026-02-19 11:57:26] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:57:30] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:57:33] 🔹 Buscando contratos en Wolf...
+[2026-02-19 11:57:38] ⚙️ Tengo 72 contratos para mirar hoy.
+[2026-02-19 11:57:39] ❌ Error con el CUPS ES0021000001563367DP: fallo puntual.
+[2026-02-19 11:57:39] ❌ Error con el CUPS ES0021000001681451ZX: fallo puntual.
+[2026-02-19 11:57:39] ❌ Error con el CUPS ES0021000002162269NJ: fallo puntual.
+[2026-02-19 11:57:39] ❌ Error con el CUPS ES0021000002703444NK: fallo puntual.
+[2026-02-19 11:57:39] ❌ Error con el CUPS ES0021000005623298AW: fallo puntual.
+[2026-02-19 11:57:39] ❌ Error con el CUPS ES0021000008173867ZD: fallo puntual.
+[2026-02-19 11:57:40] ❌ Error con el CUPS ES0021000009358240BC: fallo puntual.
+[2026-02-19 11:57:40] ❌ Error con el CUPS ES0021000010204594DC: fallo puntual.
+[2026-02-19 11:57:40] ❌ Error con el CUPS ES0021000012937143KP: fallo puntual.
+[2026-02-19 11:57:40] ❌ Error con el CUPS ES0021000038404647SA: fallo puntual.
+[2026-02-19 11:57:40] ❌ Error con el CUPS ES0022000001659482FL: fallo puntual.
+[2026-02-19 11:57:40] ❌ Error con el CUPS ES0022000008189658QN: fallo puntual.
+[2026-02-19 11:57:41] ❌ Error con el CUPS ES0022000008478158WT: fallo puntual.
+[2026-02-19 11:57:41] ❌ Error con el CUPS ES0026000000398185TW: fallo puntual.
+[2026-02-19 11:57:41] ❌ Error con el CUPS ES0031101362158003GB: fallo puntual.
+[2026-02-19 11:57:41] ❌ Error con el CUPS ES0031101362158005GJ: fallo puntual.
+[2026-02-19 11:57:41] ❌ Error con el CUPS ES0031101395277009TY: fallo puntual.
+[2026-02-19 11:57:41] ❌ Error con el CUPS ES0031101436124001BX: fallo puntual.
+[2026-02-19 11:57:42] ❌ Error con el CUPS ES0031101447440006HS: fallo puntual.
+[2026-02-19 11:57:42] ❌ Error con el CUPS ES0031101448501001XC: fallo puntual.
+[2026-02-19 11:57:42] ❌ Error con el CUPS ES0031101491672006GW: fallo puntual.
+[2026-02-19 11:57:42] ❌ Error con el CUPS ES0031101550767001KQ: fallo puntual.
+[2026-02-19 11:57:42] ❌ Error con el CUPS ES0031101800364001KG: fallo puntual.
+[2026-02-19 11:57:43] ❌ Error con el CUPS ES0031102075827028EN: fallo puntual.
+[2026-02-19 11:57:43] ❌ Error con el CUPS ES0031102119365003PE: fallo puntual.
+[2026-02-19 11:57:43] ❌ Error con el CUPS ES0031102256419002SB: fallo puntual.
+[2026-02-19 11:57:43] ❌ Error con el CUPS ES0031102275481003QA: fallo puntual.
+[2026-02-19 11:57:43] ❌ Error con el CUPS ES0031102469063001GV: fallo puntual.
+[2026-02-19 11:57:43] ❌ Error con el CUPS ES0031102623299001ZH: fallo puntual.
+[2026-02-19 11:57:44] ❌ Error con el CUPS ES0031102719141002XF: fallo puntual.
+[2026-02-19 11:57:44] ❌ Error con el CUPS ES0031102866140032DB: fallo puntual.
+[2026-02-19 11:57:44] ❌ Error con el CUPS ES0031102996184058FJ: fallo puntual.
+[2026-02-19 11:57:44] ❌ Error con el CUPS ES0031103028779008BF: fallo puntual.
+[2026-02-19 11:57:44] ❌ Error con el CUPS ES0031103121933002EE: fallo puntual.
+[2026-02-19 11:57:45] ❌ Error con el CUPS ES0031103448772001WM: fallo puntual.
+[2026-02-19 11:57:45] ❌ Error con el CUPS ES0031103452285001KP: fallo puntual.
+[2026-02-19 11:57:45] ❌ Error con el CUPS ES0031103508643001HG: fallo puntual.
+[2026-02-19 11:57:45] ❌ Error con el CUPS ES0031103547114001HP: fallo puntual.
+[2026-02-19 11:57:45] ❌ Error con el CUPS ES0031103583275001RV: fallo puntual.
+[2026-02-19 11:57:45] ❌ Error con el CUPS ES0031103618557002QH: fallo puntual.
+[2026-02-19 11:57:46] ❌ Error con el CUPS ES0031103654380003RJ: fallo puntual.
+[2026-02-19 11:57:46] ❌ Error con el CUPS ES0031104002525001AZ: fallo puntual.
+[2026-02-19 11:57:46] ❌ Error con el CUPS ES0031104053602001TV: fallo puntual.
+[2026-02-19 11:57:46] ❌ Error con el CUPS ES0031104201975004YC: fallo puntual.
+[2026-02-19 11:57:46] ❌ Error con el CUPS ES0031104272741001XP: fallo puntual.
+[2026-02-19 11:57:46] ❌ Error con el CUPS ES0031104389747007LT: fallo puntual.
+[2026-02-19 11:57:47] ❌ Error con el CUPS ES0031104456827012WE: fallo puntual.
+[2026-02-19 11:57:47] ❌ Error con el CUPS ES0031104551919005AX: fallo puntual.
+[2026-02-19 11:57:47] ❌ Error con el CUPS ES0031104593790001PN: fallo puntual.
+[2026-02-19 11:57:47] ⚙️ Limpiando memoria de Ignis (Contrato 50)...
+[2026-02-19 11:57:47] ❌ ¡ERROR GORDO! Sistema parado.
+[2026-02-19 11:57:47] ⚙️ ============================================================
+[2026-02-19 11:57:47] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:57:47] ⚙️ ============================================================
+[2026-02-19 11:58:05] ⚙️ ============================================================
+[2026-02-19 11:58:05] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:58:05] ⚙️ ============================================================
+[2026-02-19 11:58:05] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:58:08] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:58:11] 🔹 Buscando contratos en Wolf...
+[2026-02-19 11:58:17] ⚙️ Tengo 114 contratos para mirar hoy.
+[2026-02-19 11:58:18] ❌ Error con el CUPS ES0021000001563367DP: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:19] ⚙️ Limpiando memoria de Ignis (Contrato 50)...
+[2026-02-19 11:58:19] ❌ ¡ERROR GORDO! Sistema parado.
+[2026-02-19 11:58:19] ⚙️ ============================================================
+[2026-02-19 11:58:19] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:58:19] ⚙️ ============================================================
+[2026-02-19 11:58:22] ⚙️ ============================================================
+[2026-02-19 11:58:22] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:58:22] ⚙️ ============================================================
+[2026-02-19 11:58:22] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:58:25] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:58:26] ❌ ¡ERROR GORDO! Sistema parado.
+[2026-02-19 11:58:26] ⚙️ ============================================================
+[2026-02-19 11:58:26] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:58:26] ⚙️ ============================================================
+[2026-02-19 11:58:34] ⚙️ ============================================================
+[2026-02-19 11:58:34] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 11:58:34] ⚙️ ============================================================
+[2026-02-19 11:58:34] 🔹 Entrando en Ignis Energía...
+[2026-02-19 11:58:38] 🔹 Entrando en Wolf CRM...
+[2026-02-19 11:58:40] 🔹 Buscando contratos en Wolf...
+[2026-02-19 11:58:46] ⚙️ Tengo 72 contratos para mirar hoy.
+[2026-02-19 11:58:46] ❌ Error con el CUPS ES0021000001563367DP: fallo puntual.
+[2026-02-19 11:58:47] ❌ Error con el CUPS ES0021000001681451ZX: fallo puntual.
+[2026-02-19 11:58:47] ❌ Error con el CUPS ES0021000002162269NJ: fallo puntual.
+[2026-02-19 11:58:47] ❌ Error con el CUPS ES0021000002703444NK: fallo puntual.
+[2026-02-19 11:58:47] ❌ Error con el CUPS ES0021000005623298AW: fallo puntual.
+[2026-02-19 11:58:47] ❌ Error con el CUPS ES0021000008173867ZD: fallo puntual.
+[2026-02-19 11:58:48] ❌ Error con el CUPS ES0021000009358240BC: fallo puntual.
+[2026-02-19 11:58:48] ❌ Error con el CUPS ES0021000010204594DC: fallo puntual.
+[2026-02-19 11:58:48] ❌ Error con el CUPS ES0021000012937143KP: fallo puntual.
+[2026-02-19 11:58:48] ❌ Error con el CUPS ES0021000038404647SA: fallo puntual.
+[2026-02-19 11:58:48] ❌ Error con el CUPS ES0022000001659482FL: fallo puntual.
+[2026-02-19 11:58:48] ❌ Error con el CUPS ES0022000008189658QN: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS ES0022000008478158WT: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ❌ Error con el CUPS S/N: fallo puntual.
+[2026-02-19 11:58:49] ⚙️ Limpiando memoria de Ignis (Contrato 50)...
+[2026-02-19 11:58:49] ❌ ¡ERROR GORDO! Sistema parado.
+[2026-02-19 11:58:49] ⚙️ ============================================================
+[2026-02-19 11:58:49] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 11:58:49] ⚙️ ============================================================
+[2026-02-19 12:02:09] ⚙️ ============================================================
+[2026-02-19 12:02:09] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 12:02:09] ⚙️ ============================================================
+[2026-02-19 12:02:09] 🔹 Entrando en Ignis Energía...
+[2026-02-19 12:02:13] 🔹 Entrando en Wolf CRM...
+[2026-02-19 12:02:16] 🔹 Buscando contratos en Wolf...
+[2026-02-19 12:02:17] ❌ ¡ERROR GORDO! Sistema parado.
+[2026-02-19 12:02:17] ⚙️ ============================================================
+[2026-02-19 12:02:17] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 12:02:17] ⚙️ ============================================================
+[2026-02-19 12:03:47] ⚙️ ============================================================
+[2026-02-19 12:03:47] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-19 12:03:47] ⚙️ ============================================================
+[2026-02-19 12:03:47] 🔹 Entrando en Ignis Energía...
+[2026-02-19 12:03:54] 🔹 Entrando en Wolf CRM...
+[2026-02-19 12:03:57] 🔹 Buscando contratos en Wolf...
+[2026-02-19 12:04:03] ⚙️ Tengo 72 contratos para mirar hoy.
+[2026-02-19 12:04:19] 🔹 CUPS ES0021000001563367DP | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios.
+[2026-02-19 12:04:27] 🔹 CUPS ES0021000001681451ZX | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios.
+[2026-02-19 12:04:36] 🔹 CUPS ES0021000002162269NJ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios.
+[2026-02-19 12:04:45] 🔹 CUPS ES0021000002703444NK | Wolf: PENDIENTE DE VALIDACION | Ignis: PENDIENTE DE VALIDACION | Resultado: Sin cambios.
+[2026-02-19 12:05:08] ✅ CUPS ES0021000005623298AW | Wolf: PENDIENTE FIRMA ➔ Ignis: PENDIENTE DE VALIDACION
+[2026-02-19 12:05:21] 🔹 CUPS ES0021000008173867ZD | Wolf: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Resultado: Sin cambios.
+[2026-02-19 12:05:37] ⚠️ CUPS ES0021000009358240BC: No aparece en Ignis.
+[2026-02-19 12:05:46] 🔹 CUPS ES0021000010204594DC | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios.
+[2026-02-19 12:05:59] 🔹 CUPS ES0021000012937143KP | Wolf: VALIDADO | Ignis: OTRO | Resultado: Estado no mapeado.
+[2026-02-19 12:06:09] 🔹 CUPS ES0021000038404647SA | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios.
+[2026-02-19 12:06:21] 🔹 CUPS ES0022000001659482FL | Wolf: VALIDADO | Ignis: TRAMITE | Resultado: Sin cambios.
+[2026-02-19 12:06:33] 🔹 CUPS ES0022000008189658QN | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Resultado: Sin cambios.
+[2026-02-19 12:06:44] 🔹 CUPS ES0022000008478158WT | Wolf: PENDIENTE FIRMA | Ignis: OTRO | Resultado: Estado no mapeado.
+[2026-02-19 12:06:53] ⚠️ CUPS ES0026000000398185TW: No aparece en Ignis.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:53] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ❌ Error con el CUPS S/N: algo ha fallado.
+[2026-02-19 12:06:54] ⚙️ Llevo 50 contratos. Limpiando memoria de Ignis...
+[2026-02-19 12:06:54] ❌ ¡ERROR GORDO! El programa se ha parado.
+[2026-02-19 12:06:54] ⚙️ ============================================================
+[2026-02-19 12:06:54] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-19 12:06:54] ⚙️ ============================================================
