@@ -10,21 +10,16 @@ load_dotenv()
 
 # --- CONFIGURACIÓN DE ESTADOS ---
 MAPEO_ESTADOS = {
-    "PENDIENTE FIRMA": "159",
+    "PENDIENTE FIRMA MANUAL": "189",
     "PENDIENTE FIRMA PAPEL": "189",
     "PENDIENTE DE VALIDACION": "202",
+    "PENDIENTE FIRMA": "159",
     "VALIDADO": "202",
     "TRAMITE": "202",
     "CONTRATO": "161"
 }
-# Estados que consideramos iguales para no perder tiempo editando
-EQUIVALENTES = ["VALIDADO", "TRAMITE", "PENDIENTE DE VALIDACION"]
 
 def escribir_log(mensaje, tipo="INFO"):
-    """
-    Muestra el log en consola y guarda en un .txt.
-    Tipos: INFO, OK, ADVERTENCIA, ERROR, SISTEMA
-    """
     carpeta_logs = "LOGS"
     if not os.path.exists(carpeta_logs):
         os.makedirs(carpeta_logs)
@@ -51,8 +46,10 @@ def escribir_log(mensaje, tipo="INFO"):
 
 def normalizar(texto):
     if not texto: return ""
+    texto = ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn')
     texto = texto.upper().strip()
-    return ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn')
+    texto = re.sub(r'\s+', ' ', texto)
+    return texto
 
 def calcular_vencimiento(fecha_str):
     try:
@@ -93,7 +90,6 @@ def sincronizar():
             page_wolf.click('input[type="submit"]')
             
             escribir_log("Buscando contratos en Wolf...", "INFO")
-            # 💡 AQUÍ ESTÁ EL CAMBIO: Se ha quitado &Q_STATUS[]=161 de la URL
             url_wolf = "https://loviluz.v3.wolfcrm.es/custom/energymodule/energy-contracts/index.php?Q_COMERCIALIZADORA[]=IGNIS_ENERGIA&Q_STATUS[]=159&Q_STATUS[]=189&Q_STATUS[]=202"
             
             page_wolf.goto(url_wolf)
@@ -104,7 +100,6 @@ def sincronizar():
             filas_wolf = page_wolf.locator("table.data-table tbody tr").all()
             escribir_log(f"Tengo {len(filas_wolf)} contratos para mirar hoy.", "SISTEMA")
 
-            # 💡 CONTADOR PARA LIMPIEZA CADA 50
             contador_cups = 0
 
             page_ignis.bring_to_front()
@@ -114,7 +109,6 @@ def sincronizar():
             for fila in filas_wolf:
                 contador_cups += 1
                 
-                # REFUERZO: Limpiar memoria cada 50 contratos
                 if contador_cups % 50 == 0:
                     escribir_log(f"Llevo {contador_cups} contratos. Limpiando memoria de Ignis...", "SISTEMA")
                     page_ignis.bring_to_front()
@@ -123,58 +117,79 @@ def sincronizar():
 
                 cups = "S/N"
                 try:
-                    texto_fila_wolf = fila.inner_text().upper()
-                    estado_en_wolf = next((k for k in MAPEO_ESTADOS if normalizar(k) in normalizar(texto_fila_wolf)), "DESCONOCIDO")
-                    
+                    # Capturamos el estado anterior real de Wolf
+                    celdas_wolf = fila.locator("td").all()
+                    estado_anterior_wolf = "DESCONOCIDO"
+                    for celda in celdas_wolf:
+                        txt_c = normalizar(celda.inner_text())
+                        for k in MAPEO_ESTADOS:
+                            if txt_c == normalizar(k):
+                                estado_anterior_wolf = k
+                                break
+                        if estado_anterior_wolf != "DESCONOCIDO": break
+
+                    texto_fila_wolf = normalizar(fila.inner_text())
                     match_cups = re.search(r'ES00[A-Z0-9]{16,18}', texto_fila_wolf)
                     if not match_cups: continue
                     cups = match_cups.group(0)
                     
-                    # --- ACCIÓN EN IGNIS ---
                     page_ignis.bring_to_front()
-                    page_ignis.evaluate("document.querySelector('.ui-grid-render-container-body .ui-grid-viewport').scrollLeft = 0")
-                    page_ignis.wait_for_timeout(600)
+                    encontrado_en_ignis = False
+                    for intento in range(1, 4):
+                        if intento > 1:
+                            escribir_log(f"CUPS {cups}: No aparece, reintentando búsqueda (Intento {intento})...", "INFO")
+                            page_ignis.wait_for_timeout(3000)
 
-                    encontrado_input = False
-                    for d in [0, 800, 1600, 2400, 3200]:
-                        page_ignis.evaluate(f"document.querySelector('.ui-grid-render-container-body .ui-grid-viewport').scrollLeft = {d}")
-                        page_ignis.wait_for_timeout(300)
-                        input_cups = page_ignis.locator('input[placeholder="Cups..."]')
-                        if input_cups.count() > 0 and input_cups.is_visible():
-                            input_cups.click(click_count=3)
-                            page_ignis.keyboard.press("Backspace")
-                            input_cups.fill(cups)
-                            page_ignis.keyboard.press("Enter")
-                            encontrado_input = True
-                            break
-                    
-                    if not encontrado_input:
-                        escribir_log(f"CUPS {cups}: No encuentro buscador.", "ADVERTENCIA")
+                        page_ignis.evaluate("document.querySelector('.ui-grid-render-container-body .ui-grid-viewport').scrollLeft = 0")
+                        page_ignis.wait_for_timeout(600)
+
+                        encontrado_input = False
+                        for d in [0, 800, 1600, 2400, 3200]:
+                            page_ignis.evaluate(f"document.querySelector('.ui-grid-render-container-body .ui-grid-viewport').scrollLeft = {d}")
+                            page_ignis.wait_for_timeout(300)
+                            input_cups = page_ignis.locator('input[placeholder="Cups..."]')
+                            if input_cups.count() > 0 and input_cups.is_visible():
+                                input_cups.click(click_count=3)
+                                page_ignis.keyboard.press("Backspace")
+                                input_cups.fill(cups)
+                                page_ignis.keyboard.press("Enter")
+                                encontrado_input = True
+                                break
+                        
+                        if encontrado_input:
+                            page_ignis.locator("button.aplicarFiltros").first.click()
+                            fila_target = page_ignis.locator(f".ui-grid-row:has-text('{cups}')").first
+                            try:
+                                fila_target.wait_for(state="visible", timeout=8000)
+                                encontrado_en_ignis = True
+                                break 
+                            except: continue
+
+                    if not encontrado_en_ignis:
+                        escribir_log(f"CUPS {cups}: No aparece en Ignis tras 3 intentos.", "ADVERTENCIA")
                         continue
 
-                    page_ignis.locator("button.aplicarFiltros").first.click()
-                    fila_target = page_ignis.locator(f".ui-grid-row:has-text('{cups}')").first
-                    
-                    try:
-                        fila_target.wait_for(state="visible", timeout=12000)
-                    except:
-                        escribir_log(f"CUPS {cups}: No aparece en Ignis.", "ADVERTENCIA")
-                        continue
+                    # Buscamos estado en Ignis
+                    celdas_ignis = fila_target.locator(".ui-grid-cell").all()
+                    estado_en_ignis = "OTRO"
+                    for celda in celdas_ignis:
+                        txt_i = normalizar(celda.inner_text())
+                        for k in MAPEO_ESTADOS:
+                            if txt_i == normalizar(k):
+                                estado_en_ignis = k
+                                break
+                        if estado_en_ignis != "OTRO": break
 
-                    estado_en_ignis = next((k for k in MAPEO_ESTADOS if normalizar(k) in normalizar(fila_target.inner_text())), "OTRO")
+                    # Comparación de IDs
+                    id_wolf = MAPEO_ESTADOS.get(estado_anterior_wolf, "W_NA")
+                    id_ignis = MAPEO_ESTADOS.get(estado_en_ignis, "I_NA")
 
-                    # LÓGICA EQUIVALENTES
-                    mismo_nombre = normalizar(estado_en_wolf) == normalizar(estado_en_ignis)
-                    ambos_son_tramite = estado_en_wolf in EQUIVALENTES and estado_en_ignis in EQUIVALENTES
-
-                    if (mismo_nombre or ambos_son_tramite) and estado_en_ignis != "CONTRATO":
-                        escribir_log(f"CUPS {cups} | Wolf: {estado_en_wolf} | Ignis: {estado_en_ignis} | Resultado: Sin cambios.")
-                        page_ignis.wait_for_timeout(2000)
+                    if id_wolf == id_ignis and estado_en_ignis != "CONTRATO":
+                        escribir_log(f"CUPS {cups} | Wolf: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Sin cambios.", "INFO")
                         continue
 
                     if estado_en_ignis == "OTRO":
-                        escribir_log(f"CUPS {cups} | Wolf: {estado_en_wolf} | Ignis: {estado_en_ignis} | Resultado: Estado no válido para modificar.")
-                        page_ignis.wait_for_timeout(2000)
+                        escribir_log(f"CUPS {cups} | Wolf: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | No se reconoce estado.", "INFO")
                         continue
 
                     # --- CAMBIAR EN WOLF ---
@@ -196,22 +211,38 @@ def sincronizar():
                     selector_status = frame.locator("select#EnergyContract__STATUS")
                     selector_status.wait_for(state="visible", timeout=12000)
                     
-                    selector_status.select_option(value=MAPEO_ESTADOS[estado_en_ignis])
+                    selector_status.select_option(value=id_ignis)
                     selector_status.evaluate("el => el.dispatchEvent(new Event('change', { bubbles: true }))")
 
-                    # FLECHITA ➔
-                    detalles_registro = f"CUPS {cups} | Wolf: {estado_en_wolf} ➔ Ignis: {estado_en_ignis}"
-                    
                     if estado_en_ignis == "CONTRATO" and fecha_alta_ignis:
                         venc = calcular_vencimiento(fecha_alta_ignis)
                         frame.locator("#EnergyContract__START_DATE").fill(fecha_alta_ignis)
                         if venc: 
                             frame.locator("#EnergyContract__DUE_DATE").fill(venc)
-                            detalles_registro += f" | Alta: {fecha_alta_ignis} y Vencimiento: {venc}"
                     
                     frame.locator(".save-object-btn").first.click()
                     page_wolf.locator("#wolfWindowInFrame").wait_for(state="hidden", timeout=12000)
                     
+                    # --- RECARGAR Y VERIFICAR CAMBIO ---
+                    page_wolf.reload()
+                    page_wolf.wait_for_timeout(3000)
+                    
+                    fila_nueva = page_wolf.locator(f"tr:has-text('{cups}')").first
+                    celdas_nuevas = fila_nueva.locator("td").all()
+                    estado_actual_wolf = "DESCONOCIDO"
+                    for celda_n in celdas_nuevas:
+                        txt_n = normalizar(celda_n.inner_text())
+                        for k in MAPEO_ESTADOS:
+                            if txt_n == normalizar(k):
+                                estado_actual_wolf = k
+                                break
+                        if estado_actual_wolf != "DESCONOCIDO": break
+
+                    # Generamos la frase final con los valores capturados
+                    detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: {estado_actual_wolf}"
+                    if estado_en_ignis == "CONTRATO" and fecha_alta_ignis:
+                        detalles_registro += f" | F. Alta: {fecha_alta_ignis}"
+
                     escribir_log(detalles_registro, "OK")
                     page_ignis.wait_for_timeout(4000)
 
@@ -222,7 +253,7 @@ def sincronizar():
 
         except Exception as e:
             escribir_log("¡ERROR GORDO! El programa se ha parado.", "ERROR")
-            print(traceback.format_exc())
+            print(traceback.exc_info())
         finally:
             escribir_log("="*60, "SISTEMA")
             escribir_log("COMPROBACIÓN FINALIZADA")
