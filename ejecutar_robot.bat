@@ -1,19 +1,19 @@
 @echo off
-title Ejecutando Robot de Sincronizacion Wolf-Ignis
-:: Cambia la siguiente linea por la carpeta donde esta tu script
+title Robot Sincronizador Wolf-Ignis
+echo ==========================================
+echo   INICIANDO SINCRONIZACION DE CONTRATOS
+echo ==========================================
+echo.
+
+:: Cambia a la carpeta donde esta este archivo .bat
 cd /d "C:\xampp\htdocs\GitHub\AutomatizacionLoviLuz"
 
-echo.
-echo  ======================================================
-echo     INICIANDO ROBOT DE ACTUALIZACION DE CONTRATOS
-echo  ======================================================
-echo.
-
-:: Ejecuta el script de Python
-python sincronizar_contratos.py
+:: Ejecuta el script de Python (Asegurate que tu archivo se llama sincronizar.py)
+python sincronizador.py
 
 echo.
-echo  ======================================================
-echo     PROCESO FINALIZADO. Pulsa una tecla para salir.
-echo  ======================================================
+echo ==========================================
+echo   PROCESO FINALIZADO
+echo ==========================================
+echo.
 pause

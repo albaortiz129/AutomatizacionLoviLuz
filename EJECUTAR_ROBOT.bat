@@ -6,10 +6,10 @@ echo ==========================================
 echo.
 
 :: Cambia a la carpeta donde esta este archivo .bat
-cd /d "%~dp0"
+cd /d "C:\xampp\htdocs\GitHub\AutomatizacionLoviLuz"
 
 :: Ejecuta el script de Python (Asegurate que tu archivo se llama sincronizar.py)
-python sincronizar.py
+python sincronizador.py
 
 echo.
 echo ==========================================
