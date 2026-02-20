@@ -61,8 +61,18 @@ def calcular_vencimiento(fecha_str):
 
 def sincronizar():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=150)
-        context = browser.new_context(viewport={'width': 1366, 'height': 768})
+        # --- CAMBIO PARA EVITAR QUE SE ROMPA EL LOGIN ---
+        ruta_sesion = os.path.join(os.getcwd(), "SesionIgnis")
+        
+        # Usamos launch_persistent_context para que guarde cookies y no parezca un bot
+        context = p.chromium.launch_persistent_context(
+            ruta_sesion,
+            headless=False,
+            slow_mo=150,
+            viewport={'width': 1366, 'height': 768},
+            args=["--disable-blink-features=AutomationControlled"]
+        )
+        
         page_wolf = context.new_page()
         page_ignis = context.new_page()
 
@@ -71,55 +81,33 @@ def sincronizar():
         escribir_log("="*60, "SISTEMA")
 
         try:
-            # --- 1. LOGIN IGNIS (MÉTODO INYECCIÓN JS) ---
+            # --- 1. LOGIN IGNIS ---
             escribir_log("Entrando en Ignis Energía...", "INFO")
             page_ignis.goto("https://agentes.ignisluz.es/#/login", wait_until="networkidle")
             
-            # Selección de empresa
-            page_ignis.wait_for_selector("md-select[name='empresaLogin']", state="visible")
-            page_ignis.click("md-select[name='empresaLogin']")
-            page_ignis.wait_for_selector("md-option:has-text('LOOP ELECTRICIDAD Y GAS')", state="visible")
-            page_ignis.click("md-option:has-text('LOOP ELECTRICIDAD Y GAS')")
-            
-            page_ignis.wait_for_timeout(1000)
-            
-            # Credenciales de .env
-            user = os.getenv("IGNIS_USER") or ""
-            password = os.getenv("IGNIS_PASS") or ""
-
-            # Inyección directa en el DOM para saltar bloqueos de teclado
-            escribir_log("Inyectando credenciales por script...", "INFO")
-            page_ignis.evaluate(f"""
-                (uValue, pValue) => {{
-                    const uInput = document.querySelector('input[name="usuario"]');
-                    const pInput = document.querySelector('input[name="password"]');
+            # Si el perfil ya tiene la sesión iniciada, esto se saltará solo
+            if "login" in page_ignis.url:
+                try:
+                    page_ignis.wait_for_selector("md-select[name='empresaLogin']", state="visible", timeout=5000)
+                    page_ignis.click("md-select[name='empresaLogin']")
+                    page_ignis.wait_for_selector("md-option:has-text('LOOP ELECTRICIDAD Y GAS')", state="visible")
+                    page_ignis.click("md-option:has-text('LOOP ELECTRICIDAD Y GAS')")
                     
-                    if (uInput && pInput) {{
-                        uInput.value = uValue;
-                        pInput.value = pValue;
-                        
-                        // Disparamos eventos de entrada para que Angular detecte el cambio
-                        uInput.dispatchEvent(new Event('input', {{ bubbles: true }}));
-                        uInput.dispatchEvent(new Event('change', {{ bubbles: true }}));
-                        pInput.dispatchEvent(new Event('input', {{ bubbles: true }}));
-                        pInput.dispatchEvent(new Event('change', {{ bubbles: true }}));
-                    }}
-                }}
-            """, user, password)
+                    page_ignis.click("input[name='usuario']")
+                    page_ignis.keyboard.type(os.getenv("IGNIS_USER") or "", delay=80)
+                    page_ignis.click("input[name='password']")
+                    page_ignis.keyboard.type(os.getenv("IGNIS_PASS") or "", delay=80)
+                    
+                    page_ignis.wait_for_timeout(1000)
+                    boton_entrar = page_ignis.locator("button:has-text('Entrar')")
+                    if boton_entrar.is_enabled():
+                        boton_entrar.click()
+                    else:
+                        page_ignis.keyboard.press("Enter")
+                except:
+                    escribir_log("Ya logueado o requiere intervención manual.", "INFO")
             
-            page_ignis.wait_for_timeout(1000)
-            
-            # Intentar pulsar Enter o clic en botón
-            page_ignis.keyboard.press("Enter")
-            
-            # Esperar a carga del dashboard
-            try:
-                page_ignis.wait_for_url("**/dashboard", timeout=12000)
-            except:
-                # Si no cambia la URL, intentamos clic físico por si acaso
-                page_ignis.locator("button:has-text('Entrar')").click(force=True)
-            
-            page_ignis.wait_for_timeout(3000)
+            page_ignis.wait_for_timeout(4000)
             page_ignis.goto("https://agentes.ignisluz.es/#/contratos")
             
             # --- 2. LOGIN WOLF ---
@@ -173,9 +161,7 @@ def sincronizar():
                     texto_fila_wolf = normalizar(texto_fila_crudo)
                     match_cups = re.search(r'ES00[A-Z0-9]{16,18}', texto_fila_wolf)
                     
-                    if not match_cups:
-                        continue
-                        
+                    if not match_cups: continue
                     cups = match_cups.group(0)
                     
                     page_ignis.bring_to_front()
@@ -301,7 +287,7 @@ def sincronizar():
             escribir_log("="*60, "SISTEMA")
             escribir_log("COMPROBACIÓN FINALIZADA")
             escribir_log("="*60, "SISTEMA")
-            browser.close()
+            context.close()
 
 if __name__ == "__main__":
     sincronizar()
