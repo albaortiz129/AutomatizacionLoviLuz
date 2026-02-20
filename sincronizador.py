@@ -73,7 +73,6 @@ def escribir_log(mensaje, tipo="INFO"):
 def normalizar(texto):
     if not texto: return ""
     texto = ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn')
-    # Eliminamos el prefijo IGNIS para comparar con las llaves de MAPEO_ESTADOS
     texto = texto.upper().replace("IGNIS ", "").strip()
     texto = re.sub(r'\s+', ' ', texto)
     return texto
@@ -106,7 +105,6 @@ def sincronizar():
         escribir_log("="*60, "SISTEMA")
 
         try:
-            # --- 1. LOGIN IGNIS ---
             escribir_log("Entrando en Ignis Energía...", "INFO")
             page_ignis.goto("https://agentes.ignisluz.es/#/login", wait_until="networkidle")
             
@@ -140,7 +138,6 @@ def sincronizar():
             page_ignis.wait_for_timeout(4000)
             page_ignis.goto("https://agentes.ignisluz.es/#/contratos")
             
-            # --- 2. LOGIN WOLF ---
             escribir_log("Entrando en Wolf CRM...", "INFO")
             page_wolf.goto("https://loviluz.v3.wolfcrm.es/index.php")
             page_wolf.fill("#userLogin", os.getenv("WOLF_USER") or "")
@@ -167,30 +164,33 @@ def sincronizar():
                 try:
                     texto_fila_crudo = fila.inner_text()
                     if not texto_fila_crudo.strip() or "No se encontraron" in texto_fila_crudo: break
-                except: break
 
-                contador_cups += 1
-                if contador_cups % 50 == 0:
-                    escribir_log(f"Llevo {contador_cups} contratos. Limpiando memoria de Ignis...", "SISTEMA")
-                    page_ignis.bring_to_front()
-                    page_ignis.reload()
-                    page_ignis.wait_for_timeout(5000)
+                    contador_cups += 1
+                    if contador_cups % 50 == 0:
+                        escribir_log(f"Llevo {contador_cups} contratos. Limpiando memoria de Ignis...", "SISTEMA")
+                        page_ignis.bring_to_front()
+                        page_ignis.reload()
+                        page_ignis.wait_for_timeout(5000)
 
-                cups = "S/N"
-                try:
+                    cups = "S/N"
+                    # --- CAMBIO AQUÍ: Detectar si el texto REAL de la celda tiene IGNIS ---
                     celdas_wolf = fila.locator("td").all()
                     estado_anterior_wolf = "EN TRAMITE"
+                    ya_es_estado_nuevo = False 
+
                     for celda in celdas_wolf:
-                        txt_c = normalizar(celda.inner_text())
+                        texto_celda_real = celda.inner_text().upper()
+                        txt_normalizado = normalizar(texto_celda_real)
+                        
                         for k in MAPEO_ESTADOS:
-                            if txt_c == normalizar(k):
+                            if txt_normalizado == normalizar(k):
                                 estado_anterior_wolf = k
+                                if "IGNIS" in texto_celda_real: # Si la celda contiene IGNIS, ya está actualizado
+                                    ya_es_estado_nuevo = True
                                 break
                         if estado_anterior_wolf != "EN TRAMITE": break
 
-                    texto_fila_wolf = normalizar(texto_fila_crudo)
-                    match_cups = re.search(r'ES00[A-Z0-9]{16,18}', texto_fila_wolf)
-                    
+                    match_cups = re.search(r'ES00[A-Z0-9]{16,18}', normalizar(texto_fila_crudo))
                     if not match_cups: continue
                     cups = match_cups.group(0)
                     
@@ -227,7 +227,6 @@ def sincronizar():
                             except: continue
 
                     if not encontrado_en_ignis:
-                        escribir_log(f"CUPS {cups}: No aparece en Ignis tras 3 intentos.", "ADVERTENCIA")
                         continue
 
                     celdas_ignis = fila_target.locator(".ui-grid-cell").all()
@@ -240,17 +239,20 @@ def sincronizar():
                                 break
                         if estado_en_ignis != "OTRO": break
 
-                    id_wolf = MAPEO_ESTADOS.get(estado_anterior_wolf)
                     id_ignis = MAPEO_ESTADOS.get(estado_en_ignis)
 
-                    if id_wolf == id_ignis and estado_en_ignis != "CONTRATO":
+                    # --- LÓGICA DE ACTUALIZACIÓN ---
+                    # Actualizamos si el nombre es distinto O si el estado en Wolf no tiene el prefijo "IGNIS"
+                    debe_actualizar = (estado_en_ignis != estado_anterior_wolf) or (not ya_es_estado_nuevo)
+
+                    if not debe_actualizar and estado_en_ignis != "CONTRATO":
                         escribir_log(f"CUPS {cups} | Wolf: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Sin cambios.", "INFO")
                         continue
 
                     if estado_en_ignis == "OTRO":
-                        escribir_log(f"CUPS {cups} | Wolf: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | No se reconoce estado.", "INFO")
                         continue
 
+                    # (Lógica de fechas para CONTRATO...)
                     fecha_alta_ignis = None
                     if estado_en_ignis == "CONTRATO":
                         for d in range(0, 5000, 800):
@@ -282,10 +284,10 @@ def sincronizar():
                     frame.locator(".save-object-btn").first.click()
                     page_wolf.locator("#wolfWindowInFrame").wait_for(state="hidden", timeout=12000)
                     
-                    # --- Verificación final corregida ---
                     page_wolf.reload()
                     page_wolf.wait_for_timeout(3000)
                     
+                    # Log original
                     fila_nueva = page_wolf.locator(f"tr:has-text('{cups}')").first
                     estado_confirmado_wolf = "DESCONOCIDO"
                     if fila_nueva.count() > 0:
@@ -298,7 +300,6 @@ def sincronizar():
 
                     prefijo = "IGNIS " if estado_confirmado_wolf != "CONTRATO" else ""
                     detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: {prefijo}{estado_confirmado_wolf}"
-                    
                     if estado_en_ignis == "CONTRATO" and fecha_alta_ignis:
                          detalles_registro += f" | F. Alta: {fecha_alta_ignis} | Venc: {venc}"
 
@@ -306,8 +307,6 @@ def sincronizar():
                     page_ignis.wait_for_timeout(4000)
 
                 except Exception as e:
-                    if cups != "S/N":
-                        escribir_log(f"Error con el CUPS {cups}: {str(e)}", "ERROR")
                     try: page_wolf.keyboard.press("Escape")
                     except: pass
 

@@ -424,3 +424,637 @@
 [2026-02-20 14:57:01] ⚙️ ============================================================
 [2026-02-20 14:57:01] 🔹 COMPROBACIÓN FINALIZADA
 [2026-02-20 14:57:01] ⚙️ ============================================================
+[2026-02-20 15:03:34] ⚙️ ============================================================
+[2026-02-20 15:03:34] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:03:34] ⚙️ ============================================================
+[2026-02-20 15:03:34] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:03:43] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:03:46] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:03:52] ⚙️ Tengo 78 contratos para mirar hoy.
+[2026-02-20 15:04:07] 🔹 CUPS ES0031102866140032DB | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 15:04:13] 🔹 CUPS ES0031101397012002VV | Ya sincronizado como IGNIS PENDIENTE FIRMA.
+[2026-02-20 15:04:20] 🔹 CUPS ES0031104780978001KM | Ya sincronizado como IGNIS PENDIENTE FIRMA.
+[2026-02-20 15:04:25] 🔹 CUPS ES0031101397012001VQ | Ya sincronizado como IGNIS PENDIENTE FIRMA.
+[2026-02-20 15:04:38] ✅ CUPS ES0031103121933002EE | Migrado a nuevo estado: IGNIS TRAMITE (ID 219)
+[2026-02-20 15:04:43] 🔹 CUPS ES0031101447440006HS: No aparece, reintentando (Intento 2)...
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:43] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ❌ Error con el CUPS ES0031101447440006HS: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:04:44] ⚙️ ============================================================
+[2026-02-20 15:04:44] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:04:44] ⚙️ ============================================================
+[2026-02-20 15:06:02] ⚙️ ============================================================
+[2026-02-20 15:06:02] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:06:02] ⚙️ ============================================================
+[2026-02-20 15:06:02] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:06:10] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:06:13] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:06:19] ⚙️ Tengo 77 contratos para mirar hoy.
+[2026-02-20 15:06:32] 🔹 CUPS ES0031102866140032DB | Wolf: VALIDADO | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 15:06:38] 🔹 CUPS ES0031101397012002VV | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 15:06:44] 🔹 CUPS ES0031104780978001KM | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 15:06:48] 🔹 CUPS ES0031101397012001VQ: No aparece, reintentando (Intento 2)...
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:48] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ❌ Error con el CUPS ES0031101397012001VQ: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:06:49] ⚙️ ============================================================
+[2026-02-20 15:06:49] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:06:49] ⚙️ ============================================================
+[2026-02-20 15:08:30] ⚙️ ============================================================
+[2026-02-20 15:08:30] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:08:30] ⚙️ ============================================================
+[2026-02-20 15:08:30] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:08:38] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:08:41] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:08:46] ⚙️ Tengo 77 contratos para mirar hoy.
+[2026-02-20 15:08:53] ⚙️ ============================================================
+[2026-02-20 15:08:53] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:08:53] ⚙️ ============================================================
+[2026-02-20 15:09:03] ⚙️ ============================================================
+[2026-02-20 15:09:03] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:09:03] ⚙️ ============================================================
+[2026-02-20 15:09:03] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:09:11] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:09:13] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:09:19] ⚙️ Tengo 77 contratos para mirar hoy.
+[2026-02-20 15:09:31] 🔹 CUPS ES0031102866140032DB | Wolf: VALIDADO | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 15:09:37] 🔹 CUPS ES0031101397012002VV | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 15:09:43] 🔹 CUPS ES0031104780978001KM | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 15:09:49] 🔹 CUPS ES0031101397012001VQ: No aparece, reintentando (Intento 2)...
+[2026-02-20 15:09:49] ❌ Error con el CUPS ES0031101397012001VQ: Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ❌ Error general en fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 15:09:49] ⚙️ ============================================================
+[2026-02-20 15:09:49] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:09:49] ⚙️ ============================================================
+[2026-02-20 15:10:38] ⚙️ ============================================================
+[2026-02-20 15:10:38] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:10:38] ⚙️ ============================================================
+[2026-02-20 15:10:38] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:10:46] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:10:48] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:10:54] ⚙️ Tengo 77 contratos para mirar hoy.
+[2026-02-20 15:11:20] ✅ CUPS ES0031101397012002VV | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:11:37] ✅ CUPS ES0031104780978001KM | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:11:54] ✅ CUPS ES0031101397012001VQ | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:12:11] ✅ CUPS ES0031101447440006HS | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:12:28] ✅ CUPS ES0031102064664001LN | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:12:45] ✅ CUPS ES0022000008189658QN | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:13:01] ✅ CUPS ES0031101436124001BX | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:13:18] ✅ CUPS ES0031105038464001KQ | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:13:35] ✅ CUPS ES0031105224594001BD | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:13:51] ✅ CUPS ES0031105199579001AQ | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS DESCONOCIDO
+[2026-02-20 15:14:09] ✅ CUPS ES0031102623299001ZH | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:14:25] ✅ CUPS ES0031101550767001KQ | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:14:44] ✅ CUPS ES0031102275481003QA | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:15:01] ✅ CUPS ES0031103583275001RV | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:15:19] ✅ CUPS ES0031105270710001YC | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:15:36] ✅ CUPS ES0031101491672006GW | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:15:53] ✅ CUPS ES0031105207086001WT | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:16:10] ✅ CUPS ES0031101362158003GB | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:16:28] ✅ CUPS ES0031104598471012AV | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:16:44] ✅ CUPS ES0031104593790001PN | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:17:01] ✅ CUPS ES0031102737426001SY | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:17:19] ✅ CUPS ES0031103540471001AY | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:17:36] ✅ CUPS ES0031103645391010ZH | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS DESCONOCIDO
+[2026-02-20 15:17:52] ✅ CUPS ES0031102619408037FX | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:18:09] ✅ CUPS ES0031102619408007YA | Wolf Anterior: VALIDADO | Ignis: REVISION INTERNA | Wolf Actual: IGNIS DESCONOCIDO
+[2026-02-20 15:18:25] ✅ CUPS ES0031103621403001SC | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:18:43] ✅ CUPS ES0031104475908001RG | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:18:59] ✅ CUPS ES0031103038326014VN | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:19:16] ✅ CUPS ES0031104712600001KQ | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:19:33] ✅ CUPS ES0031102663975001CN | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:19:51] ✅ CUPS ES0022000006543314NP | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:20:10] ✅ CUPS ES0022000007541377MD | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:20:27] ✅ CUPS ES0031105449241001TY | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:20:44] ✅ CUPS ES0034111307257009TA | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:21:02] ✅ CUPS ES0021000005935156SA | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:21:18] ✅ CUPS ES0021000003100273QP | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:21:36] ✅ CUPS ES0031101470944001HB | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:21:53] ✅ CUPS ES0031101476912006XE | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:23:35] ⚙️ ============================================================
+[2026-02-20 15:23:35] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:23:35] ⚙️ ============================================================
+[2026-02-20 15:23:38] ⚙️ ============================================================
+[2026-02-20 15:23:38] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:23:38] ⚙️ ============================================================
+[2026-02-20 15:23:38] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:23:46] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:23:49] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:23:54] ⚙️ Tengo 42 contratos para mirar hoy.
+[2026-02-20 15:24:21] ✅ CUPS ES0021000009358240BC | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:24:39] ✅ CUPS ES0021000010204594DC | Wolf Anterior: PENDIENTE FIRMA MANUAL | Ignis: PENDIENTE FIRMA PAPEL | Wolf Actual: IGNIS PENDIENTE FIRMA PAPEL
+[2026-02-20 15:24:56] ✅ CUPS ES0031104996156026SN | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:25:14] ✅ CUPS ES0031105038464001KQ | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:25:31] ✅ CUPS ES0026000000398185TW | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS DESCONOCIDO
+[2026-02-20 15:25:48] ✅ CUPS ES0031105674722001WT | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:26:06] ✅ CUPS ES0031104375691001KF | Wolf Anterior: VALIDADO | Ignis: INCIDENCIA | Wolf Actual: IGNIS INCIDENCIA
+[2026-02-20 15:26:24] ✅ CUPS ES0021000002162269NJ | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:26:40] ✅ CUPS ES0031104201975004YC | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:26:57] ✅ CUPS ES0021000038404647SA | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:27:14] ✅ CUPS ES0031101362158005GJ | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS DESCONOCIDO
+[2026-02-20 15:27:31] ✅ CUPS ES0031102619408009YM | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:27:49] ✅ CUPS ES0031104546046003RN | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:28:08] ✅ CUPS ES0031103446758003KW | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS DESCONOCIDO
+[2026-02-20 15:28:25] ✅ CUPS ES0031101394790001DT | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:28:43] ✅ CUPS ES0031101503710001FG | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:29:01] ✅ CUPS ES0021000004567276CW | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:29:19] ✅ CUPS ES0031104375165001JV | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:29:36] ✅ CUPS ES0031101484810002NW | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:29:53] ✅ CUPS ES0031103463130014CS | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:30:10] ✅ CUPS ES0031104701003003XD | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:30:28] ✅ CUPS ES0031101398139001GQ | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:32:34] ⚙️ ============================================================
+[2026-02-20 15:32:34] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:32:34] ⚙️ ============================================================
+[2026-02-20 15:32:38] ⚙️ ============================================================
+[2026-02-20 15:32:38] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:32:38] ⚙️ ============================================================
+[2026-02-20 15:32:38] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:32:46] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:32:48] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:32:54] ⚙️ Tengo 26 contratos para mirar hoy.
+[2026-02-20 15:33:20] ✅ CUPS ES0031102064664001LN | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:33:37] ✅ CUPS ES0031104456827012WE | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:33:55] ✅ CUPS ES0031105038464001KQ | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:34:12] ✅ CUPS ES0021000005470670ZW | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS DESCONOCIDO
+[2026-02-20 15:34:29] ✅ CUPS ES0031104290098001DN | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:34:47] ✅ CUPS ES0021000001563367DP | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS DESCONOCIDO
+[2026-02-20 15:35:03] ✅ CUPS ES0031104201975035PM | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:35:21] ✅ CUPS ES0031104132810001JL | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Wolf Actual: IGNIS PENDIENTE FIRMA
+[2026-02-20 15:35:38] ✅ CUPS ES0031104284471002PD | Wolf Anterior: PENDIENTE FIRMA | Ignis: INCIDENCIA | Wolf Actual: IGNIS INCIDENCIA
+[2026-02-20 15:35:54] ✅ CUPS ES0021000004287279JF | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:36:11] ✅ CUPS ES0031104863365001KQ | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:36:29] ✅ CUPS ES0031103463130014CS | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:37:06] ⚙️ ============================================================
+[2026-02-20 15:37:06] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:37:06] ⚙️ ============================================================
+[2026-02-20 15:37:10] ⚙️ ============================================================
+[2026-02-20 15:37:10] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:37:10] ⚙️ ============================================================
+[2026-02-20 15:37:10] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:37:18] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:37:20] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:37:26] ⚙️ Tengo 17 contratos para mirar hoy.
+[2026-02-20 15:37:54] ✅ CUPS ES0031102064664001LN | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:38:11] ✅ CUPS ES0031105038464001KQ | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:38:29] ✅ CUPS ES0031104002525001AZ | Wolf Anterior: PENDIENTE FIRMA | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:38:45] ✅ CUPS ES0031104201975004YC | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:39:02] ✅ CUPS ES0031105336542005DK | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:39:19] ✅ CUPS ES0034111308229035BA | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 15:39:36] ✅ CUPS ES0031101484810002NW | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:39:54] ✅ CUPS ES0031103463130014CS | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:40:11] ✅ CUPS ES0031104701003003XD | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:40:38] ⚙️ ============================================================
+[2026-02-20 15:40:38] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:40:38] ⚙️ ============================================================
+[2026-02-20 15:40:40] ⚙️ ============================================================
+[2026-02-20 15:40:40] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:40:40] ⚙️ ============================================================
+[2026-02-20 15:40:40] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:40:48] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:40:50] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:40:56] ⚙️ Tengo 14 contratos para mirar hoy.
+[2026-02-20 15:41:22] ✅ CUPS ES0031102064664001LN | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:41:34] ⚙️ ============================================================
+[2026-02-20 15:41:34] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:41:34] ⚙️ ============================================================
+[2026-02-20 15:42:02] ⚙️ ============================================================
+[2026-02-20 15:42:02] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:42:02] ⚙️ ============================================================
+[2026-02-20 15:42:02] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:42:11] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:42:13] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:42:19] ⚙️ Tengo 14 contratos para mirar hoy.
+[2026-02-20 15:42:44] ✅ CUPS ES0031102064664001LN | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:43:02] ✅ CUPS ES0031105038464001KQ | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:43:03] ⚙️ ============================================================
+[2026-02-20 15:43:03] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:43:03] ⚙️ ============================================================
+[2026-02-20 15:48:59] ⚙️ ============================================================
+[2026-02-20 15:48:59] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:48:59] ⚙️ ============================================================
+[2026-02-20 15:48:59] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:49:08] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:49:10] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:49:15] ⚙️ Tengo 14 contratos para mirar hoy.
+[2026-02-20 15:49:44] ✅ CUPS ES0031102064664001LN | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:50:03] ✅ CUPS ES0031105038464001KQ | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:50:20] ✅ CUPS ES0031104002525001AZ | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:50:37] ✅ CUPS ES0031102619408009YM | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:50:54] ✅ CUPS ES0031101467534001SZ | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS DESCONOCIDO
+[2026-02-20 15:51:11] ✅ CUPS ES0031103463130014CS | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:51:28] ✅ CUPS ES0031104701003003XD | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:51:48] ⚙️ ============================================================
+[2026-02-20 15:51:48] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:51:48] ⚙️ ============================================================
+[2026-02-20 15:51:52] ⚙️ ============================================================
+[2026-02-20 15:51:52] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:51:52] ⚙️ ============================================================
+[2026-02-20 15:51:52] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:52:01] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:52:03] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:52:09] ⚙️ Tengo 13 contratos para mirar hoy.
+[2026-02-20 15:52:35] ✅ CUPS ES0031102064664001LN | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: VALIDADO
+[2026-02-20 15:52:51] ✅ CUPS ES0031104002525001AZ | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: VALIDADO
+[2026-02-20 15:53:08] ✅ CUPS ES0031102619408009YM | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: VALIDADO
+[2026-02-20 15:53:25] ✅ CUPS ES0031101484810002NW | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: VALIDADO
+[2026-02-20 15:53:43] ✅ CUPS ES0031103463130014CS | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: VALIDADO
+[2026-02-20 15:54:00] ✅ CUPS ES0031104701003003XD | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: VALIDADO
+[2026-02-20 15:54:34] ❌ Error con el CUPS ES0031104701003003XD: Locator.inner_text: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("table.data-table tbody tr").nth(12)
+
+[2026-02-20 15:54:34] ⚙️ ============================================================
+[2026-02-20 15:54:34] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:54:34] ⚙️ ============================================================
+[2026-02-20 15:58:52] ⚙️ ============================================================
+[2026-02-20 15:58:52] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 15:58:52] ⚙️ ============================================================
+[2026-02-20 15:58:52] 🔹 Entrando en Ignis Energía...
+[2026-02-20 15:59:00] 🔹 Entrando en Wolf CRM...
+[2026-02-20 15:59:02] 🔹 Buscando contratos en Wolf...
+[2026-02-20 15:59:08] ⚙️ Tengo 11 contratos para mirar hoy.
+[2026-02-20 15:59:34] ✅ CUPS ES0031102064664001LN | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS VALIDADO
+[2026-02-20 15:59:50] ⚙️ ============================================================
+[2026-02-20 15:59:50] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 15:59:50] ⚙️ ============================================================
+[2026-02-20 16:00:12] ⚙️ ============================================================
+[2026-02-20 16:00:12] ⚙️ INICIANDO REVISIÓN (MODO FORZADO IGNIS)
+[2026-02-20 16:00:12] ⚙️ ============================================================
+[2026-02-20 16:00:26] ⚙️ Contratos encontrados en Wolf: 12
+[2026-02-20 16:00:36] ⚙️ COMPROBACIÓN FINALIZADA
+[2026-02-20 16:00:54] ⚙️ ============================================================
+[2026-02-20 16:00:54] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:00:54] ⚙️ ============================================================
+[2026-02-20 16:00:54] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:01:02] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:01:05] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:01:11] ⚙️ Tengo 12 contratos para mirar hoy.
+[2026-02-20 16:01:29] ✅ CUPS ES0031102866140032DB | Wolf Actualizado a IGNIS OTRO
+[2026-02-20 16:01:42] ✅ CUPS ES0022000005507187CP | Wolf Actualizado a IGNIS TRAMITE
+[2026-02-20 16:01:47] ⚙️ ============================================================
+[2026-02-20 16:01:47] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:01:47] ⚙️ ============================================================
+[2026-02-20 16:03:01] ⚙️ ============================================================
+[2026-02-20 16:03:01] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:03:01] ⚙️ ============================================================
+[2026-02-20 16:03:01] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:03:10] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:03:12] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:03:17] ⚙️ Tengo 11 contratos para mirar hoy.
+[2026-02-20 16:03:42] ✅ CUPS ES0031102064664001LN | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS PENDIENTE VALIDACION
+[2026-02-20 16:03:59] ✅ CUPS ES0031104002525001AZ | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS PENDIENTE VALIDACION
+[2026-02-20 16:04:15] ✅ CUPS ES0031101484810002NW | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS PENDIENTE VALIDACION
+[2026-02-20 16:04:33] ✅ CUPS ES0031103463130014CS | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS PENDIENTE VALIDACION
+[2026-02-20 16:06:02] ⚙️ ============================================================
+[2026-02-20 16:06:02] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:06:02] ⚙️ ============================================================
+[2026-02-20 16:06:06] ⚙️ ============================================================
+[2026-02-20 16:06:06] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:06:06] ⚙️ ============================================================
+[2026-02-20 16:06:06] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:06:14] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:06:16] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:06:22] ⚙️ Tengo 7 contratos para mirar hoy.
+[2026-02-20 16:06:47] ✅ CUPS ES0031102619408009YM | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS PENDIENTE VALIDACION
+[2026-02-20 16:07:04] ✅ CUPS ES0031104701003003XD | Wolf Anterior: VALIDADO | Ignis: PENDIENTE DE VALIDACION | Wolf Actual: IGNIS PENDIENTE VALIDACION
+[2026-02-20 16:07:08] ⚙️ ============================================================
+[2026-02-20 16:07:08] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:07:08] ⚙️ ============================================================
+[2026-02-20 16:07:18] ⚙️ ============================================================
+[2026-02-20 16:07:18] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:07:18] ⚙️ ============================================================
+[2026-02-20 16:07:18] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:07:27] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:07:29] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:07:35] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:07:48] ⚙️ ============================================================
+[2026-02-20 16:07:48] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:07:48] ⚙️ ============================================================
+[2026-02-20 16:08:01] ⚙️ ============================================================
+[2026-02-20 16:08:01] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:08:01] ⚙️ ============================================================
+[2026-02-20 16:08:01] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:08:10] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:08:12] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:08:18] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:08:30] ⚙️ ============================================================
+[2026-02-20 16:08:30] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:08:30] ⚙️ ============================================================
+[2026-02-20 16:09:43] ⚙️ ============================================================
+[2026-02-20 16:09:43] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:09:43] ⚙️ ============================================================
+[2026-02-20 16:09:43] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:09:51] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:09:54] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:09:59] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:10:07] 🔹 CUPS ES0031102866140032DB | Ya correcto:   VALIDADO
+[2026-02-20 16:10:07] ⚙️ ============================================================
+[2026-02-20 16:10:07] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:10:07] ⚙️ ============================================================
+[2026-02-20 16:10:21] ⚙️ ============================================================
+[2026-02-20 16:10:21] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:10:21] ⚙️ ============================================================
+[2026-02-20 16:10:21] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:10:30] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:10:32] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:10:38] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:10:51] ⚙️ ============================================================
+[2026-02-20 16:10:51] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:10:51] ⚙️ ============================================================
+[2026-02-20 16:11:10] ⚙️ ============================================================
+[2026-02-20 16:11:10] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:11:10] ⚙️ ============================================================
+[2026-02-20 16:11:10] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:11:18] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:11:21] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:11:28] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:11:41] ⚙️ ============================================================
+[2026-02-20 16:11:41] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:11:41] ⚙️ ============================================================
+[2026-02-20 16:11:53] ⚙️ ============================================================
+[2026-02-20 16:11:53] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:11:53] ⚙️ ============================================================
+[2026-02-20 16:11:53] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:12:01] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:12:03] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:12:09] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:12:21] ⚙️ ============================================================
+[2026-02-20 16:12:21] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:12:21] ⚙️ ============================================================
+[2026-02-20 16:13:02] ⚙️ ============================================================
+[2026-02-20 16:13:02] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:13:02] ⚙️ ============================================================
+[2026-02-20 16:13:02] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:13:10] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:13:13] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:13:18] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:13:31] 🔹 CUPS ES0031102866140032DB | Ya correcto (  VALIDADO)
+[2026-02-20 16:13:31] ⚙️ ============================================================
+[2026-02-20 16:13:31] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:13:31] ⚙️ ============================================================
+[2026-02-20 16:16:44] ⚙️ ============================================================
+[2026-02-20 16:16:44] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:16:44] ⚙️ ============================================================
+[2026-02-20 16:16:44] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:16:53] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:16:55] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:17:01] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:17:14] ⚙️ ============================================================
+[2026-02-20 16:17:14] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:17:14] ⚙️ ============================================================
+[2026-02-20 16:17:51] ⚙️ ============================================================
+[2026-02-20 16:17:51] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:17:51] ⚙️ ============================================================
+[2026-02-20 16:18:06] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:18:15] 🔹 CUPS ES0031102866140032DB | Ya correcto (  VALIDADO)
+[2026-02-20 16:18:15] ⚙️ COMPROBACIÓN FINALIZADA
+[2026-02-20 16:20:28] ⚙️ ============================================================
+[2026-02-20 16:20:28] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:20:28] ⚙️ ============================================================
+[2026-02-20 16:20:28] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:20:36] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:20:38] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:20:46] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:20:59] ⚙️ ============================================================
+[2026-02-20 16:20:59] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:20:59] ⚙️ ============================================================
+[2026-02-20 16:22:29] ⚙️ ============================================================
+[2026-02-20 16:22:29] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:22:29] ⚙️ ============================================================
+[2026-02-20 16:22:44] ⚙️ Tengo 29 contratos para mirar hoy.
+[2026-02-20 16:23:04] ⚙️ PROCESO FINALIZADO
+[2026-02-20 16:23:33] ⚙️ ============================================================
+[2026-02-20 16:23:33] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:23:33] ⚙️ ============================================================
+[2026-02-20 16:23:33] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:23:41] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:23:42] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:23:48] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:24:01] ⚙️ ============================================================
+[2026-02-20 16:24:01] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:24:01] ⚙️ ============================================================
+[2026-02-20 16:24:19] ⚙️ ============================================================
+[2026-02-20 16:24:19] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:24:19] ⚙️ ============================================================
+[2026-02-20 16:24:19] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:24:27] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:24:29] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:24:35] ⚙️ Tengo 5 contratos para mirar hoy.
+[2026-02-20 16:24:48] ⚙️ ============================================================
+[2026-02-20 16:24:48] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:24:48] ⚙️ ============================================================
+[2026-02-20 16:28:15] ⚙️ ============================================================
+[2026-02-20 16:28:15] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:28:15] ⚙️ ============================================================
+[2026-02-20 16:28:15] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:28:24] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:28:26] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:28:32] ⚙️ Tengo 4 contratos para mirar hoy.
+[2026-02-20 16:28:37] ⚙️ ============================================================
+[2026-02-20 16:28:37] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:28:37] ⚙️ ============================================================
