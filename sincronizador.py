@@ -8,15 +8,41 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# --- CONFIGURACIÓN DE ESTADOS ---
+# --- CONFIGURACIÓN DE ESTADOS ACTUALIZADA (SEGÚN SELECTOR WOLF CRM) ---
 MAPEO_ESTADOS = {
+    "SIN ENVIAR": "214",
+    "PENDIENTE FIRMA": "215",
+    "PENDIENTE FIRMA PAPEL": "216",
+    "PENDIENTE VALIDACION": "217",
+    "PENDIENTE DE SOLICITAR ATR": "218",
+    "TRAMITE": "219",
+    "REVISION INTERNA": "220",
+    "CONTRATO": "221",
+    "BAJA": "222",
+    "BAJA POR MODIFICACION": "223",
+    "CADUCADO FIRMA": "224",
+    "INCIDENCIA": "225",
+    "EXPIRADO": "226",
+    "DISTRIBUIDORA": "227",
+    "RECHAZADO": "228",
+    "KO": "229",
+    # Renovaciones 
+    "SIN ENVIAR RENOVACION": "230",
+    "PENDIENTE FIRMA RENOVACION": "231",
+    "PENDIENTE FIRMA PAPEL RENOVACION": "232",
+    "CADUCADO RENOVACION": "233",
+    "VALIDAR RENOVACION": "234",
+    "INCIDENCIA RENOVACION": "235",
+    "REVISION INTERNA RENOVACION": "236",
+    "RENOVACION ACEPTADA": "237",
+    "RENOVACION RECHAZADA": "238",
+    "CONTRATO MOTIVO: RENOVACION": "239",
+    "RENOVACION: ACEPTADA TACITA": "240",
+    "CONTRATO MOTIVO: RENOVACION TACITA": "241",
+    # Compatibilidad para lectura
     "PENDIENTE FIRMA MANUAL": "189",
-    "PENDIENTE FIRMA PAPEL": "189",
     "PENDIENTE DE VALIDACION": "202",
-    "PENDIENTE FIRMA": "159",
-    "VALIDADO": "202",
-    "TRAMITE": "202",
-    "CONTRATO": "161"
+    "VALIDADO": "202"
 }
 
 def escribir_log(mensaje, tipo="INFO"):
@@ -47,7 +73,8 @@ def escribir_log(mensaje, tipo="INFO"):
 def normalizar(texto):
     if not texto: return ""
     texto = ''.join(c for c in unicodedata.normalize('NFD', texto) if unicodedata.category(c) != 'Mn')
-    texto = texto.upper().strip()
+    # Eliminamos el prefijo IGNIS para comparar con las llaves de MAPEO_ESTADOS
+    texto = texto.upper().replace("IGNIS ", "").strip()
     texto = re.sub(r'\s+', ' ', texto)
     return texto
 
@@ -85,19 +112,16 @@ def sincronizar():
             
             if "login" in page_ignis.url:
                 try:
-                    # Selección de empresa
                     page_ignis.wait_for_selector("md-select[name='empresaLogin']", state="visible", timeout=10000)
                     page_ignis.click("md-select[name='empresaLogin']")
                     page_ignis.wait_for_selector("md-option:has-text('LOOP ELECTRICIDAD Y GAS')", state="visible")
                     page_ignis.click("md-option:has-text('LOOP ELECTRICIDAD Y GAS')")
                     
-                    # Limpiar y escribir USUARIO (Triple click para seleccionar todo y borrar)
                     campo_user = page_ignis.locator("input[name='usuario']")
                     campo_user.click(click_count=3)
                     page_ignis.keyboard.press("Backspace")
                     campo_user.fill(os.getenv("IGNIS_USER") or "")
                     
-                    # Limpiar y escribir CONTRASEÑA
                     campo_pass = page_ignis.locator("input[name='password']")
                     campo_pass.click(click_count=3)
                     page_ignis.keyboard.press("Backspace")
@@ -142,7 +166,7 @@ def sincronizar():
             for fila in filas_wolf:
                 try:
                     texto_fila_crudo = fila.inner_text()
-                    if not texto_fila_crudo.strip(): break
+                    if not texto_fila_crudo.strip() or "No se encontraron" in texto_fila_crudo: break
                 except: break
 
                 contador_cups += 1
@@ -216,8 +240,8 @@ def sincronizar():
                                 break
                         if estado_en_ignis != "OTRO": break
 
-                    id_wolf = MAPEO_ESTADOS.get(estado_anterior_wolf, "202")
-                    id_ignis = MAPEO_ESTADOS.get(estado_en_ignis, "I_NA")
+                    id_wolf = MAPEO_ESTADOS.get(estado_anterior_wolf)
+                    id_ignis = MAPEO_ESTADOS.get(estado_en_ignis)
 
                     if id_wolf == id_ignis and estado_en_ignis != "CONTRATO":
                         escribir_log(f"CUPS {cups} | Wolf: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Sin cambios.", "INFO")
@@ -258,31 +282,32 @@ def sincronizar():
                     frame.locator(".save-object-btn").first.click()
                     page_wolf.locator("#wolfWindowInFrame").wait_for(state="hidden", timeout=12000)
                     
+                    # --- Verificación final corregida ---
                     page_wolf.reload()
                     page_wolf.wait_for_timeout(3000)
                     
                     fila_nueva = page_wolf.locator(f"tr:has-text('{cups}')").first
-                    estado_actual_wolf = "EN TRAMITE"
+                    estado_confirmado_wolf = "DESCONOCIDO"
                     if fila_nueva.count() > 0:
                         celdas_nuevas = fila_nueva.locator("td").all()
                         for celda_n in celdas_nuevas:
                             txt_n = normalizar(celda_n.inner_text())
-                            for k in MAPEO_ESTADOS:
-                                if txt_n == normalizar(k):
-                                    estado_actual_wolf = k
-                                    break
-                            if estado_actual_wolf != "EN TRAMITE": break
+                            if txt_n in MAPEO_ESTADOS:
+                                estado_confirmado_wolf = txt_n
+                                break
 
-                    detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: {estado_actual_wolf}"
+                    prefijo = "IGNIS " if estado_confirmado_wolf != "CONTRATO" else ""
+                    detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: {prefijo}{estado_confirmado_wolf}"
+                    
                     if estado_en_ignis == "CONTRATO" and fecha_alta_ignis:
-                         detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: {estado_actual_wolf} | F. Alta: {fecha_alta_ignis} F. Vencimiento: {venc}"
+                         detalles_registro += f" | F. Alta: {fecha_alta_ignis} | Venc: {venc}"
 
                     escribir_log(detalles_registro, "OK")
                     page_ignis.wait_for_timeout(4000)
 
-                except Exception:
+                except Exception as e:
                     if cups != "S/N":
-                        escribir_log(f"Error con el CUPS {cups}: algo ha fallado.", "ERROR")
+                        escribir_log(f"Error con el CUPS {cups}: {str(e)}", "ERROR")
                     try: page_wolf.keyboard.press("Escape")
                     except: pass
 

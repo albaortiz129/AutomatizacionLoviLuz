@@ -252,3 +252,175 @@
 [2026-02-20 10:33:24] ⚙️ ============================================================
 [2026-02-20 10:33:24] 🔹 COMPROBACIÓN FINALIZADA
 [2026-02-20 10:33:24] ⚙️ ============================================================
+[2026-02-20 14:13:53] ⚙️ ============================================================
+[2026-02-20 14:13:53] ⚙️ EMPEZANDO A REVISAR CONTRATOS CON TODOS LOS ESTADOS
+[2026-02-20 14:13:53] ⚙️ ============================================================
+[2026-02-20 14:13:53] 🔹 Entrando en Ignis Energía...
+[2026-02-20 14:14:02] 🔹 Entrando en Wolf CRM...
+[2026-02-20 14:14:05] 🔹 Buscando contratos en Wolf...
+[2026-02-20 14:14:11] ⚙️ Tengo 92 contratos para mirar hoy.
+[2026-02-20 14:14:24] 🔹 CUPS ES0031102866140032DB | Wolf: VALIDADO | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 14:15:03] ❌ Error con el CUPS ES0021000012937143KP: algo ha fallado.
+[2026-02-20 14:15:04] ⚙️ ============================================================
+[2026-02-20 14:15:04] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 14:15:04] ⚙️ ============================================================
+[2026-02-20 14:16:09] ⚙️ ============================================================
+[2026-02-20 14:16:09] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 14:16:09] ⚙️ ============================================================
+[2026-02-20 14:16:09] 🔹 Entrando en Ignis Energía...
+[2026-02-20 14:16:18] 🔹 Entrando en Wolf CRM...
+[2026-02-20 14:16:20] 🔹 Buscando contratos en Wolf...
+[2026-02-20 14:16:26] ⚙️ Tengo 92 contratos para mirar hoy.
+[2026-02-20 14:16:39] 🔹 CUPS ES0031102866140032DB | Wolf: VALIDADO | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 14:17:18] ❌ Error con el CUPS ES0021000012937143KP: algo ha fallado.
+[2026-02-20 14:17:33] ✅ CUPS ES0031105350198012GP | Wolf Anterior: VALIDADO | Ignis: KO | Wolf Actual: EN TRAMITE
+[2026-02-20 14:17:46] 🔹 CUPS ES0031105703094001PM | Wolf: VALIDADO | Ignis: TRAMITE | Sin cambios.
+[2026-02-20 14:17:53] 🔹 CUPS ES0031101397012002VV | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:18:00] 🔹 CUPS ES0031104780978001KM | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:18:07] 🔹 CUPS ES0031101397012001VQ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:18:13] 🔹 CUPS ES0034111307516001JS | Wolf: VALIDADO | Ignis: TRAMITE | Sin cambios.
+[2026-02-20 14:18:19] 🔹 CUPS ES0022000001659482FL | Wolf: VALIDADO | Ignis: TRAMITE | Sin cambios.
+[2026-02-20 14:18:35] ✅ CUPS ES0031103028779008BF | Wolf Anterior: VALIDADO | Ignis: INCIDENCIA | Wolf Actual: INCIDENCIA
+[2026-02-20 14:18:53] ⚙️ ============================================================
+[2026-02-20 14:18:53] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 14:18:53] ⚙️ ============================================================
+[2026-02-20 14:21:04] ⚙️ ============================================================
+[2026-02-20 14:21:04] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 14:21:04] ⚙️ ============================================================
+[2026-02-20 14:21:04] 🔹 Entrando en Ignis Energía...
+[2026-02-20 14:21:13] 🔹 Entrando en Wolf CRM...
+[2026-02-20 14:21:15] 🔹 Buscando contratos en Wolf...
+[2026-02-20 14:21:21] ⚙️ Tengo 90 contratos para mirar hoy.
+[2026-02-20 14:21:25] ⚙️ ============================================================
+[2026-02-20 14:21:25] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 14:21:25] ⚙️ ============================================================
+[2026-02-20 14:25:40] ⚙️ ============================================================
+[2026-02-20 14:25:40] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 14:25:40] ⚙️ ============================================================
+[2026-02-20 14:25:40] 🔹 Entrando en Ignis Energía...
+[2026-02-20 14:25:53] 🔹 Entrando en Wolf CRM...
+[2026-02-20 14:25:55] 🔹 Buscando contratos en Wolf...
+[2026-02-20 14:26:01] ⚙️ Tengo 90 contratos para mirar hoy.
+[2026-02-20 14:26:14] 🔹 CUPS ES0031102866140032DB | Wolf: VALIDADO | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 14:26:51] ❌ Error con el CUPS ES0021000012937143KP: algo ha fallado.
+[2026-02-20 14:27:06] ✅ CUPS ES0031105350198012GP | Wolf Anterior: VALIDADO | Ignis: KO | Wolf Actual: EN TRAMITE
+[2026-02-20 14:27:16] 🔹 CUPS ES0031105703094001PM | Wolf: VALIDADO | Ignis: TRAMITE | Sin cambios.
+[2026-02-20 14:27:22] 🔹 CUPS ES0031101397012002VV | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:27:27] 🔹 CUPS ES0031104780978001KM | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:27:34] 🔹 CUPS ES0031101397012001VQ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:27:40] 🔹 CUPS ES0034111307516001JS | Wolf: VALIDADO | Ignis: TRAMITE | Sin cambios.
+[2026-02-20 14:27:46] 🔹 CUPS ES0022000001659482FL | Wolf: VALIDADO | Ignis: TRAMITE | Sin cambios.
+[2026-02-20 14:27:52] 🔹 CUPS ES0031102897767001VW | Wolf: VALIDADO | Ignis: TRAMITE | Sin cambios.
+[2026-02-20 14:28:05] ✅ CUPS ES0031102619627001MZ | Wolf Anterior: VALIDADO | Ignis: RECHAZADO | Wolf Actual: KO
+[2026-02-20 14:28:16] 🔹 CUPS ES0031103508643001HG | Wolf: VALIDADO | Ignis: TRAMITE | Sin cambios.
+[2026-02-20 14:28:18] 🔹 CUPS ES0031104735451006NS: No aparece, reintentando (Intento 2)...
+[2026-02-20 14:28:19] ⚙️ ============================================================
+[2026-02-20 14:28:19] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 14:28:19] ⚙️ ============================================================
+[2026-02-20 14:33:58] ⚙️ ============================================================
+[2026-02-20 14:33:58] ⚙️ INICIANDO REVISIÓN: FILTRADO POR P. FIRMA, MANUAL Y VALIDADO
+[2026-02-20 14:33:58] ⚙️ ============================================================
+[2026-02-20 14:33:58] 🔹 Entrando en Ignis Energía...
+[2026-02-20 14:34:06] 🔹 Entrando en Wolf CRM...
+[2026-02-20 14:34:08] 🔹 Filtrando contratos prioritarios en Wolf...
+[2026-02-20 14:34:14] ⚙️ Tengo 89 contratos prioritarios para revisar.
+[2026-02-20 14:34:27] 🔹 CUPS ES0031102866140032DB | Wolf: VALIDADO | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 14:34:58] ❌ Error con el CUPS ES0021000012937143KP: algo ha fallado.
+[2026-02-20 14:34:58] ⚙️ ============================================================
+[2026-02-20 14:34:58] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 14:34:58] ⚙️ ============================================================
+[2026-02-20 14:39:01] ⚙️ ============================================================
+[2026-02-20 14:39:01] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 14:39:01] ⚙️ ============================================================
+[2026-02-20 14:39:01] 🔹 Entrando en Ignis Energía...
+[2026-02-20 14:39:09] 🔹 Entrando en Wolf CRM...
+[2026-02-20 14:39:11] 🔹 Buscando contratos en Wolf...
+[2026-02-20 14:39:18] ⚙️ Tengo 89 contratos para mirar hoy.
+[2026-02-20 14:39:31] 🔹 CUPS ES0031102866140032DB | Wolf: VALIDADO | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 14:39:53] ❌ Error con el CUPS ES0021000012937143KP: algo ha fallado.
+[2026-02-20 14:39:53] ⚙️ ============================================================
+[2026-02-20 14:39:53] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 14:39:53] ⚙️ ============================================================
+[2026-02-20 14:40:58] ⚙️ ============================================================
+[2026-02-20 14:40:58] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 14:40:58] ⚙️ ============================================================
+[2026-02-20 14:40:58] 🔹 Entrando en Ignis Energía...
+[2026-02-20 14:41:06] 🔹 Entrando en Wolf CRM...
+[2026-02-20 14:41:08] 🔹 Buscando contratos en Wolf...
+[2026-02-20 14:41:15] ⚙️ Tengo 89 contratos para mirar hoy.
+[2026-02-20 14:41:28] 🔹 CUPS ES0031102866140032DB | Wolf: VALIDADO | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 14:41:42] ✅ CUPS ES0021000012937143KP | Wolf Anterior: VALIDADO | Ignis: REVISION INTERNA | Wolf Actual: REVISION INTERNA
+[2026-02-20 14:42:00] ✅ CUPS ES0031102075827028EN | Wolf Anterior: VALIDADO | Ignis: INCIDENCIA | Wolf Actual: INCIDENCIA
+[2026-02-20 14:42:10] 🔹 CUPS ES0031101397012002VV | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:42:16] 🔹 CUPS ES0031104780978001KM | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:42:22] 🔹 CUPS ES0031101397012001VQ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:42:36] ✅ CUPS ES0034111307516001JS | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: TRAMITE
+[2026-02-20 14:42:52] ✅ CUPS ES0031102897767001VW | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: TRAMITE
+[2026-02-20 14:43:10] ✅ CUPS ES0031103508643001HG | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: TRAMITE
+[2026-02-20 14:43:13] ⚙️ ============================================================
+[2026-02-20 14:43:13] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 14:43:13] ⚙️ ============================================================
+[2026-02-20 14:44:22] ⚙️ ============================================================
+[2026-02-20 14:44:22] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 14:44:22] ⚙️ ============================================================
+[2026-02-20 14:44:22] 🔹 Entrando en Ignis Energía...
+[2026-02-20 14:44:30] 🔹 Entrando en Wolf CRM...
+[2026-02-20 14:44:32] 🔹 Buscando contratos en Wolf...
+[2026-02-20 14:44:38] ⚙️ Tengo 84 contratos para mirar hoy.
+[2026-02-20 14:44:51] 🔹 CUPS ES0031102866140032DB | Wolf: VALIDADO | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 14:45:03] ✅ CUPS ES0031105703094001PM | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 14:45:13] 🔹 CUPS ES0031101397012002VV | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:45:20] 🔹 CUPS ES0031104780978001KM | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:45:26] 🔹 CUPS ES0031101397012001VQ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:45:36] 🔹 CUPS ES0022000001659482FL: No aparece, reintentando (Intento 2)...
+[2026-02-20 14:45:48] ✅ CUPS ES0022000001659482FL | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 14:46:05] ✅ CUPS ES0031104735451006NS | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 14:46:25] ✅ CUPS ES0031102119365003PE | Wolf Anterior: PENDIENTE FIRMA MANUAL | Ignis: CADUCADO FIRMA | Wolf Actual: IGNIS CADUCADO FIRMA
+[2026-02-20 14:46:35] 🔹 CUPS ES0021000009358240BC | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:46:42] ⚙️ ============================================================
+[2026-02-20 14:46:42] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 14:46:42] ⚙️ ============================================================
+[2026-02-20 14:49:04] ⚙️ ============================================================
+[2026-02-20 14:49:04] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 14:49:04] ⚙️ ============================================================
+[2026-02-20 14:49:04] 🔹 Entrando en Ignis Energía...
+[2026-02-20 14:49:12] 🔹 Entrando en Wolf CRM...
+[2026-02-20 14:49:14] 🔹 Buscando contratos en Wolf...
+[2026-02-20 14:49:20] ⚙️ Tengo 80 contratos para mirar hoy.
+[2026-02-20 14:49:34] 🔹 CUPS ES0031102866140032DB | Wolf: VALIDADO | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 14:49:41] 🔹 CUPS ES0031101397012002VV | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:49:48] 🔹 CUPS ES0031104780978001KM | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:49:55] 🔹 CUPS ES0031101397012001VQ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:50:08] ✅ CUPS ES0031102619627001MZ | Wolf Anterior: VALIDADO | Ignis: RECHAZADO | Wolf Actual: IGNIS RECHAZADO
+[2026-02-20 14:50:26] ✅ CUPS ES0031104639702019JM | Wolf Anterior: VALIDADO | Ignis: TRAMITE | Wolf Actual: IGNIS TRAMITE
+[2026-02-20 14:50:36] 🔹 CUPS ES0021000009358240BC | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:50:43] ⚙️ ============================================================
+[2026-02-20 14:50:43] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 14:50:43] ⚙️ ============================================================
+[2026-02-20 14:53:52] ⚙️ ============================================================
+[2026-02-20 14:53:52] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 14:53:52] ⚙️ ============================================================
+[2026-02-20 14:53:52] 🔹 Entrando en Ignis Energía...
+[2026-02-20 14:54:00] 🔹 Entrando en Wolf CRM...
+[2026-02-20 14:54:02] 🔹 Buscando contratos en Wolf...
+[2026-02-20 14:54:09] ⚙️ Tengo 78 contratos para mirar hoy.
+[2026-02-20 14:54:22] 🔹 CUPS ES0031102866140032DB | Wolf: EN TRAMITE | Ignis: OTRO | Sin cambios.
+[2026-02-20 14:54:31] 🔹 CUPS ES0031101397012002VV | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:54:39] 🔹 CUPS ES0031104780978001KM | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:54:46] 🔹 CUPS ES0031101397012001VQ | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:54:47] ⚙️ ============================================================
+[2026-02-20 14:54:47] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 14:54:47] ⚙️ ============================================================
+[2026-02-20 14:56:20] ⚙️ ============================================================
+[2026-02-20 14:56:20] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 14:56:20] ⚙️ ============================================================
+[2026-02-20 14:56:20] 🔹 Entrando en Ignis Energía...
+[2026-02-20 14:56:28] 🔹 Entrando en Wolf CRM...
+[2026-02-20 14:56:30] 🔹 Buscando contratos en Wolf...
+[2026-02-20 14:56:36] ⚙️ Tengo 78 contratos para mirar hoy.
+[2026-02-20 14:56:49] 🔹 CUPS ES0031102866140032DB | Wolf: VALIDADO | Ignis: OTRO | No se reconoce estado.
+[2026-02-20 14:56:56] 🔹 CUPS ES0031101397012002VV | Wolf: PENDIENTE FIRMA | Ignis: PENDIENTE FIRMA | Sin cambios.
+[2026-02-20 14:57:00] 🔹 CUPS ES0031104780978001KM: No aparece, reintentando (Intento 2)...
+[2026-02-20 14:57:01] ⚙️ ============================================================
+[2026-02-20 14:57:01] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 14:57:01] ⚙️ ============================================================
