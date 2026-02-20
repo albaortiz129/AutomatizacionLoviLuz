@@ -1058,3 +1058,189 @@ Call log:
 [2026-02-20 16:28:37] ⚙️ ============================================================
 [2026-02-20 16:28:37] 🔹 COMPROBACIÓN FINALIZADA
 [2026-02-20 16:28:37] ⚙️ ============================================================
+[2026-02-20 16:35:35] ⚙️ ============================================================
+[2026-02-20 16:35:35] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:35:35] ⚙️ ============================================================
+[2026-02-20 16:35:35] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:35:43] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:35:46] 🔹 Buscando contratos en Wolf...
+[2026-02-20 16:35:52] ⚙️ Tengo 2 contratos para mirar hoy.
+[2026-02-20 16:36:05] ⚙️ ============================================================
+[2026-02-20 16:36:05] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:36:05] ⚙️ ============================================================
+[2026-02-20 16:37:34] ⚙️ ============================================================
+[2026-02-20 16:37:34] ⚙️ INICIANDO REVISIÓN CON FILTRO DE NUEVOS ESTADOS
+[2026-02-20 16:37:34] ⚙️ ============================================================
+[2026-02-20 16:37:50] ⚙️ Contratos en filtro CRM: 89
+[2026-02-20 16:38:02] ⚙️ COMPROBACIÓN FINALIZADA
+[2026-02-20 16:38:55] ⚙️ ============================================================
+[2026-02-20 16:38:55] ⚙️ INICIANDO REVISIÓN CON FILTRO CORRECTO (IGNIS + ACTIVADO)
+[2026-02-20 16:38:55] ⚙️ ============================================================
+[2026-02-20 16:39:09] ⚙️ Contratos detectados en Wolf: 89
+[2026-02-20 16:39:25] ⚙️ COMPROBACIÓN FINALIZADA
+[2026-02-20 16:39:54] ⚙️ ============================================================
+[2026-02-20 16:39:54] ⚙️ INICIANDO REVISIÓN CON FILTRO CORRECTO (IGNIS + ACTIVADO)
+[2026-02-20 16:39:54] ⚙️ ============================================================
+[2026-02-20 16:40:09] ⚙️ Contratos detectados en Wolf: 89
+[2026-02-20 16:40:18] ⚙️ COMPROBACIÓN FINALIZADA
+[2026-02-20 16:41:58] ⚙️ ============================================================
+[2026-02-20 16:41:58] ⚙️ INICIANDO REVISIÓN CON FILTRO DE NUEVOS ESTADOS (IDs 214-229)
+[2026-02-20 16:41:58] ⚙️ ============================================================
+[2026-02-20 16:42:12] ⚙️ Contratos detectados en Wolf: 89
+[2026-02-20 16:42:35] ⚙️ COMPROBACIÓN FINALIZADA
+[2026-02-20 16:44:48] ⚙️ ============================================================
+[2026-02-20 16:44:48] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:44:48] ⚙️ ============================================================
+[2026-02-20 16:44:48] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:44:56] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:44:58] 🔹 Aplicando filtros masivos en Wolf...
+[2026-02-20 16:45:04] ⚙️ Tengo 89 contratos para mirar hoy.
+[2026-02-20 16:45:12] 🔹 CUPS ES0031102866140032DB: No aparece, reintentando (Intento 2)...
+[2026-02-20 16:45:12] ❌ Error procesando fila: Page.wait_for_timeout: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ❌ Error procesando fila: Locator.inner_text: Target page, context or browser has been closed
+[2026-02-20 16:45:12] ⚙️ ============================================================
+[2026-02-20 16:45:12] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:45:12] ⚙️ ============================================================
+[2026-02-20 16:46:02] ⚙️ ============================================================
+[2026-02-20 16:46:02] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:46:02] ⚙️ ============================================================
+[2026-02-20 16:46:02] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:46:10] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:46:12] 🔹 Buscando contratos en Wolf con los nuevos filtros...
+[2026-02-20 16:46:18] ⚙️ Tengo 89 contratos para mirar hoy.
+[2026-02-20 16:46:20] ⚙️ ============================================================
+[2026-02-20 16:46:20] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:46:20] ⚙️ ============================================================
+[2026-02-20 16:46:33] ⚙️ ============================================================
+[2026-02-20 16:46:33] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:46:33] ⚙️ ============================================================
+[2026-02-20 16:46:33] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:46:41] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:46:43] 🔹 Buscando contratos en Wolf con los nuevos filtros...
+[2026-02-20 16:46:49] ⚙️ Tengo 89 contratos para mirar hoy.
+[2026-02-20 16:46:51] ❌ ¡ERROR GORDO! El programa se ha parado.
+[2026-02-20 16:46:51] ⚙️ ============================================================
+[2026-02-20 16:46:51] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:46:51] ⚙️ ============================================================
+[2026-02-20 16:46:54] ⚙️ ============================================================
+[2026-02-20 16:46:54] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:46:54] ⚙️ ============================================================
+[2026-02-20 16:46:54] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:47:03] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:47:04] 🔹 Buscando contratos en Wolf con los nuevos filtros...
+[2026-02-20 16:47:11] ⚙️ Tengo 89 contratos para mirar hoy.
+[2026-02-20 16:47:12] ❌ ¡ERROR GORDO! El programa se ha parado.
+[2026-02-20 16:47:12] ⚙️ ============================================================
+[2026-02-20 16:47:12] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:47:12] ⚙️ ============================================================
+[2026-02-20 16:50:12] ⚙️ ============================================================
+[2026-02-20 16:50:12] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:50:12] ⚙️ ============================================================
+[2026-02-20 16:50:12] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:50:20] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:50:23] 🔹 Buscando contratos en Wolf con los nuevos filtros...
+[2026-02-20 16:50:29] ⚙️ Tengo 89 contratos para mirar hoy.
+[2026-02-20 16:50:34] ⚙️ ============================================================
+[2026-02-20 16:50:34] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:50:34] ⚙️ ============================================================
+[2026-02-20 16:51:12] ⚙️ ============================================================
+[2026-02-20 16:51:12] ⚙️ EMPEZANDO A REVISAR CONTRATOS
+[2026-02-20 16:51:12] ⚙️ ============================================================
+[2026-02-20 16:51:12] 🔹 Entrando en Ignis Energía...
+[2026-02-20 16:51:25] 🔹 Entrando en Wolf CRM...
+[2026-02-20 16:51:26] 🔹 Buscando contratos en Wolf con los nuevos filtros...
+[2026-02-20 16:51:32] ⚙️ Tengo 88 contratos para mirar hoy.
+[2026-02-20 16:51:45] 🔹 CUPS ES0021000012937143KP | Wolf: REVISION INTERNA | Ignis: REVISION INTERNA | Sin cambios.
+[2026-02-20 16:51:52] 🔹 CUPS ES0031102075827028EN | Wolf: INCIDENCIA | Ignis: INCIDENCIA | Sin cambios.
+[2026-02-20 16:51:58] 🔹 CUPS ES0031105703094001PM | Wolf: TRAMITE | Ignis: TRAMITE | Sin cambios.
+[2026-02-20 16:52:02] 🔹 CUPS ES0031101397012002VV: No aparece, reintentando (Intento 2)...
+[2026-02-20 16:52:03] ⚙️ ============================================================
+[2026-02-20 16:52:03] 🔹 COMPROBACIÓN FINALIZADA
+[2026-02-20 16:52:03] ⚙️ ============================================================

@@ -8,41 +8,25 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# --- CONFIGURACIÓN DE ESTADOS ACTUALIZADA (SEGÚN SELECTOR WOLF CRM) ---
+# --- CONFIGURACIÓN DE ESTADOS ACTUALIZADA (IDs WOLF CRM) ---
 MAPEO_ESTADOS = {
-    "SIN ENVIAR": "214",
-    "PENDIENTE FIRMA": "215",
-    "PENDIENTE FIRMA PAPEL": "216",
-    "PENDIENTE VALIDACION": "217",
-    "PENDIENTE DE SOLICITAR ATR": "218",
-    "TRAMITE": "219",
-    "REVISION INTERNA": "220",
-    "CONTRATO": "221",
-    "BAJA": "222",
-    "BAJA POR MODIFICACION": "223",
-    "CADUCADO FIRMA": "224",
-    "INCIDENCIA": "225",
-    "EXPIRADO": "226",
-    "DISTRIBUIDORA": "227",
-    "RECHAZADO": "228",
-    "KO": "229",
-    # Renovaciones 
-    "SIN ENVIAR RENOVACION": "230",
-    "PENDIENTE FIRMA RENOVACION": "231",
-    "PENDIENTE FIRMA PAPEL RENOVACION": "232",
-    "CADUCADO RENOVACION": "233",
-    "VALIDAR RENOVACION": "234",
-    "INCIDENCIA RENOVACION": "235",
-    "REVISION INTERNA RENOVACION": "236",
-    "RENOVACION ACEPTADA": "237",
-    "RENOVACION RECHAZADA": "238",
-    "CONTRATO MOTIVO: RENOVACION": "239",
-    "RENOVACION: ACEPTADA TACITA": "240",
-    "CONTRATO MOTIVO: RENOVACION TACITA": "241",
-    # Compatibilidad para lectura
-    "PENDIENTE FIRMA MANUAL": "189",
-    "PENDIENTE DE VALIDACION": "202",
-    "VALIDADO": "202"
+    "SIN ENVIAR": "214",           # IGNIS SIN ENVIAR
+    "PENDIENTE FIRMA": "215",      # IGNIS PENDIENTE FIRMA
+    "PENDIENTE FIRMA PAPEL": "216",# IGNIS PENDIENTE FIRMA PAPEL
+    "PENDIENTE VALIDACION": "217", # IGNIS PENDIENTE VALIDACION
+    "PENDIENTE DE VALIDACION": "217", 
+    "PENDIENTE DE SOLICITAR ATR": "218", # IGNIS PENDIENTE DE SOLICITAR ATR
+    "TRAMITE": "219",              # IGNIS TRAMITE
+    "REVISION INTERNA": "220",     # IGNIS REVISION INTERNA
+    "CONTRATO": "221",             # ACTIVADO
+    "BAJA": "222",                 # IGNIS BAJA
+    "BAJA POR MODIFICACION": "223",# IGNIS BAJA POR MODIFICACION
+    "CADUCADO FIRMA": "224",       # IGNIS CADUCADO FIRMA
+    "INCIDENCIA": "225",           # IGNIS INCIDENCIA
+    "EXPIRADO": "226",             # IGNIS EXPIRADO
+    "DISTRIBUIDORA": "227",        # IGNIS DISTRIBUIDORA
+    "RECHAZADO": "228",            # IGNIS RECHAZADO
+    "KO": "229",                   # IGNIS KO
 }
 
 def escribir_log(mensaje, tipo="INFO"):
@@ -144,8 +128,12 @@ def sincronizar():
             page_wolf.fill("#userPassword", os.getenv("WOLF_PASS") or "")
             page_wolf.click('input[type="submit"]')
             
-            escribir_log("Buscando contratos en Wolf...", "INFO")
-            url_wolf = "https://loviluz.v3.wolfcrm.es/custom/energymodule/energy-contracts/index.php?Q_COMERCIALIZADORA[]=IGNIS_ENERGIA&Q_STATUS[]=159&Q_STATUS[]=189&Q_STATUS[]=202"
+            escribir_log("Buscando contratos en Wolf con los nuevos filtros...", "INFO")
+            
+            # --- FILTRO ACTUALIZADO: SOLO LOS NUEVOS ESTADOS ---
+            ids_exclusivos = [214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229]
+            query_status = "&".join([f"Q_STATUS[]={i}" for i in ids_exclusivos])
+            url_wolf = f"https://loviluz.v3.wolfcrm.es/custom/energymodule/energy-contracts/index.php?Q_COMERCIALIZADORA[]=IGNIS_ENERGIA&{query_status}"
             
             page_wolf.goto(url_wolf)
             page_wolf.wait_for_selector("select#dt-length-0")
@@ -173,7 +161,6 @@ def sincronizar():
                         page_ignis.wait_for_timeout(5000)
 
                     cups = "S/N"
-                    # --- CAMBIO AQUÍ: Detectar si el texto REAL de la celda tiene IGNIS ---
                     celdas_wolf = fila.locator("td").all()
                     estado_anterior_wolf = "EN TRAMITE"
                     ya_es_estado_nuevo = False 
@@ -185,7 +172,7 @@ def sincronizar():
                         for k in MAPEO_ESTADOS:
                             if txt_normalizado == normalizar(k):
                                 estado_anterior_wolf = k
-                                if "IGNIS" in texto_celda_real: # Si la celda contiene IGNIS, ya está actualizado
+                                if "IGNIS" in texto_celda_real or "ACTIVADO" in texto_celda_real:
                                     ya_es_estado_nuevo = True
                                 break
                         if estado_anterior_wolf != "EN TRAMITE": break
@@ -241,8 +228,6 @@ def sincronizar():
 
                     id_ignis = MAPEO_ESTADOS.get(estado_en_ignis)
 
-                    # --- LÓGICA DE ACTUALIZACIÓN ---
-                    # Actualizamos si el nombre es distinto O si el estado en Wolf no tiene el prefijo "IGNIS"
                     debe_actualizar = (estado_en_ignis != estado_anterior_wolf) or (not ya_es_estado_nuevo)
 
                     if not debe_actualizar and estado_en_ignis != "CONTRATO":
@@ -252,7 +237,6 @@ def sincronizar():
                     if estado_en_ignis == "OTRO":
                         continue
 
-                    # (Lógica de fechas para CONTRATO...)
                     fecha_alta_ignis = None
                     if estado_en_ignis == "CONTRATO":
                         for d in range(0, 5000, 800):
@@ -287,7 +271,6 @@ def sincronizar():
                     page_wolf.reload()
                     page_wolf.wait_for_timeout(3000)
                     
-                    # Log original
                     fila_nueva = page_wolf.locator(f"tr:has-text('{cups}')").first
                     estado_confirmado_wolf = "DESCONOCIDO"
                     if fila_nueva.count() > 0:
