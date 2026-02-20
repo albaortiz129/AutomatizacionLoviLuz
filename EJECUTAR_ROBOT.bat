@@ -1,19 +1,23 @@
 @echo off
-title Robot Sincronizador Wolf-Ignis
+title ROBOT SINCRONIZADOR
+color 0b
+
+:: 1. Cerramos procesos que puedan bloquear la carpeta de sesion
+taskkill /f /im chrome.exe /t >nul 2>&1
+
+:: 2. Nos movemos a la carpeta del script
+cd /d "C:\xampp\htdocs\GitHub\AutomatizacionLoviLuz"
+
 echo ==========================================
-echo   INICIANDO SINCRONIZACION DE CONTRATOS
+echo    INICIANDO SINCRONIZACION...
 echo ==========================================
 echo.
 
-:: Cambia a la carpeta donde esta este archivo .bat
-cd /d "C:\xampp\htdocs\GitHub\AutomatizacionLoviLuz"
-
-:: Ejecuta el script de Python (Asegurate que tu archivo se llama sincronizar.py)
+:: 3. Ejecutamos el script
 python sincronizador.py
 
 echo.
 echo ==========================================
-echo   PROCESO FINALIZADO
+echo    PROCESO FINALIZADO
 echo ==========================================
-echo.
 pause

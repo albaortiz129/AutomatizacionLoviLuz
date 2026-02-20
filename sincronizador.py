@@ -61,18 +61,8 @@ def calcular_vencimiento(fecha_str):
 
 def sincronizar():
     with sync_playwright() as p:
-        # --- CAMBIO PARA EVITAR QUE SE ROMPA EL LOGIN ---
-        ruta_sesion = os.path.join(os.getcwd(), "SesionIgnis")
-        
-        # Usamos launch_persistent_context para que guarde cookies y no parezca un bot
-        context = p.chromium.launch_persistent_context(
-            ruta_sesion,
-            headless=False,
-            slow_mo=150,
-            viewport={'width': 1366, 'height': 768},
-            args=["--disable-blink-features=AutomationControlled"]
-        )
-        
+        browser = p.chromium.launch(headless=False, slow_mo=150)
+        context = browser.new_context(viewport={'width': 1366, 'height': 768})
         page_wolf = context.new_page()
         page_ignis = context.new_page()
 
@@ -83,31 +73,13 @@ def sincronizar():
         try:
             # --- 1. LOGIN IGNIS ---
             escribir_log("Entrando en Ignis Energía...", "INFO")
-            page_ignis.goto("https://agentes.ignisluz.es/#/login", wait_until="networkidle")
-            
-            # Si el perfil ya tiene la sesión iniciada, esto se saltará solo
-            if "login" in page_ignis.url:
-                try:
-                    page_ignis.wait_for_selector("md-select[name='empresaLogin']", state="visible", timeout=5000)
-                    page_ignis.click("md-select[name='empresaLogin']")
-                    page_ignis.wait_for_selector("md-option:has-text('LOOP ELECTRICIDAD Y GAS')", state="visible")
-                    page_ignis.click("md-option:has-text('LOOP ELECTRICIDAD Y GAS')")
-                    
-                    page_ignis.click("input[name='usuario']")
-                    page_ignis.keyboard.type(os.getenv("IGNIS_USER") or "", delay=80)
-                    page_ignis.click("input[name='password']")
-                    page_ignis.keyboard.type(os.getenv("IGNIS_PASS") or "", delay=80)
-                    
-                    page_ignis.wait_for_timeout(1000)
-                    boton_entrar = page_ignis.locator("button:has-text('Entrar')")
-                    if boton_entrar.is_enabled():
-                        boton_entrar.click()
-                    else:
-                        page_ignis.keyboard.press("Enter")
-                except:
-                    escribir_log("Ya logueado o requiere intervención manual.", "INFO")
-            
-            page_ignis.wait_for_timeout(4000)
+            page_ignis.goto("https://agentes.ignisluz.es/#/login")
+            page_ignis.click("md-select[name='empresaLogin']")
+            page_ignis.click("md-option:has-text('LOOP ELECTRICIDAD Y GAS')")
+            page_ignis.fill("input[name='usuario']", os.getenv("IGNIS_USER") or "")
+            page_ignis.fill("input[name='password']", os.getenv("IGNIS_PASS") or "")
+            page_ignis.click("button:has-text('Entrar')")
+            page_ignis.wait_for_timeout(3000)
             page_ignis.goto("https://agentes.ignisluz.es/#/contratos")
             
             # --- 2. LOGIN WOLF ---
@@ -134,6 +106,7 @@ def sincronizar():
             page_ignis.wait_for_timeout(5000) 
 
             for fila in filas_wolf:
+                # 💡 SI LA FILA ESTÁ VACÍA O YA NO EXISTE, TERMINAMOS EL BUCLE SIN ERROR
                 try:
                     texto_fila_crudo = fila.inner_text()
                     if not texto_fila_crudo.strip(): break
@@ -148,6 +121,7 @@ def sincronizar():
 
                 cups = "S/N"
                 try:
+                    # Capturamos el estado anterior real de Wolf
                     celdas_wolf = fila.locator("td").all()
                     estado_anterior_wolf = "EN TRAMITE"
                     for celda in celdas_wolf:
@@ -161,14 +135,16 @@ def sincronizar():
                     texto_fila_wolf = normalizar(texto_fila_crudo)
                     match_cups = re.search(r'ES00[A-Z0-9]{16,18}', texto_fila_wolf)
                     
-                    if not match_cups: continue
+                    if not match_cups:
+                        continue
+                        
                     cups = match_cups.group(0)
                     
                     page_ignis.bring_to_front()
                     encontrado_en_ignis = False
                     for intento in range(1, 4):
                         if intento > 1:
-                            escribir_log(f"CUPS {cups}: No aparece, reintentando (Intento {intento})...", "INFO")
+                            escribir_log(f"CUPS {cups}: No aparece, reintentando búsqueda (Intento {intento})...", "INFO")
                             page_ignis.wait_for_timeout(3000)
 
                         page_ignis.evaluate("document.querySelector('.ui-grid-render-container-body .ui-grid-viewport').scrollLeft = 0")
@@ -242,7 +218,6 @@ def sincronizar():
                     selector_status.select_option(value=id_ignis)
                     selector_status.evaluate("el => el.dispatchEvent(new Event('change', { bubbles: true }))")
 
-                    venc = ""
                     if estado_en_ignis == "CONTRATO" and fecha_alta_ignis:
                         venc = calcular_vencimiento(fecha_alta_ignis)
                         frame.locator("#EnergyContract__START_DATE").fill(fecha_alta_ignis)
@@ -269,12 +244,13 @@ def sincronizar():
 
                     detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: {estado_actual_wolf}"
                     if estado_en_ignis == "CONTRATO" and fecha_alta_ignis:
-                         detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: {estado_actual_wolf} | F. Alta: {fecha_alta_ignis} F. Vencimiento: {venc}"
+                         detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: EN TRÁMITE | F. Alta: {fecha_alta_ignis} F. Vencimiento: {venc}"
 
                     escribir_log(detalles_registro, "OK")
                     page_ignis.wait_for_timeout(4000)
 
                 except Exception:
+                    # Solo escribimos error si realmente hay un CUPS siendo procesado
                     if cups != "S/N":
                         escribir_log(f"Error con el CUPS {cups}: algo ha fallado.", "ERROR")
                     try: page_wolf.keyboard.press("Escape")
@@ -287,7 +263,7 @@ def sincronizar():
             escribir_log("="*60, "SISTEMA")
             escribir_log("COMPROBACIÓN FINALIZADA")
             escribir_log("="*60, "SISTEMA")
-            context.close()
+            browser.close()
 
 if __name__ == "__main__":
     sincronizar()
