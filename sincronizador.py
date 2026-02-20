@@ -61,8 +61,7 @@ def calcular_vencimiento(fecha_str):
 
 def sincronizar():
     with sync_playwright() as p:
-        # slow_mo aumentado ligeramente para dar estabilidad al login
-        browser = p.chromium.launch(headless=False, slow_mo=200)
+        browser = p.chromium.launch(headless=False, slow_mo=150)
         context = browser.new_context(viewport={'width': 1366, 'height': 768})
         page_wolf = context.new_page()
         page_ignis = context.new_page()
@@ -72,7 +71,7 @@ def sincronizar():
         escribir_log("="*60, "SISTEMA")
 
         try:
-            # --- 1. LOGIN IGNIS (MÉTODO REFORZADO) ---
+            # --- 1. LOGIN IGNIS (MÉTODO INYECCIÓN JS) ---
             escribir_log("Entrando en Ignis Energía...", "INFO")
             page_ignis.goto("https://agentes.ignisluz.es/#/login", wait_until="networkidle")
             
@@ -83,36 +82,45 @@ def sincronizar():
             page_ignis.click("md-option:has-text('LOOP ELECTRICIDAD Y GAS')")
             
             page_ignis.wait_for_timeout(1000)
-
-            # Escribir Usuario
-            user_input = page_ignis.locator("input[name='usuario']")
-            user_input.click()
-            # Borramos lo que haya y escribimos letra a letra
-            page_ignis.keyboard.press("Control+A")
-            page_ignis.keyboard.press("Backspace")
-            page_ignis.keyboard.type(os.getenv("IGNIS_USER") or "", delay=120)
             
-            # Escribir Password
-            pass_input = page_ignis.locator("input[name='password']")
-            pass_input.click()
-            page_ignis.keyboard.press("Control+A")
-            page_ignis.keyboard.press("Backspace")
-            page_ignis.keyboard.type(os.getenv("IGNIS_PASS") or "", delay=120)
+            # Credenciales de .env
+            user = os.getenv("IGNIS_USER") or ""
+            password = os.getenv("IGNIS_PASS") or ""
+
+            # Inyección directa en el DOM para saltar bloqueos de teclado
+            escribir_log("Inyectando credenciales por script...", "INFO")
+            page_ignis.evaluate(f"""
+                (uValue, pValue) => {{
+                    const uInput = document.querySelector('input[name="usuario"]');
+                    const pInput = document.querySelector('input[name="password"]');
+                    
+                    if (uInput && pInput) {{
+                        uInput.value = uValue;
+                        pInput.value = pValue;
+                        
+                        // Disparamos eventos de entrada para que Angular detecte el cambio
+                        uInput.dispatchEvent(new Event('input', {{ bubbles: true }}));
+                        uInput.dispatchEvent(new Event('change', {{ bubbles: true }}));
+                        pInput.dispatchEvent(new Event('input', {{ bubbles: true }}));
+                        pInput.dispatchEvent(new Event('change', {{ bubbles: true }}));
+                    }}
+                }}
+            """, user, password)
             
             page_ignis.wait_for_timeout(1000)
             
-            # Pulsar Enter físicamente (más fiable que el clic en el botón)
+            # Intentar pulsar Enter o clic en botón
             page_ignis.keyboard.press("Enter")
             
-            # Esperar a que la URL cambie (dashboard) o aparezca el menú principal
+            # Esperar a carga del dashboard
             try:
-                page_ignis.wait_for_selector(".navbar", timeout=12000)
-                escribir_log("Login en Ignis OK", "OK")
+                page_ignis.wait_for_url("**/dashboard", timeout=12000)
             except:
-                escribir_log("No se detectó el menú principal, intentando forzar navegación...", "ADVERTENCIA")
-
-            page_ignis.goto("https://agentes.ignisluz.es/#/contratos")
+                # Si no cambia la URL, intentamos clic físico por si acaso
+                page_ignis.locator("button:has-text('Entrar')").click(force=True)
+            
             page_ignis.wait_for_timeout(3000)
+            page_ignis.goto("https://agentes.ignisluz.es/#/contratos")
             
             # --- 2. LOGIN WOLF ---
             escribir_log("Entrando en Wolf CRM...", "INFO")
