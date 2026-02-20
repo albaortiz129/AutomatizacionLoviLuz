@@ -61,10 +61,8 @@ def calcular_vencimiento(fecha_str):
 
 def sincronizar():
     with sync_playwright() as p:
-        # --- CAMBIO PARA EVITAR QUE SE ROMPA EL LOGIN ---
         ruta_sesion = os.path.join(os.getcwd(), "SesionIgnis")
         
-        # Usamos launch_persistent_context para que guarde cookies y no parezca un bot
         context = p.chromium.launch_persistent_context(
             ruta_sesion,
             headless=False,
@@ -85,27 +83,35 @@ def sincronizar():
             escribir_log("Entrando en Ignis Energía...", "INFO")
             page_ignis.goto("https://agentes.ignisluz.es/#/login", wait_until="networkidle")
             
-            # Si el perfil ya tiene la sesión iniciada, esto se saltará solo
             if "login" in page_ignis.url:
                 try:
-                    page_ignis.wait_for_selector("md-select[name='empresaLogin']", state="visible", timeout=5000)
+                    # Selección de empresa
+                    page_ignis.wait_for_selector("md-select[name='empresaLogin']", state="visible", timeout=10000)
                     page_ignis.click("md-select[name='empresaLogin']")
                     page_ignis.wait_for_selector("md-option:has-text('LOOP ELECTRICIDAD Y GAS')", state="visible")
                     page_ignis.click("md-option:has-text('LOOP ELECTRICIDAD Y GAS')")
                     
-                    page_ignis.click("input[name='usuario']")
-                    page_ignis.keyboard.type(os.getenv("IGNIS_USER") or "", delay=80)
-                    page_ignis.click("input[name='password']")
-                    page_ignis.keyboard.type(os.getenv("IGNIS_PASS") or "", delay=80)
+                    # Limpiar y escribir USUARIO (Triple click para seleccionar todo y borrar)
+                    campo_user = page_ignis.locator("input[name='usuario']")
+                    campo_user.click(click_count=3)
+                    page_ignis.keyboard.press("Backspace")
+                    campo_user.fill(os.getenv("IGNIS_USER") or "")
+                    
+                    # Limpiar y escribir CONTRASEÑA
+                    campo_pass = page_ignis.locator("input[name='password']")
+                    campo_pass.click(click_count=3)
+                    page_ignis.keyboard.press("Backspace")
+                    campo_pass.fill(os.getenv("IGNIS_PASS") or "")
                     
                     page_ignis.wait_for_timeout(1000)
+                    
                     boton_entrar = page_ignis.locator("button:has-text('Entrar')")
                     if boton_entrar.is_enabled():
                         boton_entrar.click()
                     else:
                         page_ignis.keyboard.press("Enter")
-                except:
-                    escribir_log("Ya logueado o requiere intervención manual.", "INFO")
+                except Exception as e:
+                    escribir_log(f"Error en login o ya logueado: {str(e)}", "INFO")
             
             page_ignis.wait_for_timeout(4000)
             page_ignis.goto("https://agentes.ignisluz.es/#/contratos")
