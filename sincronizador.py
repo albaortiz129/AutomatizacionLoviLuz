@@ -61,7 +61,8 @@ def calcular_vencimiento(fecha_str):
 
 def sincronizar():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=150)
+        # slow_mo aumentado ligeramente para dar estabilidad al login
+        browser = p.chromium.launch(headless=False, slow_mo=200)
         context = browser.new_context(viewport={'width': 1366, 'height': 768})
         page_wolf = context.new_page()
         page_ignis = context.new_page()
@@ -71,7 +72,7 @@ def sincronizar():
         escribir_log("="*60, "SISTEMA")
 
         try:
-            # --- 1. LOGIN IGNIS (ACTUALIZADO PARA .BAT) ---
+            # --- 1. LOGIN IGNIS (MÉTODO REFORZADO) ---
             escribir_log("Entrando en Ignis Energía...", "INFO")
             page_ignis.goto("https://agentes.ignisluz.es/#/login", wait_until="networkidle")
             
@@ -81,24 +82,37 @@ def sincronizar():
             page_ignis.wait_for_selector("md-option:has-text('LOOP ELECTRICIDAD Y GAS')", state="visible")
             page_ignis.click("md-option:has-text('LOOP ELECTRICIDAD Y GAS')")
             
-            # Escritura simulada de credenciales
-            page_ignis.click("input[name='usuario']")
-            page_ignis.keyboard.type(os.getenv("IGNIS_USER") or "", delay=80)
-            page_ignis.click("input[name='password']")
-            page_ignis.keyboard.type(os.getenv("IGNIS_PASS") or "", delay=80)
+            page_ignis.wait_for_timeout(1000)
+
+            # Escribir Usuario
+            user_input = page_ignis.locator("input[name='usuario']")
+            user_input.click()
+            # Borramos lo que haya y escribimos letra a letra
+            page_ignis.keyboard.press("Control+A")
+            page_ignis.keyboard.press("Backspace")
+            page_ignis.keyboard.type(os.getenv("IGNIS_USER") or "", delay=120)
+            
+            # Escribir Password
+            pass_input = page_ignis.locator("input[name='password']")
+            pass_input.click()
+            page_ignis.keyboard.press("Control+A")
+            page_ignis.keyboard.press("Backspace")
+            page_ignis.keyboard.type(os.getenv("IGNIS_PASS") or "", delay=120)
             
             page_ignis.wait_for_timeout(1000)
             
-            # Intento de clic o Enter
-            boton_entrar = page_ignis.locator("button:has-text('Entrar')")
-            if boton_entrar.is_enabled():
-                boton_entrar.click()
-            else:
-                page_ignis.keyboard.press("Enter")
+            # Pulsar Enter físicamente (más fiable que el clic en el botón)
+            page_ignis.keyboard.press("Enter")
             
-            # Esperar a carga del dashboard antes de navegar
-            page_ignis.wait_for_timeout(4000)
+            # Esperar a que la URL cambie (dashboard) o aparezca el menú principal
+            try:
+                page_ignis.wait_for_selector(".navbar", timeout=12000)
+                escribir_log("Login en Ignis OK", "OK")
+            except:
+                escribir_log("No se detectó el menú principal, intentando forzar navegación...", "ADVERTENCIA")
+
             page_ignis.goto("https://agentes.ignisluz.es/#/contratos")
+            page_ignis.wait_for_timeout(3000)
             
             # --- 2. LOGIN WOLF ---
             escribir_log("Entrando en Wolf CRM...", "INFO")
