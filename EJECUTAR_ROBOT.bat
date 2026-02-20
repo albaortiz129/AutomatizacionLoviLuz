@@ -6,7 +6,7 @@ color 0b
 taskkill /f /im chrome.exe /t >nul 2>&1
 
 :: 2. Nos movemos a la carpeta del script
-cd /d "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz\Cambio_estados"
+cd /d "C:\Users\PC\Documents\GitHub\AutomatizacionLoviLuz"
 
 echo ==========================================
 echo    INICIANDO SINCRONIZACION...
