@@ -101,14 +101,18 @@ def sincronizar():
             escribir_log(f"Tengo {len(filas_wolf)} contratos para mirar hoy.", "SISTEMA")
 
             contador_cups = 0
-
             page_ignis.bring_to_front()
             page_ignis.wait_for_selector(".ui-grid-render-container-body", state="visible")
             page_ignis.wait_for_timeout(5000) 
 
             for fila in filas_wolf:
+                # 💡 SI LA FILA ESTÁ VACÍA O YA NO EXISTE, TERMINAMOS EL BUCLE SIN ERROR
+                try:
+                    texto_fila_crudo = fila.inner_text()
+                    if not texto_fila_crudo.strip(): break
+                except: break
+
                 contador_cups += 1
-                
                 if contador_cups % 50 == 0:
                     escribir_log(f"Llevo {contador_cups} contratos. Limpiando memoria de Ignis...", "SISTEMA")
                     page_ignis.bring_to_front()
@@ -119,18 +123,21 @@ def sincronizar():
                 try:
                     # Capturamos el estado anterior real de Wolf
                     celdas_wolf = fila.locator("td").all()
-                    estado_anterior_wolf = "DESCONOCIDO"
+                    estado_anterior_wolf = "EN TRAMITE"
                     for celda in celdas_wolf:
                         txt_c = normalizar(celda.inner_text())
                         for k in MAPEO_ESTADOS:
                             if txt_c == normalizar(k):
                                 estado_anterior_wolf = k
                                 break
-                        if estado_anterior_wolf != "DESCONOCIDO": break
+                        if estado_anterior_wolf != "EN TRAMITE": break
 
-                    texto_fila_wolf = normalizar(fila.inner_text())
+                    texto_fila_wolf = normalizar(texto_fila_crudo)
                     match_cups = re.search(r'ES00[A-Z0-9]{16,18}', texto_fila_wolf)
-                    if not match_cups: continue
+                    
+                    if not match_cups:
+                        continue
+                        
                     cups = match_cups.group(0)
                     
                     page_ignis.bring_to_front()
@@ -169,7 +176,6 @@ def sincronizar():
                         escribir_log(f"CUPS {cups}: No aparece en Ignis tras 3 intentos.", "ADVERTENCIA")
                         continue
 
-                    # Buscamos estado en Ignis
                     celdas_ignis = fila_target.locator(".ui-grid-cell").all()
                     estado_en_ignis = "OTRO"
                     for celda in celdas_ignis:
@@ -180,8 +186,7 @@ def sincronizar():
                                 break
                         if estado_en_ignis != "OTRO": break
 
-                    # Comparación de IDs
-                    id_wolf = MAPEO_ESTADOS.get(estado_anterior_wolf, "W_NA")
+                    id_wolf = MAPEO_ESTADOS.get(estado_anterior_wolf, "202")
                     id_ignis = MAPEO_ESTADOS.get(estado_en_ignis, "I_NA")
 
                     if id_wolf == id_ignis and estado_en_ignis != "CONTRATO":
@@ -192,7 +197,6 @@ def sincronizar():
                         escribir_log(f"CUPS {cups} | Wolf: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | No se reconoce estado.", "INFO")
                         continue
 
-                    # --- CAMBIAR EN WOLF ---
                     fecha_alta_ignis = None
                     if estado_en_ignis == "CONTRATO":
                         for d in range(0, 5000, 800):
@@ -223,37 +227,38 @@ def sincronizar():
                     frame.locator(".save-object-btn").first.click()
                     page_wolf.locator("#wolfWindowInFrame").wait_for(state="hidden", timeout=12000)
                     
-                    # --- RECARGAR Y VERIFICAR CAMBIO ---
                     page_wolf.reload()
                     page_wolf.wait_for_timeout(3000)
                     
                     fila_nueva = page_wolf.locator(f"tr:has-text('{cups}')").first
-                    celdas_nuevas = fila_nueva.locator("td").all()
-                    estado_actual_wolf = "DESCONOCIDO"
-                    for celda_n in celdas_nuevas:
-                        txt_n = normalizar(celda_n.inner_text())
-                        for k in MAPEO_ESTADOS:
-                            if txt_n == normalizar(k):
-                                estado_actual_wolf = k
-                                break
-                        if estado_actual_wolf != "DESCONOCIDO": break
+                    estado_actual_wolf = "EN TRAMITE"
+                    if fila_nueva.count() > 0:
+                        celdas_nuevas = fila_nueva.locator("td").all()
+                        for celda_n in celdas_nuevas:
+                            txt_n = normalizar(celda_n.inner_text())
+                            for k in MAPEO_ESTADOS:
+                                if txt_n == normalizar(k):
+                                    estado_actual_wolf = k
+                                    break
+                            if estado_actual_wolf != "EN TRAMITE": break
 
-                    # Generamos la frase final con los valores capturados
                     detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: {estado_actual_wolf}"
                     if estado_en_ignis == "CONTRATO" and fecha_alta_ignis:
-                        detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: EN TRÁMITE | F. Alta: {fecha_alta_ignis} F. Vencimiento: {venc}"
+                         detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: EN TRÁMITE | F. Alta: {fecha_alta_ignis} F. Vencimiento: {venc}"
 
                     escribir_log(detalles_registro, "OK")
                     page_ignis.wait_for_timeout(4000)
 
-                except Exception as e:
-                    escribir_log(f"Error con el CUPS {cups}: algo ha fallado.", "ERROR")
+                except Exception:
+                    # Solo escribimos error si realmente hay un CUPS siendo procesado
+                    if cups != "S/N":
+                        escribir_log(f"Error con el CUPS {cups}: algo ha fallado.", "ERROR")
                     try: page_wolf.keyboard.press("Escape")
                     except: pass
 
-        except Exception as e:
+        except Exception:
             escribir_log("¡ERROR GORDO! El programa se ha parado.", "ERROR")
-            print(traceback.exc_info())
+            print(traceback.format_exc())
         finally:
             escribir_log("="*60, "SISTEMA")
             escribir_log("COMPROBACIÓN FINALIZADA")
