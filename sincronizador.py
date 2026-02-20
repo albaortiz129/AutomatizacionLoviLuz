@@ -241,7 +241,7 @@ def sincronizar():
                     # Generamos la frase final con los valores capturados
                     detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: {estado_actual_wolf}"
                     if estado_en_ignis == "CONTRATO" and fecha_alta_ignis:
-                        detalles_registro += f" | F. Alta: {fecha_alta_ignis}"
+                        detalles_registro = f"CUPS {cups} | Wolf Anterior: {estado_anterior_wolf} | Ignis: {estado_en_ignis} | Wolf Actual: EN TRÁMITE | F. Alta: {fecha_alta_ignis} F. Vencimiento: {venc}"
 
                     escribir_log(detalles_registro, "OK")
                     page_ignis.wait_for_timeout(4000)
