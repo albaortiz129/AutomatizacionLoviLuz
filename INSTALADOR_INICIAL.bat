@@ -15,15 +15,26 @@ if %errorlevel% neq 0 (
 )
 
 :: 2. Instalamos las dependencias necesarias
-echo [1/3] Instalando Playwright y Dotenv...
-pip install playwright python-dotenv
+if not exist ".venv\Scripts\python.exe" (
+    echo [1/4] Creando entorno virtual local (.venv)...
+    python -m venv .venv
+)
+
+set "VPY=.venv\Scripts\python.exe"
+set "VPW=.venv\Scripts\playwright.exe"
+
+echo [2/4] Actualizando pip...
+"%VPY%" -m pip install --upgrade pip
+
+echo [3/4] Instalando Playwright y Dotenv...
+"%VPY%" -m pip install playwright python-dotenv
 
 :: 3. Instalamos el navegador Chromium de Playwright
-echo [2/3] Descargando navegador interno (Chromium)...
-playwright install chromium
+echo [4/4] Descargando navegador interno (Chromium)...
+"%VPW%" install chromium
 
 echo.
-echo [3/3] ¡TODO LISTO!
+echo [OK] TODO LISTO!
 echo Ya puedes cerrar esta ventana y usar el ejecutor diario.
 echo ==========================================
 pause
